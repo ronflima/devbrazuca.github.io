@@ -25,4 +25,4 @@ Toco guitarra desde os 14 anos. Música é a expressão da alma.
 
 ### Fale comigo!
 
-[ronaldo.faria.lima at gmail dot com](mailto:ronaldo.faria.lima@gmail.com)
+[ronaldo dot faria dot lima at gmail dot com](mailto:ronaldo.faria.lima@gmail.com)
