@@ -1,21 +1,12 @@
-Conheça os operadores Bitwise {#conheça-os-operadores-bitwise .p-name}
+Conheça os operadores Bitwise
 =============================
 
-::: {.section .p-summary data-field="subtitle"}
 O operador é um dos blocos construtivos básicos de qualquer linguagem de
-programação moderna. A primeira coisa que se aprende em qualquer...
-:::
-
-::: {.section .e-content data-field="body"}
-::: {.section .section .section--body .section--first .section--last name="6135"}
-::: {.section-divider}
+programação moderna. A primeira coisa que se aprende em qualquer…
 
 ------------------------------------------------------------------------
-:::
 
-::: {.section-content}
-::: {.section-inner .sectionLayout--insetColumn}
-Conheça os operadores Bitwise {#9224 .graf .graf--h2 .graf--leading .graf--title name="9224" data-align="center"}
+Conheça os operadores Bitwise
 -----------------------------
 
 O operador é um dos blocos construtivos básicos de qualquer linguagem de
@@ -40,16 +31,16 @@ em uma única palavra binária.
 
 Bem, vamos aos detalhes!
 
-### Operadores Bitwise {#8507 .graf .graf--h3 .graf-after--p name="8507"}
+### Operadores Bitwise
 
 Os operadores bitwise são, normalmente, os seguintes:
 
--   [Operador E binário: &]{#5e45}
--   [Operador OU binário: \|]{#fd40}
--   [Operador NÃO binário: \~]{#f70e}
--   [Operador OU EXCLUSIVO binário: \^]{#88a0}
--   [Operador ROLAGEM DE BITS à direita: \>\>]{#6920}
--   [Operador ROLAGEM DE BITS à esquerda: \<\<]{#b933}
+-   <span id="5e45">Operador E binário: &</span>
+-   <span id="fd40">Operador OU binário: |</span>
+-   <span id="f70e">Operador NÃO binário: ~</span>
+-   <span id="88a0">Operador OU EXCLUSIVO binário: ^</span>
+-   <span id="6920">Operador ROLAGEM DE BITS à direita: &gt;&gt;</span>
+-   <span id="b933">Operador ROLAGEM DE BITS à esquerda: &lt;&lt;</span>
 
 É importante não confundir estes operadores com os operadores lógicos e
 operadores lógicos relacionais. Estes operadores usam como operandos
@@ -80,7 +71,7 @@ interessantes:
 
 Estas operações sempre ocorrem bit a bit.
 
-### Usos Práticos {#1474 .graf .graf--h3 .graf-after--p name="1474"}
+### Usos Práticos
 
 Perfeito, já sei o que são os *bitwises*. Por que devo usar isso?
 
@@ -99,19 +90,7 @@ flags. Para testar se um determinado flag está ativo, basta fazer isto:
 Para ajustar um conjunto de flags dentro de uma palavra binária, é
 igualmente simples:
 
-flag = kCFCalendarUnitEra \| kCFCalendarUnitYear \| kCFCalendarUnitDay;
+flag = kCFCalendarUnitEra | kCFCalendarUnitYear | kCFCalendarUnitDay;
 
 Agora que você já sabe o que são os bitwises e como usá-los, vai mesmo
 continuar criando aquele monte de flags booleanos no seu software?
-:::
-:::
-:::
-:::
-
-By [Ronaldo Faria Lima](https://medium.com/@ronaldolima){.p-author
-.h-card} on [October 17, 2014](https://medium.com/p/44d899fea307).
-
-[Canonical
-link](https://medium.com/@ronaldolima/conhe%C3%A7a-os-operadores-bitwise-44d899fea307){.p-canonical}
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
