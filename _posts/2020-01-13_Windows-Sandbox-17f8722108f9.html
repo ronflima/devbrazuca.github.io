@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Windows Sandbox</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Windows Sandbox</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Um cenário de uso…
+</section>
+<section data-field="body" class="e-content">
+<section name="4980" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="edbd" id="edbd" class="graf graf--h3 graf--leading graf--title">Windows Sandbox</h3><h4 name="74f8" id="74f8" class="graf graf--h4 graf-after--h3 graf--subtitle">Um cenário de uso…</h4><figure name="2f01" id="2f01" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*UfKcOP8gggYARcymQ5lOGg.jpeg" data-width="1920" data-height="1001" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*UfKcOP8gggYARcymQ5lOGg.jpeg"><figcaption class="imageCaption">Windows dentro do Windows</figcaption></figure><p name="c4e7" id="c4e7" class="graf graf--p graf-after--figure">Quando soube do Windows Sandbox vi algumas possibilidades mas nenhum uso prático que pudesse me fazer usá-lo. Como todo cliente de banco brasileiro, sempre me vi obrigado a instalar aqueles softwares indesejáveis de segurança que atrapalham completamente a vida da gente. Essas porcarias travam a máquina, consomem um mundo de CPU e fazem o PC ficar incrivelmente lento, sendo úteis apenas quando você acessa o site do banco. E foi aí que tive a ideia de usar o Sandbox para este cenário: evitar da porcaria do Warsaw, o software de segurança normalmente usados pelos bancos, no meu computador.</p><p name="585d" id="585d" class="graf graf--p graf-after--p">A ideia é instalar o Warsaw dentro do Sandbox, usar o banco e fechar o sandbox, sem deixar essa porcaria de Warsaw instalado. Mas há algumas pegadinhas.</p><h4 name="f11e" id="f11e" class="graf graf--h4 graf-after--p">O que é o Sandbox?</h4><p name="7319" id="7319" class="graf graf--p graf-after--h4">A ideia do Windows Sandbox é executar uma versão do Windows dentro de um ambiente isolado. O que quer que seja que aconteça dentro do Sandbox, fica dentro do Sandbox. Assim, se você contrair um vírus dentro do Sandbox, ele fica preso ali dentro.</p><p name="c87e" id="c87e" class="graf graf--p graf-after--p">A principal característica do sandbox é ser necessário reinstalar tudo sempre que você o inicia:qualquer coisa que você coloca dentro dele é perdida tão logo ele seja desligado. Ele apaga tudo. Não há nenhuma persistência. E é aqui que mora a mágica do negócio: ele sempre inicia do zero, como se fosse uma instalação novinha do Windows.</p><h4 name="d24e" id="d24e" class="graf graf--h4 graf-after--p">Como instalar?</h4><p name="9b1a" id="9b1a" class="graf graf--p graf-after--h4">Você precisa ter o Windows 10 Professional ou Enterprise para usar o Windows Sandbox. Para instalar, entre no Painel de Controle, vá em Programas e Recursos e, por fim, em Ativar ou Desativar Recursos do Windows:</p><figure name="386d" id="386d" class="graf graf--figure graf--layoutOutsetLeft graf-after--p"><img class="graf-image" data-image-id="1*TS7eszRHNQjjj3QIGB79pQ.png" data-width="555" data-height="492" src="https://cdn-images-1.medium.com/max/600/1*TS7eszRHNQjjj3QIGB79pQ.png"><figcaption class="imageCaption">Instalação da Área Restrita do Windows</figcaption></figure><p name="ab0b" id="ab0b" class="graf graf--p graf-after--figure">Em português, ele é a Área Restrita do Windows. Verifique se as extensões de virtualização estão ativas na BIOS da sua máquina.</p><p name="684d" id="684d" class="graf graf--p graf-after--p">Depois que selecionar, clique em OK e espere o processo finalizar. Sua máquina será reiniciada.</p><p name="f418" id="f418" class="graf graf--p graf-after--p">Depois de instalado, o ícone no menu iniciar é Windows Sandbox. Ao executá-lo, ele pede elevação de autoridade e depois executa sem maiores problemas.</p><p name="0fbf" id="0fbf" class="graf graf--p graf-after--p">Ele é suficientemente rápido para criar a dúvida de que é uma VM totalmente separada do sistema em execução. Porém, como fazer para instalar o diabo do Warsaw nesse negócio para usar os bancos?</p><p name="37b3" id="37b3" class="graf graf--p graf-after--p">Você pode usar dois métodos: o método que causa dor e o método indolor. No método que causa dor, você simplesmente tenta entrar e faz todo o processo na unha. No método indolor, você usa um arquivo <em class="markup--em markup--p-em">wsb </em>de configuração.</p><h4 name="85ce" id="85ce" class="graf graf--h4 graf-after--p">Configurando…</h4><p name="f803" id="f803" class="graf graf--p graf-after--h4">O arquivo com extensão <em class="markup--em markup--p-em">wsb</em> é basicamente um XML. Aqui está o que eu uso:</p><pre name="33b3" id="33b3" class="graf graf--pre graf-after--p">&lt;!-- -*-xml-*- --&gt;<br>&lt;Configuration&gt;<br>  &lt;MappedFolders&gt;<br>    &lt;MappedFolder&gt;<br>      &lt;HostFolder&gt;D:\wsb&lt;/HostFolder&gt;<br>      &lt;ReadOnly&gt;true&lt;/ReadOnly&gt;<br>    &lt;/MappedFolder&gt;<br>    &lt;MappedFolder&gt;<br>      &lt;HostFolder&gt;D:\tmp\downloads&lt;/HostFolder&gt;<br>      &lt;ReadOnly&gt;false&lt;/ReadOnly&gt;<br>    &lt;/MappedFolder&gt;<br>  &lt;/MappedFolders&gt;<br>  &lt;LogonCommand&gt;<br>    &lt;Command&gt;c:\users\WDAGUtilityAccount\Desktop\wsb\warsaw-bb.exe&lt;/Command&gt;<br>  &lt;/LogonCommand&gt;<br>&lt;/Configuration&gt;</pre><ul class="postList"><li name="c83d" id="c83d" class="graf graf--li graf-after--pre">MappedFolders: Permite que você crie o mapeamento de pastas do seu computador dentro do Sandbox.</li><li name="986c" id="986c" class="graf graf--li graf-after--li">LogonCommand: É o comando que você vai executar quando acabar de ligar a VM.</li><li name="7d4c" id="7d4c" class="graf graf--li graf-after--li">C:\users\WDAGUtilityAccount: É a conta interna do Sandbox. Os folders mapeados aparecem no Desktop.</li></ul><p name="3aef" id="3aef" class="graf graf--p graf-after--li">O truque aqui é simples: baixei o instalador do Warsaw numa pasta qualquer do meu PC, fiz o mapeamento para esta pasta e coloquei-o como comando de logon no Sandbox. Dá para ir além automatizando todo o processo com PowerShell.</p><p name="0867" id="0867" class="graf graf--p graf-after--p">Dá para você instalar, também, um outro navegador. Mas é preciso automatizar o processo todo por que é um saco o aperta-aperta de botão só para preparar o Sandbox para uso.</p><p name="7160" id="7160" class="graf graf--p graf-after--p">Se você quiser saber mais sobre o XML, <a href="https://techcommunity.microsoft.com/t5/windows-kernel-internals/windows-sandbox-config-files/ba-p/354902" data-href="https://techcommunity.microsoft.com/t5/windows-kernel-internals/windows-sandbox-config-files/ba-p/354902" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">clique aqui</a>. O formato do arquivo é suficientemente simples.</p><h4 name="837c" id="837c" class="graf graf--h4 graf-after--p">Conclusão</h4><p name="5e1c" id="5e1c" class="graf graf--p graf-after--h4">Se você chegou até aqui o seu Sandbox está funcionando e agora você não precisa mais da bosta do Warsaw enchendo o seu saco durante o dia. Se você costuma baixar coisas do banco, como arquivos OFX para alimentar softwares de controle financeiro, basta mapear uma pasta com direito de escrita.</p><p name="6dc4" id="6dc4" class="graf graf--p graf-after--p">Você pode, na verdade, criar quantos arquivos de configuração quiser, cada um para uma finalidade.</p><p name="8740" id="8740" class="graf graf--p graf-after--p graf--trailing">Espero que as dicas sejam úteis!</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/17f8722108f9"><time class="dt-published" datetime="2020-01-13T21:05:11.309Z">January 13, 2020</time></a>.</p><p><a href="https://medium.com/@ronaldolima/windows-sandbox-17f8722108f9" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

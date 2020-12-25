@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Retorne já: simplificando seus algoritmos</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Retorne já: simplificando seus algoritmos</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Simplifique seus algoritmos e seja feliz.
+</section>
+<section data-field="body" class="e-content">
+<section name="57ea" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="b5bb" id="b5bb" class="graf graf--h3 graf--leading graf--title">Retorne já: simplificando seus algoritmos</h3><h4 name="96e1" id="96e1" class="graf graf--h4 graf-after--h3 graf--subtitle">Simplifique seus algoritmos e seja feliz.</h4><figure name="7c7c" id="7c7c" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*wfGjLviT7L5RzzE2Z7Bq4g.jpeg" data-width="7360" data-height="4912" src="https://cdn-images-1.medium.com/max/800/1*wfGjLviT7L5RzzE2Z7Bq4g.jpeg"></figure><p name="9c8f" id="9c8f" class="graf graf--p graf-after--figure">Academicamente, toda função precisa ter apenas uma única entrada e uma única saída. Porém, não é incomum encontrarmos situações nas quais não é possível continuar com o processamento dentro de um determinado trecho de código, levando a decisões que evitam com que o fluxo normal siga adiante. Por exemplo, quando validamos parâmetros contra valores inválidos, a função, ou método, realiza uma série de testes que, se falharem, desviam o fluxo normal de processamento.</p><p name="7d0b" id="7d0b" class="graf graf--p graf-after--p">Se você seguir a recomendação acadêmica, sua função ou método torna-se um emaranhado de decisões, tornando o código bem mais difícil de ler. Além disso, o excesso de decisões torna seu código naturalmente menos eficiente pois pode ser necessário realizar vários testes ao longo do fluxo de processamento para chegar ao ponto de retorno, que ficará ao fim da sua função ou método.</p><h4 name="77bd" id="77bd" class="graf graf--h4 graf-after--p">Retorne já</h4><p name="2ad4" id="2ad4" class="graf graf--p graf-after--h4">O primeiro passo para simplificar seu código é retornar imediatamente, caso alguma condição seja satisfeita para tal. Ao invés de testar esta condição repetidamente, teste-a apenas uma única vez e retorne o quanto antes. O efeito colateral de retornar imediatamente é dar à sua função ou método vários pontos de saída. Porém, é bem melhor que escrever saltos incondicionais para um mesmo ponto do código ou testar indefinidamente a mesma condição para finalmente retornar.</p><p name="b013" id="b013" class="graf graf--p graf-after--p">Porém, ao retornar imediatamente, você precisa escrever menos código e, com isso, simplificar enormemente o seu algoritmo.</p><h4 name="e2eb" id="e2eb" class="graf graf--h4 graf-after--p">Use lógica negativa</h4><p name="9c26" id="9c26" class="graf graf--p graf-after--h4">Ao invés de testar se algo está bom para seguir o processamento, faça exatamente o contrário: se algo não estiver bom, saia imediatamente. A lógica negativa testa se uma invariante no seu código é falsa ao invés de testar se ela é verdadeira.</p><p name="7f77" id="7f77" class="graf graf--p graf-after--p">Assim você passa a ter condições de interromper o fluxo imediatamente, escrevendo menos código e, com isso, diminuindo a probabilidade de adicionar bugs ao seu sistema. Menos código é menos bug.</p><h4 name="924e" id="924e" class="graf graf--h4 graf-after--p">Não invente moda</h4><p name="c172" id="c172" class="graf graf--p graf-after--h4">Use a linguagem de programação do jeito que ela foi projetada. Não fique inventando moda. Lembre-se: você não está participando de concurso de código bonito, mas escrevendo um código que precisa funcionar, ser confiável, eficaz e eficiente para resolver os problemas propostos. Ninguém quer saber se você é o ultra master fodão do caralho para escrever código.</p><p name="51de" id="51de" class="graf graf--p graf-after--p">Procure entender como sua linguagem de programação funciona, quais são suas premissas e quais são suas fraquezas. Exercite os pontos fortes da linguagem e evite suas fraquezas. Por exemplo, a grande fraqueza da linguagem C é o namespace poluído. Assim, criar tipos de dados ou funções globais com nomes comuns é pedir para dar merda. Não preciso nem dizer o que acho das variáveis globais em C, não é?</p><h4 name="3dad" id="3dad" class="graf graf--h4 graf-after--p">Defina suas invariantes</h4><p name="e2d6" id="e2d6" class="graf graf--p graf-after--h4">Quando estiver escrevendo código, defina quais são as suas invariantes. Se você não sabe o que raio é uma invariante, aqui vai o conceito:</p><blockquote name="a579" id="a579" class="graf graf--blockquote graf-after--p">Invariante: algo que você assume como verdadeiro dentro do contexto do seu software.</blockquote><p name="fa11" id="fa11" class="graf graf--p graf-after--blockquote">A partir do momento em que você assume que algo é verdadeiro, não é necessário testar se este algo é verdadeiro. Por exemplo, se você escreve uma função que receba um ponteiro válido, você assume isto como verdadeiro e pronto. Você não fica testando a validade do ponteiro. É responsabilidade do chamador da função fornecer um ponteiro válido.</p><p name="9579" id="9579" class="graf graf--p graf-after--p">Ao definir suas invariantes você, indiretamente, distribui responsabilidades pelo seu software. No exemplo que mencionei, quem chama a função precisa garantir que o ponteiro fornecido como parâmetro é válido. Se o ponteiro, por algum motivo, for inválido, a função não é ativada.</p><p name="0ac1" id="0ac1" class="graf graf--p graf-after--p">Este pensamento faz com que você escreva menos código, menos checagens e, com isso, escreva código com melhor eficiência.</p><p name="f714" id="f714" class="graf graf--p graf-after--p">Note, não estou dizendo que você precise abandonar verificações de integridade. Nada disso. O que estou dizendo é que você assume que em determinado ponto do seu código a informação está íntegra (invariante) e escreve o seu fluxo de forma que naquele ponto em particular a informação é garantida estar íntegra, de acordo com as constraints que determinam a validade dos dados.</p><p name="f484" id="f484" class="graf graf--p graf-after--p">O fato é que se os dados já foram validados, não há necessidade de validá-los novamente. Mesmo mudanças de estado dos seus dados devem levar a invariantes que, em determinado trecho de código, são verdadeiras.</p><h4 name="bf67" id="bf67" class="graf graf--h4 graf-after--p">Isole as seções críticas</h4><p name="d788" id="d788" class="graf graf--p graf-after--h4">Mesmo fazendo assunções que levam à criação das suas invariantes, há pontos no código onde suas invariantes não podem ser verdadeiras, ou seja, as famosas <em class="markup--em markup--p-em">seções críticas</em>. Este termo é comumente usado em software com várias linhas de execução. Porém sua definição é muito ampla:</p><blockquote name="6962" id="6962" class="graf graf--blockquote graf-after--p">Seção Crítica: trecho de código no qual suas invariantes não são verdadeiras.</blockquote><p name="58bc" id="58bc" class="graf graf--p graf-after--blockquote">Por exemplo, digamos que você tenha uma estrutura de dados mestre/detalhe como uma nota fiscal. A sua estrutura, para ser válida, é uma nota com vários itens de nota — pelo menos um item para fins de exemplo. Assim, a sua invariante poderia ser descrita como &quot;<em class="markup--em markup--p-em">a nota fiscal contém pelo menos um item com valor que descreve a compra de um cliente&quot;</em>. Porém, em determinado ponto do seu sistema, quando criamos a nota fiscal, esta invariante não é válida pois durante a criação há um momento no qual a nota não tem itens.</p><p name="f394" id="f394" class="graf graf--p graf-after--p">Ao isolar as seções críticas do seu código você consegue propagar suas assunções de forma que o seu código torne-se muito mais simples de ser implementado, com validações bem localizadas e sem a necessidade de replicar estas validações pelo código afora. Validações replicadas provocam queda na eficiência e, consequentemente, aumentam a possibilidade de problemas.</p><h4 name="a2fb" id="a2fb" class="graf graf--h4 graf-after--p">Menos código é melhor</h4><p name="0bc5" id="0bc5" class="graf graf--p graf-after--h4">Para concluir: menos código é melhor que mais código. Quanto menos código você escreve, menor a possibilidade de erros, mais eficiente é seu software e mais rápido ele executa. Se você escreve código demais, procure ver como simplificar seus algoritmos.</p><p name="db52" id="db52" class="graf graf--p graf-after--p">Porém, pensar de forma eficiente é muito difícil. Simplificar seu código não é fácil. É preciso exercitar-se, aprender como escrever a mesma coisa com menos código, com menos chamadas de funções, métodos, empilhamentos. Isto exige grande conhecimento da sua linguagem de programação e como ela otimiza o código final, para que você tire proveito destas características.</p><p name="0eca" id="0eca" class="graf graf--p graf-after--p graf--trailing">Assim, nunca pare de estudar a sua linguagem de programação. Sempre há um detalhe, um canto obscuro que passou despercebido e que dará a você mais ferramentas para tirar proveito e escrever código cada vez mais eficiente.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/8d6dcd9b549f"><time class="dt-published" datetime="2016-12-29T17:23:24.843Z">December 29, 2016</time></a>.</p><p><a href="https://medium.com/@ronaldolima/retorne-j%C3%A1-simplificando-seus-algoritmos-8d6dcd9b549f" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

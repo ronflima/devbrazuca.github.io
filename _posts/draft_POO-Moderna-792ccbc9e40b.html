@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>POO Moderna</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">POO Moderna</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Entendendo os principais conceitos.
+</section>
+<section data-field="body" class="e-content">
+<section name="cd74" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="9364" id="9364" class="graf graf--h3 graf--leading graf--title">POO Moderna</h3><h4 name="2db3" id="2db3" class="graf graf--h4 graf-after--h3 graf--subtitle">Entendendo os principais conceitos.</h4><figure name="6ed3" id="6ed3" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*vLadxMniF0KW0HWeGkipJw.jpeg" data-width="1920" data-height="1280" src="https://cdn-images-1.medium.com/max/800/1*vLadxMniF0KW0HWeGkipJw.jpeg"></figure><p name="15af" id="15af" class="graf graf--p graf-after--figure">Em outros artigos eu discuti um pouco de como a forma original de aprender POO estava desatualizada e o quanto a POO é complicada. Bem, está na hora de explorarmos os conceitos principais desse paradigma interessante.</p><h4 name="deda" id="deda" class="graf graf--h4 graf-after--p">Programação Orientada ao Objeto é um paradigma</h4><p name="efce" id="efce" class="graf graf--p graf-after--h4">POO não é uma linguagem e muito menos uma tecnologia. Trata-se de um paradigma, um modelo de programação. Assim, é possível usar a POO em virtualmente qualquer linguagem de programação, mesmo aquelas que não suportam diretamente este paradigma.</p><p name="2889" id="2889" class="graf graf--p graf-after--p">Por exemplo, a Win32, a antiga API de programação de baixo nível do Windows é escrita integralmente em linguagem C e é totalmente orientada ao objeto. Note bem: eu disse C e não C++. C é uma linguagem <em class="markup--em markup--p-em">procedural </em>e não suporta diretamente a orientação ao objeto. </p><p name="1c34" id="1c34" class="graf graf--p graf-after--p">A <a href="https://github.com/ronflima/feijuca" data-href="https://github.com/ronflima/feijuca" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">biblioteca feijuca,</a> que escrevi com meu amigo Daniel Soares, é integralmente feita em C e é orientada ao objeto. </p><p name="5815" id="5815" class="graf graf--p graf-after--p">O que quero dizer é que você pode aplicar os conceitos da POO em qualquer linguagem. Obviamente que é importante respeitar-se as limitações da linguagem. Por exemplo, na minha <a href="https://github.com/ronflima/feijuca" data-href="https://github.com/ronflima/feijuca" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">biblioteca feijuca</a> eu não tentei mimetizar as linguagens orientadas ao objeto visto que isso levaria a um código virtualmente impossível de ler. </p><p name="04e9" id="04e9" class="graf graf--p graf-after--p">Quando uma linguagem suporta a POO ela o faz permitindo a descrição explícita de classes e objetos sintatica e semanticamente. C é procedural e, por este motivo, não tem suporte à sintaxes especiais que permitam que um objeto seja declarado. No entanto, nada impede que você programe orientado ao objeto em C. Leia a minha bibliotequinha e você vai entender.</p><h4 name="de2d" id="de2d" class="graf graf--h4 graf-after--p">Classes e Objetos</h4><p name="e58f" id="e58f" class="graf graf--p graf-after--h4">Estas são as fundações da POO: as classes. As classes definem um <em class="markup--em markup--p-em">modelo</em> da informação que precisa ser processada pelo seu programa. Assim, em uma classe você determina quais informações serão armazenadas e <em class="markup--em markup--p-em">como</em> estas informações serão manipuladas. Inclui-se aqui a validação dessas informações, a forma correta de construir-se um objeto e regras de dependência com relação a outras classes.</p><p name="8d1b" id="8d1b" class="graf graf--p graf-after--p">Entenda a classe como o <em class="markup--em markup--p-em">modelo </em>sobre o qual você criará os dados que serão processados pelo seu programa, ou seja, a classe determina o que é a sua informação e o que fazer com ela. Porém, você pode ter diversas informações similares que seguem o <em class="markup--em markup--p-em">mesmo modelo</em>. Essas informações similares são os <em class="markup--em markup--p-em">objetos</em>, ou seja, são a representação <em class="markup--em markup--p-em">real</em> da sua classe.</p><p name="f6fb" id="f6fb" class="graf graf--p graf-after--p">Para entender essa abstração vamos a um exemplo. Imagine que você queira montar um cadastro de nomes bem simples que contenha o nome e o sobrenome das pessoas. Você chegou a um <em class="markup--em markup--p-em">modelo </em>como este:</p><pre name="f503" id="f503" class="graf graf--pre graf-after--p">MODELO PESSOA<br>    NOME: CARACTERES<br>    SOBRENOME: CARACTERES<br>FIM-MODELO</pre><p name="2ab0" id="2ab0" class="graf graf--p graf-after--pre">Estou usando uma meta-linguagem para fins didáticos. Entenda que o MODELO é a nossa classe, ou seja, criamos uma classe de informações chamada PESSOA, que contém dois campos importantes: NOME e SOBRENOME. É um registro simples de dados.</p><p name="b477" id="b477" class="graf graf--p graf-after--p">Ao criar informações com base neste modelo, digamos para <em class="markup--em markup--p-em">Thomas Anderson</em> e para <em class="markup--em markup--p-em">Douglas Smith</em>, dizemos que temos dois <em class="markup--em markup--p-em">objetos</em>: um para Thomas Anderson e outro para Douglas Smith.</p><p name="68ae" id="68ae" class="graf graf--p graf-after--p">Em termos técnicos, uma informação criada com base em uma classe é uma <em class="markup--em markup--p-em">instância</em> dessa classe. Isto significa dizer que o objeto Thomas Anderson é do <em class="markup--em markup--p-em">tipo </em>PESSOA. Se eu comparasse Thomas Anderson com outro modelo, por exemplo, o AGENTE, veria que a comparação resultaria em um resultado falso pois Thomas Anderson é uma PESSOA e não um AGENTE.</p><p name="cccb" id="cccb" class="graf graf--p graf-after--p">Assim, a classe define o que é a informação e o objeto é a representação de uma informação com base na classe que a definiu. </p><p name="4769" id="4769" class="graf graf--p graf-after--p">Porém, a definição da classe não se limita a apenas determinar quais os dados que a compõem. Na programação orientada ao objeto, você também define operações que efetivamente alteram o estado interno de um objeto.</p><p name="f686" id="f686" class="graf graf--p graf--empty graf-after--p graf--trailing"><br></p></div></div></section>
+</section>
+<footer><p><a href="https://medium.com/p/792ccbc9e40b">View original.</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Rule engines: o que são</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Rule engines: o que são</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Uma breve introdução.
+</section>
+<section data-field="body" class="e-content">
+<section name="8f59" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="626d" id="626d" class="graf graf--h3 graf--leading graf--title">Rule engines: o que são</h3><h4 name="29ca" id="29ca" class="graf graf--h4 graf-after--h3 graf--subtitle">Uma breve introdução.</h4><figure name="7e9c" id="7e9c" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*rYKYSxdAKU7uGcR-WHg00Q.jpeg" data-width="3504" data-height="2336" src="https://cdn-images-1.medium.com/max/800/1*rYKYSxdAKU7uGcR-WHg00Q.jpeg"></figure><p name="a526" id="a526" class="graf graf--p graf-after--figure">O cenário é este: você precisa escrever um software com funcionalidades gerais mas que seja possível customizá-lo de forma que estas funcionalidades sejam especializadas sem, contudo, alterar o cerne daquilo que você escreveu.</p><p name="1d13" id="1d13" class="graf graf--p graf-after--p">Para exemplificar e clarear o princípio, imagine que você precise escrever um software que calcule impostos que seja internacional. Em termos gerais, existem duas formas de calcular impostos: aplicando-se uma percentagem sobre o valor final ou destacando-se o imposto. O destaque de imposto é usado em países fiscais, como o Brasil, nos quais o imposto vem embutido no preço, ou seja, o imposto já foi previamente calculado.</p><p name="bfbd" id="bfbd" class="graf graf--p graf-after--p">Sim, há diversas outras regras para calcular impostos, desde as alíquotas até a combinação de produtos. Na Alemanha, por exemplo, as redes de fast food tem impostos diferenciados nas bebidas e é possível recalcular o preço dos itens da venda de forma a minimizar o preço das bebidas, distribuindo a diferença nos outros itens da venda.</p><p name="f0af" id="f0af" class="graf graf--p graf-after--p">O fato é que imposto é um excelente exemplo pois as regras mudam de país para país. Se você for prever todas as formas de cálculo de imposto usado por todos os países do globo certamente você morrerá doido. É aqui que entra a ideia do <em class="markup--em markup--p-em">rule engine</em>.</p><p name="e098" id="e098" class="graf graf--p graf-after--p">Em termos práticos, o rule engine é um intérprete que executa algum tipo de linguagem de programação. O seu software carrega este intérprete e expõe para ele algumas funcionalidades, como a obtenção de configurações ou a busca de determinados valores do seu banco de dados, sem, contudo, permitir acesso irrestrito ao seu sistema.</p><p name="eb61" id="eb61" class="graf graf--p graf-after--p">Ao calcular o imposto, no nosso exemplo, o seu software chama o intérprete e passa a execução para ele de forma que a lógica de cálculo de impostos seja realizada por uma linguagem de scripting. Ao terminar o cálculo de impostos, o script retorna e sua aplicação recupera os valores calculados pelo script através do intérprete.</p><p name="97a2" id="97a2" class="graf graf--p graf-after--p">Esta forma de trabalho permite que o seu software seja customizado por terceiros sem, contudo, permitir o acesso irrestrito a funcionalidades que são o cerne do seu sistema, o que poderia ser uma falha, inclusive, de segurança.</p><p name="9648" id="9648" class="graf graf--p graf-after--p">Eu já tive a oportunidade de ver rule engines implementados usando o iLog, um produto que pertence à empresa de mesmo nome, hoje parte da IBM. Também, já vi implementações em TCL embutido e Javascript, este último embutido em uma aplicação escrita em C++ (na época, usava-se o Spider Monkey).</p><p name="21a0" id="21a0" class="graf graf--p graf-after--p">A vantagem de usar um engine de scripting está no isolamento completo do ambiente de execução. É possível detectar, por exemplo, runaway loops e interromper o script, evitandos o stall de uma aplicação inteira.</p><p name="9cb0" id="9cb0" class="graf graf--p graf-after--p graf--trailing">Como hoje em dia temos linguagens modernas que são interpretadas, como Python e Ruby, não faz muito sentido em implementar-se um rule engine desta forma, mas através de delegação. A desvantagem da delegação é que o script terá acesso a todo o restante do intérprete. Porém, com cuidado, é possível controlar bem a execução de um delegado através de threads específicas monitoradas, de forma que possam ser canceladas no caso de operações estranhas, como loops infinitos ou tentativas de acesso a recursos privados.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/77e35c2f3164"><time class="dt-published" datetime="2017-02-12T23:38:04.487Z">February 12, 2017</time></a>.</p><p><a href="https://medium.com/@ronaldolima/rule-engines-o-que-s%C3%A3o-77e35c2f3164" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Ferramentas comuns para grandes tarefas</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Ferramentas comuns para grandes tarefas</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+O seu mac já tem isso tudo instalado. Por que não usar?
+</section>
+<section data-field="body" class="e-content">
+<section name="3742" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="3911" id="3911" class="graf graf--h3 graf--leading graf--title">Ferramentas comuns para grandes tarefas</h3><h4 name="5240" id="5240" class="graf graf--h4 graf-after--h3 graf--subtitle">O seu mac já tem isso tudo instalado. Por que não usar?</h4><figure name="b05e" id="b05e" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*bgTaj3YUkgvqxp2cktuYJA.jpeg" data-width="1024" data-height="682" src="https://cdn-images-1.medium.com/max/800/1*bgTaj3YUkgvqxp2cktuYJA.jpeg"></figure><p name="5f98" id="5f98" class="graf graf--p graf-after--figure">Tenho visto muita gente automatizando tarefas no mac usando linguagens como Ruby ou Python. Nada de errado. Afinal, ambas as linguagens já vem instaladas no seu Mac. Porém, há outras ferramentas simples quem também vem instaladas no seu mac e que exigem bem menos esforço e fazem grande parte da automação para você. Vamos a elas!</p><h3 name="990c" id="990c" class="graf graf--h3 graf-after--p">GNU Make</h3><p name="5ebb" id="5ebb" class="graf graf--p graf-after--h3">O seu mac já vem com o GNU Make instalado. Apesar de muita gente criticar os Makefiles, estes são muito simples de aprender e muito poderosos, podendo automatizar tarefas de uma forma geral.</p><p name="99aa" id="99aa" class="graf graf--p graf-after--p">A principal vantagem do GNU Make é sua estabilidade: trata-se de um dos programas mais antigos do suite de compilação da GNU. É muito bem documentado e é fácil implementar regras relativamente complexas.</p><p name="82fa" id="82fa" class="graf graf--p graf-after--p">Outra vantagem é que você não precisa instalar absolutamente nada externo para usar um makefile. Já está tudo aí. Basta criar um makefile com o seu editor de textos predileto e já era.</p><h4 name="9058" id="9058" class="graf graf--h4 graf-after--p">Cenários de Uso</h4><p name="661c" id="661c" class="graf graf--p graf-after--h4">Eu tenho usado makefiles para automação de builds, que é o cenário comum. Mas também tenho usado para fazer deployment de código em produção, gestão de configuração, configuração de servidores e mais um monte de coisas relacionadas ao meu dia-a-dia como desenvolvedor.</p><p name="e9f3" id="e9f3" class="graf graf--p graf-after--p">Por exemplo, uso bastante o docker para deployment em produção. Tenho um makefile que faz toda a mágica: cria as imagens, atualiza o registry, cria o swarm, cria volumes, inicia serviços e por aí vai.</p><h3 name="7142" id="7142" class="graf graf--h3 graf-after--p">Automator</h3><p name="e1b0" id="e1b0" class="graf graf--p graf-after--h3">O automator é, talvez, a ferramenta mais desconhecida do macOS. O automator cria uma série de coisas diferentes no seu sistema, desde workflows a ações de pasta. Aqui vai uma rápida visão do que o Automator é capaz de fazer.</p><h4 name="12cb" id="12cb" class="graf graf--h4 graf-after--p">Workflows</h4><p name="0cf6" id="0cf6" class="graf graf--p graf-after--h4">Um workflow é uma rotina que é executada quando o arquivo do automator é clicado duas vezes. O workflow funciona como um programa e pode fazer milhares de coisas. Tudo depende do que há instalado no seu sistema. Programas instalados no macOS podem expor extensões que podem ser usadas pelo Automator para automação das tarefas diárias.</p><p name="6f1a" id="6f1a" class="graf graf--p graf-after--p">Assim, você pode automatizar o seu Mail, lista de lembretes, calendários, etc. Você pode criar workflows para manipular arquivos, fazer backups, etc.</p><p name="a7d6" id="a7d6" class="graf graf--p graf-after--p">Os <strong class="markup--strong markup--p-strong">aplicativos</strong> são workflows que não precisam do automator para executar. Muitas vezes é legal criar um aplicativo para determinadas tarefas.</p><h4 name="9034" id="9034" class="graf graf--h4 graf-after--p">Alarme de Calendário</h4><p name="45d4" id="45d4" class="graf graf--p graf-after--h4">As ações de calendário são workflows cuja função é executar automaticamente de acordo com um determinado agendamento. Por exemplo, eu tenho um workflow que faz o backup da minha biblioteca de fotos todos os dias, na mesma hora. Quem comanda o espetáculo é o iCal e esta é uma das integrações mais legais do Automator.</p><p name="1966" id="1966" class="graf graf--p graf-after--p">Assim, você pode executar rotinas automaticamente, sem intervenção humana, sempre que o agendamento for atingido. Você cria a rotina no Automator, mas gerencia o agendamento no iCal.</p><h4 name="f5e9" id="f5e9" class="graf graf--h4 graf-after--p">Serviço</h4><p name="8ee8" id="8ee8" class="graf graf--p graf-after--h4">O serviço é, talvez, uma das coisas mais legais do macOS. O serviço é um workflow disparado de dentro do menu da aplicação, item Serviços. Você pode configurar seu serviço para funcionar com qualquer aplicativo do seu macOS ou para aplicações e entradas de dados específicas.</p><p name="3f9d" id="3f9d" class="graf graf--p graf-after--p">Por exemplo, eu tenho um serviço que funciona com o Mail que cria lembretes com base nos emails selecionados. A ideia é transformar emails em tarefas.</p><p name="0fb6" id="0fb6" class="graf graf--p graf-after--p">Você pode criar serviços para o Finder, por exemplo. Eu tenho um que renomeia arquivos em sequência. Ao ser executado com um conjunto de arquivos selecionados, ele pergunta por um prefixo e renomeia os arquivos colocando um sequencial numérico como sufixo.</p><h4 name="f018" id="f018" class="graf graf--h4 graf-after--p">Ação de Pasta</h4><p name="bd7a" id="bd7a" class="graf graf--p graf-after--h4">Você pode associar um workflow à uma pasta. O workflow será executado dependendo do tipo de ação que ocorrer na pasta. Por exemplo, você pode criar um workflow que compacte os arquivos que são copiados ou movidos para uma pasta, mantendo todos os arquivos da pasta compactados.</p><h4 name="d93e" id="d93e" class="graf graf--h4 graf-after--p">Plugin de Impressão</h4><p name="8ce3" id="8ce3" class="graf graf--p graf-after--h4">O plugin de impressão permite que você execute algo sempre que um documento for para a fila de impressão. Assim, você pode criar workflows que, inclusive, façam o tratamento dos dados antes deles serem impressos. Por exemplo, você pode aplicar um filtro de enhancement para melhorar a impressão ou para gastar menos tinta preta.</p><p name="b9fc" id="b9fc" class="graf graf--p graf-after--p">O workflow é disparado durante a impressão, mas você pode fazer o que desejar além de só filtrar conteúdo.</p><h4 name="eb8d" id="eb8d" class="graf graf--h4 graf-after--p">Plugin de Captura</h4><p name="2f16" id="2f16" class="graf graf--p graf-after--h4">Ao capturar dados, seja de uma câmera ou de um scanner, você pode fazer algum tratamento ou realizar alguma tarefa com um plugin de captura. Funciona de forma parecida com o plugin de impressão.</p><h4 name="02fa" id="02fa" class="graf graf--h4 graf-after--p">Comando de Ditado</h4><p name="07e8" id="07e8" class="graf graf--p graf-after--h4">O macOS suporta comandos por voz já há alguns anos. Ao contrário da Siri, os comandos de voz precisam ser previamente cadastrados para funcionarem. Você pode criar comandos novos usando o Automator. Os workflows serão executados automaticamente tão logo você dê o comando. Legal, né?</p><h3 name="874c" id="874c" class="graf graf--h3 graf-after--p">AppleScript</h3><p name="66e1" id="66e1" class="graf graf--p graf-after--h3">AppleScript é a linguagem de automação do macOS. A linguagem foi projetada para ser usada por quem não é programador. Trata-se de uma linguagem simples mas que gera código bastante extenso. O interessante da linguagem é que ela parece uma conversa com o computador.</p><p name="0631" id="0631" class="graf graf--p graf-after--p">O que é legal é que você pode automatizar praticamente qualquer coisa no seu macOS usando AppleScript, mesmo programas que não expõem objetos para a linguagem. Você pode programar <em class="markup--em markup--p-em">keystrokes</em> que automatizam o seu programa de forma a parecer que é uma pessoa quem está operando o mesmo.</p><p name="aa59" id="aa59" class="graf graf--p graf-after--p">A principal vantagem do AppleScript é que ele já vem instalado no seu mac. Dá para programar praticamente qualquer coisa com isso. Por exemplo, eu escrevi um encoder para a Beblüe para esconder algumas strings dentro do código do aplicativo iOS deles. O app tinha um decoder que obtinha os dados de volta, mantendo a string table livre de tentativas de cracking.</p><p name="6021" id="6021" class="graf graf--p graf-after--p">Eu automatizo de tudo um pouco com o AppleScript. Por exemplo, tenho um script que gera os ícones de aplicativo para o iOS já no formato esperado pelo Xcode. Basta soltar o arquivo em cima do script e ele faz a mágica.</p><h4 name="d16d" id="d16d" class="graf graf--h4 graf-after--p">Droplets</h4><p name="c256" id="c256" class="graf graf--p graf-after--h4">Os <em class="markup--em markup--p-em">droplets</em> são pequenos scripts feitos em AppleScript que funcionam quando você arrasta e solta um arquivo em cima dele. Ele é acionado e faz algo com o arquivo.</p><p name="a606" id="a606" class="graf graf--p graf-after--p">Tenho um droplet que faz upload de arquivos para o serviço <a href="http://hiperload.com" data-href="http://hiperload.com" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">Hiperload</a>, do meu amigo Hugo Demiglio. Muito mais prático do que abrir o site, selecionar o arquivo e arrastá-lo para o browser.</p><h3 name="cfa0" id="cfa0" class="graf graf--h3 graf-after--p">Quero Exemplos!</h3><p name="2583" id="2583" class="graf graf--p graf-after--h3">Não seja por isso. Eu mantenho meus scripts e workflows <a href="https://github.com/ronflima/MacOSScriptsToolset" data-href="https://github.com/ronflima/MacOSScriptsToolset" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">neste repositório</a> do GitHub. Sinta-se livre para baixar e usar da forma que quiser. São scripts que venho fazendo ao longo dos anos trabalhando com o macOS.</p><p name="b3c0" id="b3c0" class="graf graf--p graf-after--p graf--trailing">Divirta-se!</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/ec4476ae73d1"><time class="dt-published" datetime="2018-02-04T12:19:26.082Z">February 4, 2018</time></a>.</p><p><a href="https://medium.com/@ronaldolima/ferramentas-comuns-para-grandes-tarefas-ec4476ae73d1" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Banco de Dados x SGBD</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Banco de Dados x SGBD</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+O seu banco de dados não necessariamente está em um SGDB
+</section>
+<section data-field="body" class="e-content">
+<section name="318c" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="71e0" id="71e0" class="graf graf--h3 graf--leading graf--title">Banco de Dados x SGBD</h3><h4 name="84c5" id="84c5" class="graf graf--h4 graf-after--h3 graf--subtitle">O seu banco de dados não necessariamente está em um SGDB</h4><figure name="5981" id="5981" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*9ZWteeKrhgz8kIlY04zoiQ.jpeg" data-width="1280" data-height="956" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*9ZWteeKrhgz8kIlY04zoiQ.jpeg"></figure><p name="f325" id="f325" class="graf graf--p graf-after--figure">Alguns desenvolvedores confundem bancos de dados com sistemas gerenciadores de bancos de dados. Na verdade, tornou-se um jargão comum <em class="markup--em markup--p-em">banco de dados</em> como uma referência ao SGBD. Mas há algumas diferenças importantes que podem mudar a forma como você cria o seu projeto.</p><h4 name="f86a" id="f86a" class="graf graf--h4 graf-after--p">SGBD</h4><p name="fc71" id="fc71" class="graf graf--p graf-after--h4">O <em class="markup--em markup--p-em">Sistema Gerenciador de Banco de Dados</em> é um software especialista. A sua função é uma só: gerenciar a persistência de um modelo de dados, qualquer que seja. O SGBD segue, normalmente, alguma forma de modelamento para persistência de informações. O modelo mais popular é o modelo relacional e a forma mais comum de manipulação de dados é através de uma linguagem declarativa chamada SQL (do inglês <em class="markup--em markup--p-em">Structured Query Language</em>)<em class="markup--em markup--p-em">. </em>O SQL é uma linguagem declarativa por que não determina a ordem na qual as instruções são executadas. Fica por conta do SGBD determinar a melhor ordem.</p><p name="7d7a" id="7d7a" class="graf graf--p graf-after--p">O SGBDs relacionais não são os únicos no mercado. Antes de surgirem, haviam os sistemas baseados em hierarquias de dados, com destaque aos sistemas IMS e SABRE. Atualmente, existem diversos SGBDs não-relacionais, como o Cassandra (big table) e o MongoDB (baseado em documentos). Porém, é importante ter em mente que cada SGBD utiliza uma forma diferente de modelagem de dados e é importante avaliar se o SGBD atende seu modelo de forma simples.</p><p name="ac69" id="ac69" class="graf graf--p graf-after--p">Por exemplo, se o seu modelo de dados segue a estrutura de um documento, você terá dificuldades em trabalhar com SGBDs relacionais ao passo que será fácil implementar em um sistema baseado em documentos, como o MongoDB.</p><h4 name="531d" id="531d" class="graf graf--h4 graf-after--p">Banco de Dados sem SGBD</h4><p name="a2d0" id="a2d0" class="graf graf--p graf-after--h4">Sim, isso existe! Muito antes dos SGBDs os dados eram salvos em arquivos. Cada sistema tinha uma forma de persistir seus dados. O COBOL, por exemplo, define como os registros são determinados e os salva em arquivos. Claro, a própria linguagem evoluiu com o tempo para suportar os SGBDs.</p><p name="1cc3" id="1cc3" class="graf graf--p graf-after--p">Na década de 1980, o Ashton-Tate Dbase salvava os dados em arquivos indexados. Depois veio o Paradox e no Unix havia o DBM (que ainda existe como GDBM e uma implementação derivada chamada Berkeley DB). Ou seja, sempre foi possível ter um <em class="markup--em markup--p-em">banco de dados</em> fora de um SGBD.</p><p name="bea9" id="bea9" class="graf graf--p graf-after--p">Há, também, o SQLite, um engine SQL que trabalha diretamente com arquivos, porém criando consultas usando SQL. O SQLite é quase um SGDB. Só não o é por que trata-se de uma biblioteca e não um sistema completo.</p><p name="e98a" id="e98a" class="graf graf--p graf-after--p">Mas não paramos por aqui! Dados podem ser persistidos em arquivos CSV, arquivos estilo chave-valor (INI é um exemplo) e XML, YAML e lá vai formato. Cada um com suas vantagens e desvantagens. Mas, o que usar no seu projeto?</p><h4 name="4d98" id="4d98" class="graf graf--h4 graf-after--p">Avalie a sua informação</h4><p name="d159" id="d159" class="graf graf--p graf-after--h4">Quando você está começando um projeto novo, normalmente há aquele momento no qual você vai determinar quais tecnologias utilizará para cada um dos componentes do sistema. Porém, antes de começar a definir como você vai salvar e recuperar os dados, é melhor avaliar o que são os seus dados, como eles estão estruturados e o que você precisará fazer com eles.</p><p name="66f2" id="66f2" class="graf graf--p graf-after--p">Por exemplo, digamos que seus dados são descritos de maneira relacionada, ou seja, o modelo que melhor os descreve é um grafo de relacionamentos. Digamos, ainda, que os relacionamentos descrevem regras rígidas de negócio que precisam ser, necessariamente, seguidas.</p><p name="312b" id="312b" class="graf graf--p graf-after--p">Usar uma abordagem baseada em arquivos pode ser interessante, contanto que você não tenha que garantir operações atômicas e que estas informações sejam compartilhadas por outros subsistemas. Também, para uma estrutura como a do exemplo, arquivos de dados pode ser uma péssima ideia dada a necessidade de garantir-se a integridade dos relacionamentos das entidades que será criadas para o modelo de dados.</p><p name="b87e" id="b87e" class="graf graf--p graf-after--p">Determinar se você usa SQL ou NOSQL também é algo que depende intrinsecamente dos dados. No caso do exemplo, é possível usar um SGDB NOSQL, porém com o custo de manter toda a integridade relacional no código, custo este que inexiste num banco de dados relacional.</p><p name="88f7" id="88f7" class="graf graf--p graf-after--p">Assim, qual tecnologia utilizar para persistir os seus dados é altamente dependente de como os seus dados são modelados e estruturados. Também é dependente de como você pretende transformar estes dados. É temerário escolher uma tecnologia apenas para tentar resolver todos os problemas de modelamento que você tenha, visto que alguns modelos serão naturalmente hierárquicos, o que leva a uma implementação bem mais complexa em um banco SQL, principalmente se existirem auto-relacionamentos dentro da hierarquia.</p><p name="5c33" id="5c33" class="graf graf--p graf-after--p">Assim, analise seus dados e os seus modelos antes de decidir qual a forma que você utilizará para persistir e recuperar dados nos seus sistemas. Dependendo das suas necessidades, o bom e velho arquivo em disco pode resolver o seu problema com eficiência. Tudo depende do seu modelo e de como o seu sistema operará os dados.</p><p name="59be" id="59be" class="graf graf--p graf-after--p graf--trailing">Como eu disse, cada tecnologia tem sua vantagem e desvantagem. Usá-las como uma bala de prata, daquelas que resolvem todos os seus problemas, não só é utópico como também pode levar a um sistema pesado, ineficiente e que consome recursos além do previsto.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/9f080e23594b"><time class="dt-published" datetime="2020-08-20T01:26:14.699Z">August 20, 2020</time></a>.</p><p><a href="https://medium.com/@ronaldolima/banco-de-dados-x-sgbd-9f080e23594b" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

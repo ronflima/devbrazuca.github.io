@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Checagem de CPF em C</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Checagem de CPF em C</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Depois de um longo e tenebroso inverno, eis que resolvi escrever um pequeno código de exemplo que valida um número arbitrário de CPF…
+</section>
+<section data-field="body" class="e-content">
+<section name="1167" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="bc25" id="bc25" class="graf graf--h3 graf--leading graf--title">Checagem de CPF em C</h3></div><div class="section-inner sectionLayout--outsetColumn"><figure name="d24e" id="d24e" class="graf graf--figure graf--layoutOutsetCenter graf-after--h3"><img class="graf-image" data-image-id="1*jgxloCpkP-JWNO78QynlZw.jpeg" data-width="2050" data-height="643" src="https://cdn-images-1.medium.com/max/1200/1*jgxloCpkP-JWNO78QynlZw.jpeg"></figure></div><div class="section-inner sectionLayout--insetColumn"><p name="b1a0" id="b1a0" class="graf graf--p graf-after--figure">Depois de um longo e tenebroso inverno, eis que resolvi escrever um pequeno código de exemplo que valida um número arbitrário de CPF. Trata-se de um algoritmo muito sacado e praticamente todo programador já teve de implementá-lo alguma vez. Como estava aqui caçando o que fazer, curtindo uma bela gripe e numa noite fria, resolvi relembrar o bom e velho C e escrevi um utilitário simples de linha de comando que valida um CPF qualquer.</p><p name="7a12" id="7a12" class="graf graf--p graf-after--p">Bem, aqui está o código principal:</p><figure name="d11e" id="d11e" class="graf graf--figure graf--iframe graf-after--p"><script src="https://gist.github.com/ronflima/a8a7be261b3fc8d5f054.js.js"></script></figure><p name="4db5" id="4db5" class="graf graf--p graf-after--figure">A função de interesse é a <em class="markup--em markup--p-em">cpfIsValid</em>. Trata-se de um workflow simples que:</p><ul class="postList"><li name="a5bc" id="a5bc" class="graf graf--li graf-after--p">valida se a entrada é realmente um pointer válido, apesar dessa validação não ser lá muito contundente;</li><li name="6b4e" id="6b4e" class="graf graf--li graf-after--li">valida o tamanho do CPF — ele precisa ter 11 dígitos. Se tiver menos, simplesmente cai fora;</li><li name="9aaa" id="9aaa" class="graf graf--li graf-after--li">verifica se há algum alfa-numérico na string. CPF contém somente dígitos numéricos;</li><li name="2afb" id="2afb" class="graf graf--li graf-after--li">verifica se o CPF é composto de números repetidos. Por exemplo, 11111111111 não é um CPF válido mas acaba passando no teste do módulo 11;</li><li name="ab0e" id="ab0e" class="graf graf--li graf-after--li">por fim, extrai os dígitos verificadores do CPF, calcula os dígitos verificadores e checa se são iguais.</li></ul><p name="6142" id="6142" class="graf graf--p graf-after--li">O número do CPF é um exemplo de validação cíclica na qual a informação a ser validada contém a própria validação. Isso é algo parecido com o CRC, uma das primeiras formas de validação de dados que era muito usado nas primeiras transmissões de dados nas primeiras redes de computadores.</p><p name="c890" id="c890" class="graf graf--p graf-after--p">Existem alguns truques neste código. O primeiro está na função <em class="markup--em markup--p-em">cpfIsValid</em>. O cálculo do dígito verificador é concatenado multiplicando-se o primeiro dígito por 10 e somando-se com o segundo dígito. Esta é uma forma simples de concatenar dígitos no mesmo número, uma característica simples dos números decimais.</p><p name="d35a" id="d35a" class="graf graf--p graf-after--p">O segundo truque está na função <em class="markup--em markup--p-em">checkDigits</em>. Na verdade, esta é uma função cheia de truques. O primeiro é a determinação do tamanho da string fora do loop. Se for feito dentro do loop, <em class="markup--em markup--p-em">strlen</em> será chamado 10 vezes, no pior caso. Assim, determinando ANTES, ampliamos a performance desta pequena função. O outro truque é a conversão de string para inteiro: <em class="markup--em markup--p-em">(cpf[i] — ‘0‘)</em>. Um truque conhecido de quem programa em C: calcula-se a distância entre os dígitos e a distância é, evidentemente, o número procurado.</p><p name="dc41" id="dc41" class="graf graf--p graf-after--p">Outro truque interessante, que uso com bastante frequência, é usar os próprios argumentos da função como incremento. Como os argumentos são passados por valor, posso incrementá-los à vontade dentro da função sem risco de bagunçá-los do lado de fora.</p><p name="c718" id="c718" class="graf graf--p graf-after--p">Este é um código bastante otimizado. Com um pouco de esforço, certamente você será capaz de otimizá-lo ainda mais. Porém, note que o código não funciona com unicode. Trata-se apenas de uma demonstração simples de como determinar a validade do CPF através de um código C.</p><p name="a978" id="a978" class="graf graf--p graf-after--p">O algoritmo aqui apresentado pode ser facilmente portado para outras linguagens. Originalmente, escrevi este código com suporte a unicode em Objective C.</p><p name="6b6c" id="6b6c" class="graf graf--p graf-after--p">Na próxima coloco uma versão em <em class="markup--em markup--p-em">swift</em>.</p><p name="ff58" id="ff58" class="graf graf--p graf-after--p">Quem quiser ver o código em ação, basta fazer um clone:</p><p name="2f47" id="2f47" class="graf graf--p graf-after--p"><a href="https://github.com/ronflima/cpfcheck" data-href="https://github.com/ronflima/cpfcheck" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">https://github.com/ronflima/cpfcheck</a></p><p name="91ae" id="91ae" class="graf graf--p graf-after--p">No terminal, digite <em class="markup--em markup--p-em">make</em> e fique feliz. Basta ter um compilador C e o utilitário Make que isso compila sem medo.</p><p name="2145" id="2145" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">Originally published at </em><a href="http://www.ronaldolima.eti.br/2015/05/15/checagem-de-cpf-em-c/" data-href="http://www.ronaldolima.eti.br/2015/05/15/checagem-de-cpf-em-c/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">www.ronaldolima.eti.br</em></a><em class="markup--em markup--p-em"> on May 15, 2015.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/a64fe7a386f5"><time class="dt-published" datetime="2015-05-31T16:36:04.874Z">May 31, 2015</time></a>.</p><p><a href="https://medium.com/@ronaldolima/checagem-de-cpf-em-c-a64fe7a386f5" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

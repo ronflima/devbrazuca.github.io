@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Micro-arquitetura para micro-serviços</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Micro-arquitetura para micro-serviços</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Novo nome, coisa antiga.
+</section>
+<section data-field="body" class="e-content">
+<section name="c85a" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="41c6" id="41c6" class="graf graf--h3 graf--leading graf--title">Micro-arquitetura para micro-serviços</h3><p name="2196" id="2196" class="graf graf--p graf-after--h3">Novo nome, coisa antiga.</p><figure name="af76" id="af76" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*NbQl1WHxPaqNeMivhrMB-g.jpeg" data-width="1024" data-height="683" src="https://cdn-images-1.medium.com/max/800/1*NbQl1WHxPaqNeMivhrMB-g.jpeg"></figure><p name="5fd6" id="5fd6" class="graf graf--p graf-after--figure">Esta semana assisti à uma palestra sensacional que explicava a arquitetura usada no <a href="http://olist.com" data-href="http://olist.com" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">olist.com</a>. Uma arquitetura baseada em micro-serviços e altamente modularizada. Alguém poderia afirmar que isto introduz diversos pontos de falha, porém a forma como foi projetado faz com que uma falha em um componente não cause um impacto sistêmico justamente por que a arquitetura foi criada sem a existência de dependências entre componentes. Sim, há dependência funcional. Porém, ao trabalhar como um workflow, o sistema permanece funcionando até que os problemas sejam sanados, o que torna-o altamente resiliente.</p><p name="2ae5" id="2ae5" class="graf graf--p graf-after--p">A arquitetura que apresentaram é uma extrapolação de um workflow simples que era feito com multi-processos em sistemas que precisavam de um alto grau de paralelismo e confiabilidade. Porém, os sistemas antigos eram executados na mesma máquina e, às vezes, na mesma rede local. O princípio que explico aqui não é novo, mas é suficientemente poderoso para ser aplicado em menor escala em sistemas de multi-serviços.</p><h4 name="91dc" id="91dc" class="graf graf--h4 graf-after--p">Mullti-processo sim senhor!</h4><p name="2cfd" id="2cfd" class="graf graf--p graf-after--h4">O multi-processamento foi substituído pelas múltiplas threads ao longo dos anos. O cartaz dizia que as threads eram mais baratas do que um processo inteiro. E realmente são. A forma como se fazia sistemas antes das threads era mais ou menos assim:</p><ul class="postList"><li name="893f" id="893f" class="graf graf--li graf-after--p">Chegava uma requisição. Esta requisição forçava o software a criar um processo para tratá-la.</li><li name="9bbd" id="9bbd" class="graf graf--li graf-after--li">Este processo criado tratava a requisição e devolvia o resultado para o processo que recebeu a requisição, retornando e liberando recursos do sistema.</li></ul><p name="859f" id="859f" class="graf graf--p graf-after--li">Qual o problema com isso? Criar processos é muito caro. Não dá para criar processos indefinidamente pois há uma série de recursos que exaurem-se numa máquina, entre eles os identificadores. A identificação de um processo é um número inteiro que é determinado através de uma fila circular. Eventualmente esta fila pode encher de forma a ficar impossível criar um novo processo. Por outro lado, cada processo precisa ser criado, carregado, executado e liberado. Tudo isso consome muito recurso.</p><p name="d819" id="d819" class="graf graf--p graf-after--p">Este argumento ajudou, e muito, as threads quando chegaram ao mercado. A thread fica dentro do processo. As threads têm um custo de criação sim: exigem um system call para serem criadas. E system calls sempre são custosos. Mesmo assim, são muito menos custosas que processos. Porém, trazem um problema: sincronismo. Como trabalham dentro do mesmo address space, é imprescindível sincronizar as threads quando trabalham com dados compartilhados. E isto é uma dor-de-cabeça incessante.</p><p name="bc5d" id="bc5d" class="graf graf--p graf-after--p">Além disso, se uma thread provoca uma instrução ilegal, todo o processo vem abaixo. Mas, como resolver essas coisas? Multi-processo.</p><h4 name="9efc" id="9efc" class="graf graf--h4 graf-after--p">Passos de um workflow</h4><p name="c62a" id="c62a" class="graf graf--p graf-after--h4">Todo processo pode ser modelado como uma sequência de coisas que precisam acontecer para que as informações de entrada sejam transformadas em informações de saída. O workflow é suficientemente genérico para cobrir a grande maioria dos casos de uso da computação comercial.</p><p name="e651" id="e651" class="graf graf--p graf-after--p">Pode-se implementar um workflow baseado em múltiplos processos de três formas distintas:</p><ol class="postList"><li name="4c80" id="4c80" class="graf graf--li graf-after--p">um processo central e vários processos-filhos que são um espelho do processo central;</li><li name="9ff1" id="9ff1" class="graf graf--li graf-after--li">um processo central e outros processos não relacionados, independentes, que relacionam-se e comunicam-se entre si através de alguma forma de comunicação inter-processo, como pipes ou filas de mensagens;</li><li name="803a" id="803a" class="graf graf--li graf-after--li">uma combinação dos dois métodos anteriores.</li></ol><p name="793f" id="793f" class="graf graf--p graf-after--li">Nestas formas o que acontece é o seguinte: ao invés de um processo disparar outro por requisição, os processos permanecem rodando, consumindo dados de uma entrada e entregando os resultados numa saída, de forma totalmente desacoplada.</p><p name="f7db" id="f7db" class="graf graf--p graf-after--p">Trata-se de uma sequência de transformadores de dados que lêem a sua entrada de um lugar e salvam a saída em outro, sem sincronismo. A única coisa que fazem é aguardar pela entrada.</p><p name="207a" id="207a" class="graf graf--p graf-after--p">Aqui está um diagrama que tenta demonstrar o princípio:</p><figure name="506a" id="506a" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*XVIAFgC1T5HTeorkuAOc6A.png" data-width="870" data-height="393" src="https://cdn-images-1.medium.com/max/800/1*XVIAFgC1T5HTeorkuAOc6A.png"><figcaption class="imageCaption">Exemplo da Micro-arquitetura</figcaption></figure><p name="b8a8" id="b8a8" class="graf graf--p graf-after--figure">Cada retângulo é um processo separado, sem acoplamento e totalmente independente. Os canais de comunicação aqui podem ser <em class="markup--em markup--p-em">message queues</em>, uma entidade do sistema operacional que trabalha enviando informações de um processo a outro, de forma completamente assíncrona e independente.</p><h4 name="180b" id="180b" class="graf graf--h4 graf-after--p">Vantagens desta micro-arquitetura</h4><p name="871f" id="871f" class="graf graf--p graf-after--h4">A principal vantagem é o completo desacoplamento entre cada processo. As mensagens são encaminhadas via filas de mensagens que não fazem distinção de quem lê nem quem escreve. Apesar de haver I/O nas escritas e leituras das filas, o tempo é mínimo se comparado a I/O feito em disco.</p><p name="14bf" id="14bf" class="graf graf--p graf-after--p">As filas permanecem existindo mesmo que todos os processos que consomem/escrevem dados nelas finalizem. Ao reiniciarem, os processos voltam a ler os dados das filas que ficaram armazenados temporariamente.</p><figure name="e983" id="e983" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*kOsuIiyZcifhRmv5l1Qt_g.png" data-width="1297" data-height="247" src="https://cdn-images-1.medium.com/max/800/1*kOsuIiyZcifhRmv5l1Qt_g.png"><figcaption class="imageCaption">Exemplo de Micro-Arquitetura aplicada a web services</figcaption></figure><p name="2901" id="2901" class="graf graf--p graf-after--figure">Este estilo de arquitetura é chamado de <em class="markup--em markup--p-em">pipeline </em>e permite o processamento paralelo de informações sem, contudo, que seu código tenha de suportar alguma forma de paralelismo ou concorrência.</p><p name="d98e" id="d98e" class="graf graf--p graf-after--p">Outra vantagem é o uso ostensivo que esta micro-arquitetura faz dos processadores. Em máquinas multi-processadas pode-se tirar vantagem do processamento realmente paralelo. Pode-se, ainda, mudar as prioridades dos processos de forma independente, dando mais <em class="markup--em markup--p-em">time sharing</em> para os passos mais custosos.</p><p name="1c24" id="1c24" class="graf graf--p graf-after--p">As filas de mensagens, também são uma vantagem. Elas existem no unix desde tempos imemoriais e são absolutamente estáveis. O unix já lhe dá isso sem a necessidade de software adicional. Linux incluído.</p><h4 name="80ff" id="80ff" class="graf graf--h4 graf-after--p">Desvantagens desta micro-arquitetura</h4><p name="383a" id="383a" class="graf graf--p graf-after--h4">Há limitações nas <em class="markup--em markup--p-em">message queues.</em> A quantidade de itens e o tamanho de cada item é limitado. Assim, é preciso avaliar as limitações do sistema no momento de projetar o seu software. Dependendo da demanda, a fila pode estourar por não suportar a carga.</p><p name="9136" id="9136" class="graf graf--p graf-after--p">Em máquinas com um único processador esta arquitetura não traz grandes vantagens. Afinal, cada processo acaba concorrendo um com o outro pelo uso do processador. Assim, toda a vantagem que se teria em termos de paralelismo vai por água abaixo.</p><p name="188b" id="188b" class="graf graf--p graf-after--p">Não é fácil programar em multi-processos. Há muito boiler plate que precisa ser feito para cada processo: tratamento de sinais, logs, controle de recursos, etc. Assim, acaba-se por implementar isso diversas vezes dependendo da quantidade de elementos do seu workflow.</p><p name="bb4a" id="bb4a" class="graf graf--p graf-after--p">Outro ponto negativo é a concorrência que ocorre com os bancos de dados. Normalmente, o banco de dados é apenas um pois estamos falando da mesma máquina. Esta arquitetura permite que os dados sejam armazenados em bancos independentes, porém este fato traz problemas para a manutenção de dados interelacionados, o que pode tornar a administração de dados um pesadelo. O maior problema, no meu entender, são as anomalias de atualização que podem ocorrer pois a integridade relacional é mantida, principalmente via acoplamento funcional do software como um todo.</p><p name="a125" id="a125" class="graf graf--p graf-after--p">Além da concorrência no database, a quantidade de sessões aumenta pois será pelo menos uma para cada componente em execução dentro de seu próprio processo.</p><p name="8e9e" id="8e9e" class="graf graf--p graf-after--p">Como serão vários processos em execução, é preciso fazer o correto scheduling de cada um, criar monitoramentos e permitir que cada um seja reiniciado no caso de falhas através de um console que simplifique a vida do administrador de sistemas. Como aqui eu sugiro uma arquitetura que está presa dentro da mesma máquina, o problema administrativo permanece em um lugar só, ao invés de várias máquinas distribuídas.</p><h4 name="0d47" id="0d47" class="graf graf--h4 graf-after--p">Conclusão</h4><p name="14dc" id="14dc" class="graf graf--p graf-after--h4">Esta é uma forma bastante antiga de escrever software. No entanto, não é uma bala de prata e precisa ser pensada de forma bastante ponderada. É preciso avaliar se há a real necessidade de criar seu software assim.</p><p name="19d8" id="19d8" class="graf graf--p graf-after--p graf--trailing">Atualmente, como o desenvolvimento modular é popular, não é difícil sair de uma arquitetura totalmente monolítica do seu processo para uma arquitetura modular como a sugerida aqui.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/13eb1209a283"><time class="dt-published" datetime="2017-05-14T22:31:52.149Z">May 14, 2017</time></a>.</p><p><a href="https://medium.com/@ronaldolima/micro-arquitetura-para-micro-servi%C3%A7os-13eb1209a283" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

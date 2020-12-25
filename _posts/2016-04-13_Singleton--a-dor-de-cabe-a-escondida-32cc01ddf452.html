@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Singleton: a dor-de-cabeça escondida</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Singleton: a dor-de-cabeça escondida</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+A ideia é boa. Mas usá-la sem critério vai te dar uma bela ressaca.
+</section>
+<section data-field="body" class="e-content">
+<section name="7cb2" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="8d87" id="8d87" class="graf graf--h3 graf--leading graf--title">Singleton: a dor-de-cabeça escondida</h3><h4 name="558e" id="558e" class="graf graf--h4 graf-after--h3 graf--subtitle">A ideia é boa. Mas usá-la sem critério vai te dar uma bela ressaca.</h4><figure name="a768" id="a768" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*2txmnJUPJv3MTbsRvBrLnw.jpeg" data-width="2622" data-height="1494" src="https://cdn-images-1.medium.com/max/800/1*2txmnJUPJv3MTbsRvBrLnw.jpeg"></figure><p name="203d" id="203d" class="graf graf--p graf-after--figure">Não estou falando de bebida. Afinal, este é um blog de programador, não é mesmo? Mas assim como a bebida, se você abusar do <em class="markup--em markup--p-em">singleton</em>, vai ter uma bela dor-de-cabeça. Antes de seguir adiante com minha argumentação, me permita dar um passo atrás e falar sobre o <em class="markup--em markup--p-em">design pattern </em>em si.</p><p name="2a3a" id="2a3a" class="graf graf--p graf-after--p">A ideia por trás do singleton é garantir que apenas uma única instância de uma determinada classe exista durante todo o ciclo de execução de um software arbitrário. Assim, esta única instância gerencia estados que necessariamente precisam ser mantidos em um único lugar. Foi com esta premissa que este padrão foi criado.</p><p name="819d" id="819d" class="graf graf--p graf-after--p">O lance com os <em class="markup--em markup--p-em">design patterns</em> é que eles são soluções para domínios específicos de problemas. Muita gente se esquece deste pequeno detalhe e sai usando design patterns em tudo quanto é contexto, criando mais problemas do que resolvendo-os. Um design pattern não pode ser usado em qualquer lugar. Por exemplo, o <em class="markup--em markup--p-em">adapter</em> é um design pattern cuja função é compatibilizar duas interfaces distintas em uma que seja padronizada. Sair usando isso como meio termo de comunicação entre objetos de forma negligente aumenta a complexidade do seu projeto ao invés de simplificá-lo. Tem gente que usa adapter a rodo.</p><p name="a4c6" id="a4c6" class="graf graf--p graf-after--p">Pelo fato de ser bem simples de implementar, o singleton ganhou grande popularidade entre os programadores, sendo que alguns o usam sem entender o que é que ele resolve, criando na prática variáveis globais descontroladas que podem ser acessadas por qualquer ponto do seu programa e, o que é pior, por qualquer thread.</p><p name="df40" id="df40" class="graf graf--p graf-after--p">Pelo fato de ser global, o singleton pode se tornar um problema de sincronismo em código concorrente, principalmente se implementar operações dependentes de contexto. Por exemplo, criar um singleton para acesso a uma API REST é um erro comum. O acesso à API é dependente de contexto e necessariamente precisa ser realizado de maneira assíncrona no intuito de manter a responsividade da interface com o usuário da sua aplicação. Se o acesso é através de um singleton, é imprescindível a sincronização entre threads no intuito de evitar-se problemas com seções críticas. O resultado é que seu código vai viver parando em um único ponto de sincronismo, ou seja, sempre haverá mais threads em <em class="markup--em markup--p-em">wait</em> do que efetivamente em execução.</p><p name="4614" id="4614" class="graf graf--p graf-after--p graf--trailing">Quando o singleton foi criado a programação multi-threaded ainda era novidade. E ninguém tinha como problema o acesso concorrente a uma única entidade. Assim, torna-se necessário maior cuidado ao usar este <em class="markup--em markup--p-em">design pattern</em> em particular.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/32cc01ddf452"><time class="dt-published" datetime="2016-04-13T11:36:29.605Z">April 13, 2016</time></a>.</p><p><a href="https://medium.com/@ronaldolima/singleton-a-dor-de-cabe%C3%A7a-escondida-32cc01ddf452" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

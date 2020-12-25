@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>MVC, MVVM, VIPER, Reactive?</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">MVC, MVVM, VIPER, Reactive?</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Qual arquitetura usar no iOS?
+</section>
+<section data-field="body" class="e-content">
+<section name="7af8" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="1017" id="1017" class="graf graf--h3 graf--leading graf--title">MVC, MVVM, VIPER, Reactive?</h3><h4 name="ccd6" id="ccd6" class="graf graf--h4 graf-after--h3 graf--subtitle">Qual arquitetura usar no iOS?</h4><figure name="b2d5" id="b2d5" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*NbQl1WHxPaqNeMivhrMB-g.jpeg" data-width="1024" data-height="683" data-is-featured="true" src="https://cdn-images-1.medium.com/max/800/1*NbQl1WHxPaqNeMivhrMB-g.jpeg"></figure><p name="9926" id="9926" class="graf graf--p graf-after--figure">Depois que a programação para apps popularizou-se, várias arquiteturas novas surgiram para tentar simplificar as coisas. MVVM, VIPER e mais um monte de sopa de letrinhas hoje assombram os developers, principalmente os que trabalham com iOS.</p><p name="4417" id="4417" class="graf graf--p graf-after--p">Não existe arquitetura ótima. Existe aquela que é a melhor para resolver determinada classe de problemas. Porém, no caso dos frameworks da Apple, não importa qual arquitetura você escolha: tudo termina em MVC, independentemente se você usa MVVM, VIPER, <em class="markup--em markup--p-em">whatsoever</em>. Por que?</p><h4 name="7e4d" id="7e4d" class="graf graf--h4 graf-after--p">Camada sobre camada</h4><p name="0e6a" id="0e6a" class="graf graf--p graf-after--h4">Apesar de toda a liberdade que é dada para o programador dentro da plataforma Apple, no fim das contas o seu software ficará como o diagrama abaixo:</p><figure name="3044" id="3044" class="graf graf--figure graf-after--p"><img class="graf-image" data-image-id="1*XE8RnO_EKhpajGDXqDgn1w.png" data-width="960" data-height="720" src="https://cdn-images-1.medium.com/max/800/1*XE8RnO_EKhpajGDXqDgn1w.png"></figure><p name="0f39" id="0f39" class="graf graf--p graf-after--figure">Por que disso? Não importa qual arquitetura você use. Você será obrigado a usar alguma classe que herde de <em class="markup--em markup--p-em">UIViewController</em>. Também será obrigado a usar alguma classe que herde de <em class="markup--em markup--p-em">UIView</em>. O fato é que você se verá construindo uma camada por sobre o MVC que é imposto pela Apple. Não importa qual <em class="markup--em markup--p-em">arquitetura</em> você escolha.</p><h4 name="8a4d" id="8a4d" class="graf graf--h4 graf-after--p">MVC não é uma bala de prata</h4><p name="41e0" id="41e0" class="graf graf--p graf-after--h4">MVC não resolve todos os problemas do universo. E eu não estou aqui defendendo o seu uso. Nada disso. A verdade é que estou alertando para um fato simples: não importa qual arquitetura você escolha para desenvolver seu app, você sempre será dependente do MVC por imposição do framework da Apple, em maior ou menor grau.</p><p name="8503" id="8503" class="graf graf--p graf-after--p">Isto não quer dizer que você deva usar apenas MVC para escrever seu código, mas que precisa saber que está criando uma camada de código extra por sobre outra arquitetura da qual você não conseguirá se desvencilhar.</p><p name="6d16" id="6d16" class="graf graf--p graf-after--p">Existe uma coisa chamada <em class="markup--em markup--p-em">propósito</em>. Os componentes da Apple foram criados com o propósito de serem utilizados em uma arquitetura MVC. Ao ter consciência disto, você está livre para usar outra arquitetura respeitando-se as limitações impostas pelos componentes dos quais você depende para escrever seu código.</p><h4 name="6eca" id="6eca" class="graf graf--h4 graf-after--p">Não caia na modinha</h4><p name="b281" id="b281" class="graf graf--p graf-after--h4">Eu vivo dizendo: programar profissionalmente é uma atividade econômica. Portanto, não invente moda nem saia fazendo as coisas por que está na moda fazer desse jeito. A decisão de usar outra arquitetura no seu software precisa ser tecnicamente embasada, com vantagens evidentes. Estas vantagens não podem ser apenas de teor técnico, mas também de teor econômico.</p><p name="2382" id="2382" class="graf graf--p graf-after--p">De que adianta usar a arquitetura ultra-foda-mega-quebra-tudo se isso vai onerar o <em class="markup--em markup--p-em">budget</em> do projeto? Use a arquitetura que lhe dê vantagens. Se VIPER entrega mais rápido o que você precisa, use-a. Se MVVM tem vantagens sobre a arquitetura MVC para determinado projeto, use-a. O que não pode é usar uma arquitetura só por que o projeto vai parecer bonito. Bonito é o projeto que é entregue no prazo e que gera <strong class="markup--strong markup--p-strong">lucro.</strong></p><h4 name="da8f" id="da8f" class="graf graf--h4 graf-after--p">KISS</h4><p name="c93f" id="c93f" class="graf graf--p graf-after--h4"><em class="markup--em markup--p-em">Keep It Simple, Stupid. </em>Esta é a melhor arquitetura do mundo. Seja lá o que diabos você vai fazer, mantenha o mais simples e estúpido possível. Não importa que raio de arquitetura você escolha para o seu projeto. Use a mais simples que resolva o seu problema imediatamente, com o menor esforço e a maior qualidade possível dentro dos parâmetros do projeto.</p><p name="5299" id="5299" class="graf graf--p graf-after--p">A simplicidade leva a efeitos muito interessantes:</p><ul class="postList"><li name="324c" id="324c" class="graf graf--li graf-after--p">os bugs são mais simples e mais fáceis de achar;</li><li name="446a" id="446a" class="graf graf--li graf-after--li">evoluir o projeto fica mais fácil e mais barato;</li><li name="10ba" id="10ba" class="graf graf--li graf-after--li">treinar novos developers para dar manutenção na base de código fica mais fácil, mais simples e, o que é melhor, mais barato;</li><li name="0dc4" id="0dc4" class="graf graf--li graf-after--li">você terá noites de sono com mais qualidade.</li></ul><h4 name="9156" id="9156" class="graf graf--h4 graf-after--li">Antes de ir</h4><p name="3e42" id="3e42" class="graf graf--p graf-after--h4">É um tópico recorrente a questão econômica nos artigos que escrevo. Em breve escreverei um artigo falando exatamente sobre a questão econômica e por que isso é tão importante — e por que muitas vezes é uma questão que se sobrepõe a qualquer outra questão técnica.</p><p name="38d5" id="38d5" class="graf graf--p graf-after--p graf--trailing">E vamos codificar por que precisamos pagar nossas contas!</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/7d253208e728"><time class="dt-published" datetime="2017-09-21T11:52:29.084Z">September 21, 2017</time></a>.</p><p><a href="https://medium.com/@ronaldolima/mvc-mvvm-viper-reactive-7d253208e728" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

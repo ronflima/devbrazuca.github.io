@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Tipos em Swift</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Tipos em Swift</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Uma diferença importante com relação ao Objective C
+</section>
+<section data-field="body" class="e-content">
+<section name="5433" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="5154" id="5154" class="graf graf--h3 graf--leading graf--title">Tipos em Swift</h3><h4 name="c8e3" id="c8e3" class="graf graf--h4 graf-after--h3 graf--subtitle">Uma diferença importante com relação ao Objective C</h4><figure name="29ee" id="29ee" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*u8iaICEmxjkSFw9H3EPbtw.jpeg" data-width="1200" data-height="627" src="https://cdn-images-1.medium.com/max/800/1*u8iaICEmxjkSFw9H3EPbtw.jpeg"></figure><p name="4711" id="4711" class="graf graf--p graf-after--figure">A tipagem nas linguagens de programação sempre foi um assunto amplamente debatido. Tipagem forte ou relaxada? Tipagem dinâmica ou estática? Com a linguagem Swift a questão não é diferente. E existem alguns tópicos interessantes para se discutir sobre a forma como o Swift usa os tipos de dados em relação ao seu antecessor, o Objetive C.</p><p name="cd58" id="cd58" class="graf graf--p graf-after--p">O Objetive C herdou seu esquema de tipagem da linguagem C, ou seja, é uma linguagem com tipagem estática e relaxada. A tipagem é estática pois é preciso definir qual o tipo de dados de um elemento antes de efetivamente usá-lo. Uma vez definido o tipo de dados do objeto, não é possível mais alterá-lo.</p><p name="310f" id="310f" class="graf graf--p graf-after--p">Porém, o compilador é bastante complascente no que diz respeito à verificação de tipos. Assim, você pode enfiar um número inteiro no lugar de um ponteiro e vice-versa. Esta é uma característica de uma linguagem de tipagem relaxada.</p><p name="864f" id="864f" class="graf graf--p graf-after--p">O Swift, por outro lado, implementa um sistema de tipagem forte. Se algo é String, só entra ali String. A não ser que você diga à linguagem como é que raios que ela converte um tipo em outro, usando os <em class="markup--em markup--p-em">downcasts </em>ou <em class="markup--em markup--p-em">upcasts</em>. Mesmo assim, quando você tem classes em hierarquias completamente distintas, não dá para realizar um <em class="markup--em markup--p-em">downcast</em> e a compilação falha miseravelmente.</p><p name="0c27" id="0c27" class="graf graf--p graf-after--p">Porém, o Swift dá a falsa impressão de que implementa um sistema de tipagem dinâmica. Não é bem assim: um elemento definido como sendo de um determinado tipo poderá armazenar valores para aquele tipo apenas. O que o Swift faz de diferente é <strong class="markup--strong markup--p-strong">inferir</strong> o tipo de dados de um elemento com base no contexto no qual o elemento é definido. Exemplo:</p><pre name="8140" id="8140" class="graf graf--pre graf-after--p">var a = 123</pre><p name="c4a5" id="c4a5" class="graf graf--p graf-after--pre">Esta declaração cria uma variável <em class="markup--em markup--p-em">a</em> do tipo inteiro. O tipo é inferido do contexto, ou seja, da atribuição neste caso.</p><p name="7c37" id="7c37" class="graf graf--p graf-after--p">A verificação forte de tipos do Swift fica clara quando você precisa manipular estruturas complexas em memória. Por exemplo, imagine que seu software recebeu uma estrutura JSON e converteu-a, em memória, para uma coleção, um dicionário, onde cada elemento é indexado. Acessar os itens mais profundos do dicionário requer um trabalho extra pois é preciso desenvelopar cada elemento em cada nível da estrutura, exigência da verificação forte de tipos.</p><p name="e2c2" id="e2c2" class="graf graf--p graf-after--p">Neste caso, o Objective C simplifica a vida do programador justamente por que a sua tipagem é relaxada. Porém, os benefícios da tipagem forte sobrepujam a trabalheira que dá desenvelopar elementos em estruturas muito profundas. A principal vantagem é a diminuição dos erros de programação.</p><p name="3e3c" id="3e3c" class="graf graf--p graf-after--p">Outra vantagem do Swift é o uso de opcionais. Em Objective C, o valor <em class="markup--em markup--p-em">nil</em> é representado por um pointer inválido. Ou seja, nil é definido como:</p><pre name="e24c" id="e24c" class="graf graf--pre graf-after--p">#define nil ((void *)0)</pre><p name="d44f" id="d44f" class="graf graf--p graf-after--pre">Isto quer dizer que <em class="markup--em markup--p-em">nil </em>só vale para tipos ponteiro. Se você nunca percebeu, todas as variáveis de determinada classe são, na verdade, ponteiros:</p><pre name="3134" id="3134" class="graf graf--pre graf-after--p">NSString * name;<br>NSNumber * idade;</pre><p name="01e1" id="01e1" class="graf graf--p graf-after--pre graf--trailing">Portanto, <em class="markup--em markup--p-em">nil </em>só serve para descrever valores inválidos para classes e ponteiros. Variáveis de tipos integrais não são elegíveis para usar <em class="markup--em markup--p-em">nil</em> como valor inválido. Porém, em Swift, é possível usar nil para determinar um valor inválido para uma variável de tipo integral graças ao <em class="markup--em markup--p-em">optional chaining.</em> Não preciso dizer o quanto isto simplifica o trabalho de inicialização de variáveis e verificação de valores inválidos.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/c8b72509d7e6"><time class="dt-published" datetime="2016-06-10T11:53:43.431Z">June 10, 2016</time></a>.</p><p><a href="https://medium.com/@ronaldolima/tipos-em-swift-c8b72509d7e6" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

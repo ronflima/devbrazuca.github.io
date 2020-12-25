@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Promoções e demoções integrais</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Promoções e demoções integrais</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Os números normalmente são negligenciados pelos programadores, de uma forma geral. O mais engraçado é que sem os números não existem…
+</section>
+<section data-field="body" class="e-content">
+<section name="84f4" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="74ed" id="74ed" class="graf graf--h3 graf--leading graf--title">Promoções e demoções integrais</h3><figure name="08eb" id="08eb" class="graf graf--figure graf-after--h3"><img class="graf-image" data-image-id="1*uw_6qvP2TeHbT55uWFAJSQ.jpeg" data-width="620" data-height="398" src="https://cdn-images-1.medium.com/max/800/1*uw_6qvP2TeHbT55uWFAJSQ.jpeg"></figure><p name="8e4a" id="8e4a" class="graf graf--p graf-after--figure">Os números normalmente são negligenciados pelos programadores, de uma forma geral. O mais engraçado é que sem os números não existem programas de computador. Em última instância, tudo em um computador é representado por uma sequência de zeros e uns, através da representação binária. Tudo. Desde uma foto até este texto que você está lendo.</p><p name="050a" id="050a" class="graf graf--p graf-after--p">Existem à disposição dos programadores basicamente dois tipos de números: os números inteiros e os números de ponto flutuante. Como estou falando de promoção e demoção, não estou preocupado com a precisão destes números, mesmo por que vou falar de forma bem genérica sobre o assunto. Cada linguagem tem a sua forma de promover e demover números levando ou não em conta a precisão.</p><p name="e1f1" id="e1f1" class="graf graf--p graf-after--p">Primeiro, vamos entender o que é a tal promoção e demoção integral. Os tipos numéricos são classificados através da sua complexidade: o mais simples é o tipo inteiro e o mais complexo, o de ponto flutuante. <em class="markup--em markup--p-em">Promover</em> um tipo é fazer com que ele saia do tipo mais simples para o tipo mais complexo para que uma determinada operação possa ser executada.</p><p name="618d" id="618d" class="graf graf--p graf-after--p">Em termos práticos, podemos dizer que se temos um inteiro e o convertemos para um número de ponto flutuante, estamos promovendo o inteiro para ponto flutuante. A recíproca é chamada de demoção, ou seja, quando demovemos um ponto flutuante para um inteiro.</p><p name="6493" id="6493" class="graf graf--p graf-after--p">Por que raios isso é importante? Veja a seguinte operação, em linguagem Swift:</p><p name="aecd" id="aecd" class="graf graf--p graf-after--p">let a = 3 /2</p><p name="ac53" id="ac53" class="graf graf--p graf-after--p">Qual o valor de <em class="markup--em markup--p-em">a?</em> Se for diferente de 1, sou mico de circo. E um mico bem gordo, diga-se de passagem. Praticamente um orangotango.</p><p name="f729" id="f729" class="graf graf--p graf-after--p">Mas não deveria ser <em class="markup--em markup--p-em">1.5?</em>. A resposta é: não. O que aconteceu para que uma divisão de 3 por 2 desse 1 ao invés de 1.5? A resposta é simples: 3 e 2 são constantes inteiras. A operação é, na verdade, uma divisão inteira. Ou seja, qualquer valor decimal é irremediavelmente truncado.</p><p name="7aec" id="7aec" class="graf graf--p graf-after--p">Para evitar o truncamento e obter o resultado de ponto flutuante é necessário provocar a promoção de um dos operandos. Ao promover um dos operandos, o resultado da operação é, igualmente promovido. Assim:</p><p name="37f3" id="37f3" class="graf graf--p graf-after--p">let b = 3.0 / 2</p><p name="bdfd" id="bdfd" class="graf graf--p graf-after--p">dará como resultado o número 1.5. Porém:</p><p name="16cb" id="16cb" class="graf graf--p graf-after--p">let c = 3 / 2.0</p><p name="22d5" id="22d5" class="graf graf--p graf-after--p">também dará o mesmo resultado. A existência de um número de ponto flutuante no numerador ou no denominador provoca a promoção de todo o resultado da operação. A promoção, no entanto, ocorre para qual tipo de ponto flutuante? A resposta é: depende da linguagem. Por exemplo, Swift promove para números de ponto flutuante de precisão dupla (<em class="markup--em markup--p-em">double</em>). É necessário ler a documentação da sua linguagem de programação predileta para entender para qual tipo é realizada a promoção automática.</p><p name="439d" id="439d" class="graf graf--p graf-after--p">É possível, no entanto, realizar a promoção manual dos tipos. Voltando ao exemplo:</p><p name="b960" id="b960" class="graf graf--p graf-after--p">let np = Float(3)/2</p><p name="7962" id="7962" class="graf graf--p graf-after--p">Neste exemplo a promoção é feita forçosamente para Float. Observe que 3 é convertido para Float o que força a promoção de toda a expressão para Float ao invés de Double.</p><p name="b5a3" id="b5a3" class="graf graf--p graf-after--p">E se quisermos fazer justamente o contrário, ou seja, demover o resultado para que seja inteiro? Aqui está uma sugestão que não é a melhor:</p><p name="e076" id="e076" class="graf graf--p graf-after--p">let d = Int(3.0) / Int(2.0)</p><p name="b1d8" id="b1d8" class="graf graf--p graf-after--p">O resultado disso é 1. Ambos numerador e denominador foram demovidos. Observe que forcei um <em class="markup--em markup--p-em">cast</em> para que isso acontecesse. Uma outra forma é:</p><p name="1af9" id="1af9" class="graf graf--p graf-after--p">let e = Int(3.0/2.0)</p><p name="fbd0" id="fbd0" class="graf graf--p graf-after--p">ou seja, aplicamos a demoção no resultado da operação.</p><p name="eeb6" id="eeb6" class="graf graf--p graf-after--p">É importante, portanto, conhecer-se como funcionam as promoções e demoções dos tipos integrais, principalmente em Swift. Swift determina o tipo de uma constante ou variável com base na sua inicialização. Assim, você sabe qual o tipo de variável com base no tipo da sua inicialização. No último exemplo, <em class="markup--em markup--p-em">e</em> é uma variável inteira.</p><h2 name="c756" id="c756" class="graf graf--h2 graf-after--p">Type Cast</h2><p name="2098" id="2098" class="graf graf--p graf-after--h2">O <em class="markup--em markup--p-em">type cast </em>não é apenas o “cala-boca” de compilador. Trata-se de um <em class="markup--em markup--p-em">hint</em> muito útil ao compilador no momento de realizar as conversões de tipos para avaliação de expressões. Se estivermos escrevendo um código em C, teremos:</p><p name="2918" id="2918" class="graf graf--p graf-after--p">double f = (double)3/2;</p><p name="3914" id="3914" class="graf graf--p graf-after--p graf--trailing">O <em class="markup--em markup--p-em">cast</em> para <em class="markup--em markup--p-em">double</em> força a promoção integral de toda a expressão para o tipo <em class="markup--em markup--p-em">double</em>. Portanto, o <em class="markup--em markup--p-em">cast </em>é uma forma de forçar o resultado de uma expressão promovendo ou demovendo para um determinado tipo. Porém, é preciso tomar cuidado: o <em class="markup--em markup--p-em">cast</em> pode levar à perda de informação devido aos truncamentos de dados que podem ocorrer quando um tipo é forçado para outro, algo que ocorre com muita frequência nas conversões entre números de precisão diferentes ou tipos integrais diferentes (ponto-flutuante para inteiros, por exemplo.</p></div></div></section><section name="9838" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="72b2" id="72b2" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">Originally published at </em><a href="http://www.ronaldolima.eti.br/2015/06/18/promocao-e-democao-integrais/" data-href="http://www.ronaldolima.eti.br/2015/06/18/promocao-e-democao-integrais/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">www.ronaldolima.eti.br</em></a><em class="markup--em markup--p-em"> on June 18, 2015.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/fb0ad612aecc"><time class="dt-published" datetime="2015-08-23T22:51:40.516Z">August 23, 2015</time></a>.</p><p><a href="https://medium.com/@ronaldolima/promo%C3%A7%C3%B5es-e-demo%C3%A7%C3%B5es-integrais-fb0ad612aecc" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

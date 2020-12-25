@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Qual problema os autotools resolvem?</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Qual problema os autotools resolvem?</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+É bem mais complicado do que parece.
+</section>
+<section data-field="body" class="e-content">
+<section name="adcb" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="565b" id="565b" class="graf graf--h3 graf--leading graf--title">Qual problema os autotools resolvem?</h3><h4 name="afcd" id="afcd" class="graf graf--h4 graf-after--h3 graf--subtitle">É bem mais complicado do que parece.</h4><figure name="f9d7" id="f9d7" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*AHOXgoPLadRw7C6htm8ZiA.png" data-width="1200" data-height="1200" src="https://cdn-images-1.medium.com/max/800/1*AHOXgoPLadRw7C6htm8ZiA.png"></figure><p name="1374" id="1374" class="graf graf--p graf-after--figure">Muita gente critica os makefiles por que consideram a sua sintaxe antiga e inadequada. Só por que seu build system usa algo mais bonitinho, como javascript ou XML, não quer dizer que seja um software simples. Na verdade, os sistemas de construção de software tornaram-se bem sofisticados nos últimos anos e, com isso, chegamos a um ponto no qual não há mais um sistema simples.</p><p name="ae63" id="ae63" class="graf graf--p graf-after--p">Num mundo que hoje tem o ANT, Maven, Grunt, Gulp e mais um tanto de <em class="markup--em markup--p-em">task runners</em> e build support systems, os <em class="markup--em markup--p-em">autotools</em> acabaram ficando um pouco de lado. Porém, trata-se de um conjunto de ferramentas absolutamente fantástico para quem programa em linguagem C e vale a pena dissertar um pouco sobre.</p><h4 name="7919" id="7919" class="graf graf--h4 graf-after--p">Qual problema os autotools resolvem?</h4><p name="a534" id="a534" class="graf graf--p graf-after--h4">Houve uma época em que construir software era muito mais fácil. Normalmente o software era criado para uma plataforma específica e era construído de forma igualmente específica. Com a popularização dos sistemas de código aberto isso mudou radicalmente a ponto de chegarmos a um entrave: como ter o ambiente correto para compilar meu código de forma adequada, sendo que os sistemas são altamente customizáveis?</p><p name="5819" id="5819" class="graf graf--p graf-after--p">Este é um problema complexo de resolver. Você nunca sabe o que há instalado no sistema no qual seu código vai compilar. Será que todas as dependências estão lá? Será que estas dependências estão todas instaladas nos lugares certos?</p><p name="5346" id="5346" class="graf graf--p graf-after--p">Isso fez com que os build systems tivessem que evoluir para algo mais dinâmico, que investigassem o ambiente e que gerassem as instruções de construção de forma apropriada. Até então o utilitário <em class="markup--em markup--p-em">Make</em> e suas variações como o NMake da Microsoft, era o padrão de mercado. Porém, escrever makefiles de forma estática já não atendia a demanda pois os sistemas se tornaram heterogêneos demais.</p><p name="fd53" id="fd53" class="graf graf--p graf-after--p">A saída foi criar um sistema que gerasse os makefiles de acordo com as limitações ambientais: autotools. A ideia original era criar um ambiente de compilação altamente configurável para o Projeto GNU e o seu sistema operacional Hurd. Como tudo era escrito em C, é natural ver os autotools fortemente atrelados a projetos escritos em C.</p><h4 name="92c7" id="92c7" class="graf graf--h4 graf-after--p">Configure and go</h4><p name="eccc" id="eccc" class="graf graf--p graf-after--h4">Os autotools são construídos por sobre as seguintes ferramentas:</p><ul class="postList"><li name="1715" id="1715" class="graf graf--li graf-after--p">interpretador de macros M4, uma linguagem relativamente simples e bastante limitada, porém suficientemente poderosa para realizar a geração de arquivos, busca por diretórios e verificações de sistema.</li><li name="f1fd" id="f1fd" class="graf graf--li graf-after--li">gerador de shell scripts Autoconf, que cria shell scripts com base em arquivos de macros M4. Os scripts gerados pelo autoconf são muito extensos e bastante completos, a ponto de realizar uma varredura completa em um determinado ambiente para determinar os melhores parâmetros de compilação.</li><li name="c249" id="c249" class="graf graf--li graf-after--li">gerador de makefiles Automake, que cria makefiles altamente configuráveis que são completados pelos scripts de configuração gerados pelo autoconf.</li></ul><p name="c7a2" id="c7a2" class="graf graf--p graf-after--li">Existem outras ferramentas que fazem parte dos autotools, como o gerador de documentação texinfo, ferramentas de suporte como o autoscan e autoheader e por aí vai. Mas como este artigo não é um tutorial, não vou ficar discorrendo sobre.</p><p name="9355" id="9355" class="graf graf--p graf-after--p">Estas ferramentas trabalham em conjunto para analisar a sua árvore de código no intuito de prepará-la para ser compilada em qualquer ambiente. O produto final da análise são arquivos Makefile.in, que são templates de makefiles especializados para a sua árvore de código, arquivos de shell script de suporte e um shell script complexo chamado <em class="markup--em markup--p-em">configure</em>.</p><p name="0310" id="0310" class="graf graf--p graf-after--p">A função do shell script configure é varrer seu sistema coletando informações que serão depois usadas para gerar os Makefiles. Uma vez gerados os makefiles, basta executar algo como <code class="markup--code markup--p-code">make</code> para ver seu código compilando.</p><h4 name="dcd2" id="dcd2" class="graf graf--h4 graf-after--p">Conclusão</h4><p name="6c33" id="6c33" class="graf graf--p graf-after--h4">Se você trabalha com desenvolvimento de código em C para projetos de código aberto, não faz mais sentido usar o velho <em class="markup--em markup--p-em">makefile</em> romanticamente escrito à mão. Seu makefile, por mais expert que você seja no assunto, será incapaz de verificar a contento o ambiente e adequar-se a ele.</p><p name="0277" id="0277" class="graf graf--p graf-after--p graf--trailing">Como os ambientes tornaram-se altamente heterogêneos devido às customizações, é importante usar algum tipo de build system mais avançado do que o mero makefile. Para quem trabalha com linguagem C, os autotools são uma excelente opção por se tratar de um conjunto de ferramentas estável e confiável.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/a8d797184de1"><time class="dt-published" datetime="2017-06-15T13:52:27.867Z">June 15, 2017</time></a>.</p><p><a href="https://medium.com/@ronaldolima/qual-problema-os-autotools-resolvem-a8d797184de1" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

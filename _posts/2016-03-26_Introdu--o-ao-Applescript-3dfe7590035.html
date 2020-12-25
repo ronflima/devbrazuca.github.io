@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Introdução ao Applescript</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Introdução ao Applescript</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Automatize seu Mac OS X. Seja mais produtivo!
+</section>
+<section data-field="body" class="e-content">
+<section name="4e65" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="1f4b" id="1f4b" class="graf graf--h3 graf--leading graf--title">Introdução ao Applescript</h3><h4 name="6b9a" id="6b9a" class="graf graf--h4 graf-after--h3 graf--subtitle">Automatize seu Mac OS X. Seja mais produtivo!</h4><figure name="4568" id="4568" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*Ly3oN665xRg6vcnn24t1wg.png" data-width="1024" data-height="1024" src="https://cdn-images-1.medium.com/max/800/1*Ly3oN665xRg6vcnn24t1wg.png"></figure><p name="4405" id="4405" class="graf graf--p graf-after--figure">Eu já venho puxando o saco do Applescript já tem algum tempo e já é hora de escrever um artigo apresentando a linguagem com exemplos práticos, não é mesmo? Eu acho a linguagem divertida, apesar de ser uma avalanche de palavras. O código-fonte final fica parecendo uma epopéia de tão comprido. Sim, você escreve código prá cacete em Applescript.</p><p name="1235" id="1235" class="graf graf--p graf-after--p">Vamos começar com alguns exemplos simples. Antes de começar, você precisa localizar no seu Mac o <em class="markup--em markup--p-em">Editor de Scripts. </em>Normalmente ele está em Aplicativos/Utilitários (destacado em vermelho na imagem abaixo).</p><p name="29a4" id="29a4" class="graf graf--p graf-after--p">Para estes exemplos, estou usando o Mac OS X El Capitán. Porém, o que eu descrevo aqui serve para versões anteriores do Mac OS X. O editor de scripts já vem pre-instalado no seu Mac OS X e não há necessidade de instalar absolutamente nenhum software adicional.</p><figure name="1a58" id="1a58" class="graf graf--figure graf--layoutOutsetLeft graf-after--p"><img class="graf-image" data-image-id="1*IfMQWlVaMHXFVQZ9v6VVxw.png" data-width="611" data-height="403" src="https://cdn-images-1.medium.com/max/600/1*IfMQWlVaMHXFVQZ9v6VVxw.png"><figcaption class="imageCaption">Editor de Scripts no Mac OS X El Capitan</figcaption></figure><p name="2dac" id="2dac" class="graf graf--p graf-after--figure">Com o editor de scripts aberto, você pode optar por criar um script em javascript ou applescript. Por padrão, o editor já inicia-se pronto para editar applescript.</p><p name="c6d5" id="c6d5" class="graf graf--p graf-after--p">Bem, vamos adiante. O applescript é uma linguagem orientada ao objeto. Isso não ficará evidente nos exemplos, mas à medida em que os artigos forem saindo, prometo que volto neste assunto.</p><p name="ee0d" id="ee0d" class="graf graf--p graf-after--p">Com o editor aberto, digite o código abaixo:</p><figure name="93ad" id="93ad" class="graf graf--figure graf--iframe graf-after--p"><script src="https://gist.github.com/ronflima/6f0109df67d48d634f61.js.js"></script></figure><p name="d9c6" id="d9c6" class="graf graf--p graf-after--figure">Este é um exemplo praticamente inútil. Ligue o áudio do seu computador e tecle ⌘R. Isso executará o seu script. Isso fará com que o seu Mac fale com você.</p><p name="adcc" id="adcc" class="graf graf--p graf-after--p">Vamos fazer algo mais útil. Vamos fazer o seu Mac lhe saudar dependendo da hora do dia:</p><figure name="c182" id="c182" class="graf graf--figure graf--iframe graf-after--p"><script src="https://gist.github.com/ronflima/015486d8830ff866d6ce.js.js"></script></figure><p name="5a26" id="5a26" class="graf graf--p graf-after--figure">Este exemplo demonstra algumas coisas importantes:</p><ul class="postList"><li name="104c" id="104c" class="graf graf--li graf-after--p">Como criar variáveis e usá-las</li><li name="bc77" id="bc77" class="graf graf--li graf-after--li">Como criar expressões lógicas</li><li name="1bdf" id="1bdf" class="graf graf--li graf-after--li">Como criar decisões</li></ul><p name="3a25" id="3a25" class="graf graf--p graf-after--li">A instrução <em class="markup--em markup--p-em">set/to</em> é usada para declarar uma variável, atribuindo-lhe um valor. Como já é possível perceber, Applescript é uma linguagem com tipagem dinâmica, ou seja, os tipos das variáveis são determinados pelos valores armazenados nas mesmas.</p><p name="348b" id="348b" class="graf graf--p graf-after--p">Outra coisa interessante são as expressões lógicas. São literais! Sim, é possível usar símbolos com &gt;, &lt;, = como nas linguagens tradicionais. Porém, queria demonstrar que é possível escrever estas expressões de forma literal. Note que escrever scripts em Applescript é quase uma conversa com o computador.</p><p name="296e" id="296e" class="graf graf--p graf-after--p">A instrução <em class="markup--em markup--p-em">current date </em>retorna um objeto que representa a data e hora atuais da máquina. Observe como obtive a hora corrente, armazenada na variável <em class="markup--em markup--p-em">currTime: hours of now</em>. Esta é uma das formas de acessar uma propriedade em um objeto qualquer. Outra forma é usando algo mais interessante: <em class="markup--em markup--p-em">now&#39;s hours</em>. Experimente! Edite o programa e troque a instrução.</p><p name="3336" id="3336" class="graf graf--p graf-after--p">Vamos melhorar nosso exemplo: agora quero que a coisa fique mais pessoal, ou seja, quero que o computador saude-me pelo primeiro nome:</p><figure name="93a3" id="93a3" class="graf graf--figure graf--iframe graf-after--p"><script src="https://gist.github.com/ronflima/5c39b567b921d277ccc6.js.js"></script></figure><p name="aba3" id="aba3" class="graf graf--p graf-after--figure">A estrutura do programa é a mesma. O que mudou foi que obtivemos o nome <em class="markup--em markup--p-em">curto</em> do usuário corrente do sistema e o concatenamos à saudação. Observe que a concatenação se parece muito com a do Visual Basic, na qual usamos o caractere <em class="markup--em markup--p-em">ampersand</em> (&amp;).</p><p name="85fd" id="85fd" class="graf graf--p graf-after--p">A propriedade <em class="markup--em markup--p-em">short user name</em> pertence ao objeto retornado por <em class="markup--em markup--p-em">system info</em>. Observe que foi necessário usar parênteses a <em class="markup--em markup--p-em">system info</em> para que a referência fosse corretamente compreendida pelo Applescript.</p><p name="9a9d" id="9a9d" class="graf graf--p graf-after--p">Bem, isso já é o suficiente por enquanto — senão vou escrever um livro aqui no blog. O Applescript está muito bem documentado no <a href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html#//apple_ref/doc/uid/TP40000983-CH208-SW1" data-href="https://developer.apple.com/library/mac/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html#//apple_ref/doc/uid/TP40000983-CH208-SW1" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank">site de documentação para developers da apple</a>. Infelizmente, a documentação está escrita exclusivamente em inglês.</p><p name="0b7e" id="0b7e" class="graf graf--p graf-after--p graf--trailing"><em class="markup--em markup--p-em">Happy scripting!</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/3dfe7590035"><time class="dt-published" datetime="2016-03-26T14:50:39.085Z">March 26, 2016</time></a>.</p><p><a href="https://medium.com/@ronaldolima/introdu%C3%A7%C3%A3o-ao-applescript-3dfe7590035" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

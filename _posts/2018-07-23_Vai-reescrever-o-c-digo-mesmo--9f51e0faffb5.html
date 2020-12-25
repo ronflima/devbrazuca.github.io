@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Vai reescrever o código mesmo?</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Vai reescrever o código mesmo?</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Você não sabe o tamanho da merda que está fazendo.
+</section>
+<section data-field="body" class="e-content">
+<section name="d277" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="98f4" id="98f4" class="graf graf--h3 graf--leading graf--title">Vai reescrever o código mesmo?</h3><h4 name="f386" id="f386" class="graf graf--h4 graf-after--h3 graf--subtitle">Você não sabe o tamanho da merda que está fazendo.</h4><figure name="d30e" id="d30e" class="graf graf--figure graf-after--h4"><img class="graf-image" data-image-id="1*uhb_Di-QUNm4KxaY5_7bDQ.jpeg" data-width="1024" data-height="768" src="https://cdn-images-1.medium.com/max/800/1*uhb_Di-QUNm4KxaY5_7bDQ.jpeg"></figure><p name="05b1" id="05b1" class="graf graf--p graf-after--figure">Código antigo é feio. Mas é feio por um motivo: passou por muita manutenção, umas boas, outras ruins. E veio agregando conhecimento ao longo do tempo. Código antigo é inegavelmente estável. Tudo quanto é defeito que tinha que dar já deu. A tendência é que, com o tempo, achar novos defeitos torne-se cada vez mais difícil.</p><blockquote name="9f9f" id="9f9f" class="graf graf--pullquote graf-after--p">É arrogância achar que você consegue reescrever todo o código em pouco tempo.</blockquote><p name="f9e3" id="f9e3" class="graf graf--p graf-after--pullquote">Normalmente o código fica feio à medida em que envelhece. E torna-se cada vez mais difícil de manter, mas não por que você escolheu mal sua arquitetura ou estrutura, mas por que as premissas nas quais o código foi originalmente baseado mudaram bastante ao longo do tempo. Assim, é importante reestruturar o seu código, o que é diferente de reescrever.</p><p name="3c60" id="3c60" class="graf graf--p graf-after--p">Por mais que você seja bom, ou que tenha mantido o código por tempo demais, é arrogância achar que você consegue reescrever todo o código em pouco tempo ou com custo baixo. O fato é que você não tem todo o conhecimento necessário para escrever todo o código novamente. A História está repleta de casos nos quais a reescrita terminou em desastre, sendo o mais notório o caso da <em class="markup--em markup--p-em">Wordstar</em>.</p><h4 name="ce6c" id="ce6c" class="graf graf--h4 graf-after--p">Risco</h4><p name="f1f6" id="f1f6" class="graf graf--p graf-after--h4">Reescrever todo o seu código é extremamente arriscado. E caro. Você corre o risco de entregar um novo produto que tem features diferentes do produto original, ou um <em class="markup--em markup--p-em">feature set</em> menor e incompatível. Além disso, o seu código <em class="markup--em markup--p-em">novo</em> poderá conter novos bugs, ser instável em determinadas condições.</p><p name="825c" id="825c" class="graf graf--p graf-after--p">Empresas pequenas que se arriscam a reescrever seus produtos do zero invariavelmente terminam fechando as portas devido ao alto investimento que está embutido na reescrita de código.</p><h4 name="116d" id="116d" class="graf graf--h4 graf-after--p">Reestruturar x Reescrever</h4><p name="0629" id="0629" class="graf graf--p graf-after--h4">Como eu disse, o código antigo foi criado com base em outras premissas, se comparado com o código atual. Reescrever exige um alto investimento em tempo, dinheiro e recursos diversos. Reestruturar, por outro lado, exige bem menos esforço apesar de exigir algum tipo de investimento. Porém, reestruturar é um custo que faz parte do ciclo de vida do seu software. Com o passar do tempo, torna-se imperativo reestruturar o seu código no intuito de simplificar a manutenção, tanto corretiva quanto evolutiva.</p><p name="b2d1" id="b2d1" class="graf graf--p graf-after--p">Mas… O que reestruturar? Aqui vai uma listinha rápida:</p><ul class="postList"><li name="4665" id="4665" class="graf graf--li graf-after--p">funções ou métodos muito extensos podem ser quebrados em elementos menores. Muitas vezes, podem acrescentar novas classes específicas no caso de linguagens orientadas ao objeto, criando uma composição na qual algumas funcionalidades ficam especificamente centradas em determinadas classes, simplificando a manutenção;</li><li name="89a0" id="89a0" class="graf graf--li graf-after--li">diminuição de acoplamento. Tente revisar as interfaces entre as partes do seu código no intuito de minimizar o acoplamento entre elas. O acoplamento temporal é particularmente difícil de ser retirado e muitas vezes, impossível por haver dependências no workflow da sua aplicação. Porém, quanto menos acoplado estiver seu código menor será a probabilidade de aconteceu o <em class="markup--em markup--li-em">mexeu aqui, quebrou num lugar nada a ver;</em></li><li name="8111" id="8111" class="graf graf--li graf-after--li">reorganização do grafo de classes, no caso de linguagens orientadas ao objeto. Muitas vezes algo difícil de fazer e que precisa ser executado de maneira vagarosa, limitada e consciente pois mexe diretamente na estrutura funcional e no modelo da sua aplicação;</li><li name="29f6" id="29f6" class="graf graf--li graf-after--li">revisão do sincronismo, caso sua aplicação funcione de maneira paralela. Normalmente há excesso de sincronismo nas aplicações, o que leva a perda considerável de performance. Porém, código paralelo tende a ser de revisão complexa por tratar de eventos aleatórios no decorrer do tempo: nunca se sabe quando determinado trecho estará em execução, mesmo dentro de seções críticas;</li><li name="3431" id="3431" class="graf graf--li graf-after--li">limpeza de coisas inúteis, como variáveis declaradas e não usadas, funções que não são chamadas e elementos que existam no código sem necessidade. Menos código é menos coisa para ler e menos coisa para dar pau.</li></ul><p name="b66f" id="b66f" class="graf graf--p graf-after--li">Não se prenda a esta listinha. Saiba que há muito mais o que fazer além destes itens. Listei aqui o que eu considero o mais grave e imediato. Na verdade, a lista é interminável.</p><h4 name="732b" id="732b" class="graf graf--h4 graf-after--p">Como reestruturar?</h4><p name="3c6b" id="3c6b" class="graf graf--p graf-after--h4">Não preciso dizer que <em class="markup--em markup--p-em">big bang</em> é uma péssima ideia. Se você não sabe o que é o tal <em class="markup--em markup--p-em">big bang</em>, aqui vai: é fazer tudo de uma vez. Ao invés de querer arrumar sua base de código toda de uma vez, faça-o de forma incremental. Isso diminui o risco, minimiza os custos e faz o seu software permanecer estável enquanto o trabalho é desenvolvido.</p><p name="3490" id="3490" class="graf graf--p graf-after--p">Se sua equipe trabalha em ciclos, afinal o desenvolvimento ágil está na moda, basta adicionar em cada ciclo alguma estória de reestruturação. Isso ajuda a manter seu software crescendo e melhorando a cada dia, até o fim do ciclo de vida.</p><h4 name="1743" id="1743" class="graf graf--h4 graf-after--p">Hora de otimizar</h4><p name="e65f" id="e65f" class="graf graf--p graf-after--h4">Reestruturação de software praticamente rima com otimização. Normalmente o software legado ou mais antigo tem problemas de otimização. Por que não otimizar enquanto se reestrutura? Minimizar <em class="markup--em markup--p-em">loops</em>, melhorar algoritmos, tudo isso é parte da reestruturação do seu software. Certamente você terá mudanças no modelo de dados como parte das otimizações.</p><p name="3000" id="3000" class="graf graf--p graf-after--p">E aqui está um tema importante: não há nada no seu software que não possa ser melhorado.</p><h4 name="a003" id="a003" class="graf graf--h4 graf-after--p">Não existe código imexível</h4><p name="b552" id="b552" class="graf graf--p graf-after--h4">Ah, certamente você já ouviu aquela: não mexa aí por que está funcionando. Este é um mito que provoca um inchaço no seu software à medida em que o código envelhece. Como ninguém mexe naquela parte do código, a evolução é feita por fora, através de interfaces complicadas e que tendem a um nível de complexidade alto, pois ninguém mexe no código <em class="markup--em markup--p-em">imexível</em>.</p><p name="f4e4" id="f4e4" class="graf graf--p graf-after--p">Se você for realizar alguma reestruturação, saiba que toda e qualquer parte do código é passível de passar por este processo. As partes mais complexas, óbvio, exigem maior cuidado, principalmente se houver grande acoplamento de outras partes do código em relação ao que está sendo reestruturado.</p><h4 name="bea1" id="bea1" class="graf graf--h4 graf-after--p">Atualização de Frameworks/Infraestrutura</h4><p name="9d9a" id="9d9a" class="graf graf--p graf-after--h4">Tá aí uma questão importante, principalmente para linguagens dinâmicas que usam frameworks para tudo. Atualizar a versão da linguagem juntamente com a do framework pode ser algo bastante doloroso, principalmente no que diz respeito a interfaces que se tornaram obsoletas.</p><p name="e0c7" id="e0c7" class="graf graf--p graf-after--p">É preciso fazer isto com calma. Uma mudança radical de versão pode ser desastrosa, ainda mais se o seu sistema for muito grande. Nestes casos, é interessante atualizar o seu sistema devagar, uma versão de cada vez, até atingir a versão desejada. Dependendo do tempo que seu sistema ficou sem atualização de infraestrutura/framework, pular diretamente para as últimas versões podem lhe dar uma bela dor-de-cabeça.</p><h4 name="77db" id="77db" class="graf graf--h4 graf-after--p">Comentários!</h4><p name="a2f7" id="a2f7" class="graf graf--p graf-after--h4">Como última dica, melhore os comentários do código também. Os comentários podem ficar, rapidamente, desatualizados, levando o leitor do código a uma leitura incorreta e a uma interpretação incorreta do que está no código. Assim, atualize os comentários também. Afinal, eles fazem parte da estrutura do seu código.</p><p name="9561" id="9561" class="graf graf--p graf-after--p graf--trailing">Happy coding!</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/9f51e0faffb5"><time class="dt-published" datetime="2018-07-23T14:53:18.568Z">July 23, 2018</time></a>.</p><p><a href="https://medium.com/@ronaldolima/vai-reescrever-o-c%C3%B3digo-mesmo-9f51e0faffb5" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

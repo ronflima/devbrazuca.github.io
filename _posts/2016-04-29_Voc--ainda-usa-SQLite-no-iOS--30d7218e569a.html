@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Você ainda usa SQLite no iOS?</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">Você ainda usa SQLite no iOS?</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Existe coisa melhor do que escrever select na mão.
+</section>
+<section data-field="body" class="e-content">
+<section name="8fca" class="section section--body section--first section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h3 name="d2b1" id="d2b1" class="graf graf--h3 graf--leading graf--title">Você ainda usa SQLite no iOS?</h3><h4 name="9ace" id="9ace" class="graf graf--h4 graf-after--h3 graf--subtitle">Existe coisa melhor do que escrever select na mão.</h4><figure name="4921" id="4921" class="graf graf--figure graf--layoutOutsetLeft graf-after--h4"><img class="graf-image" data-image-id="1*Gm-OI6Z9WZOBj6vqnw5K0g.png" data-width="925" data-height="925" src="https://cdn-images-1.medium.com/max/600/1*Gm-OI6Z9WZOBj6vqnw5K0g.png"></figure><p name="e6ad" id="e6ad" class="graf graf--p graf-after--figure">Muitos programadores iOS ainda insistem em usar SQLite como storage dos seus aplicativos sem se dar conta de que existe algo muito melhor, mais confiável e que já traz uma série de funcionalidades prontas e bem integradas ao Cocoa Touch.</p><p name="3abb" id="3abb" class="graf graf--p graf-after--p">Sim, é válido usar o SQLite para salvar suas coisas e organizar a persistência do seu app. Porém, é preciso escrever muito <em class="markup--em markup--p-em">boiler plate</em> <em class="markup--em markup--p-em">code</em> para iniciar o database, ler e salvar coisas. Além disso, coisas como <em class="markup--em markup--p-em">undo, redo</em> e garantia de salvamento se tornam tarefas enfadonhas com o SQLite, exigindo toda uma camada de código chatíssima de ser feita e que, via de regra, acaba virando um monte de código repetido para cada projeto.</p><p name="4e5d" id="4e5d" class="graf graf--p graf-after--p">Sim, meus caros amigos, existe coisa melhor do que o SQLite. O mais curioso é que o driver padrão para salvamento de dados é justamente o SQLite. Estou falando de uma tecnologia do Cocoa e Cocoa Touch chamada <strong class="markup--strong markup--p-strong">Core Data</strong>. Antes de ir adiante, permitam-me discorrer sobre o que o Core Data <strong class="markup--strong markup--p-strong">não é</strong>: um banco de dados.</p><p name="a44f" id="a44f" class="graf graf--p graf-after--p">O Core Data não é um banco de dados. Tampouco pode-se considerar o Core Data um ORM. O ORM é usado para mapear um banco de dados relacional para um grafo de objetos, compatibilizando os dois modelos. O Core Data não faz isso. Na verdade, o Core Data implementa um grafo de objetos com a possibilidade de persistir este grafo de alguma forma. Como é projetado em camadas de maneira desacoplada, uma mudança no esquema de dados não reflete uma mudança no grafo de objetos, como o faria um ORM.</p><p name="f6c3" id="f6c3" class="graf graf--p graf-after--p">O Core Data suporta dois tipos de <em class="markup--em markup--p-em">store</em>: os stores atômicos e os stores incrementais. Os stores atômicos são úteis quando é necessário salvar todo o grafo de uma vez e quando o grafo é suficientemente pequeno. O XML é um exemplo de store atômico. O store incremental é usado para grandes volumes de dados, sendo que um dos padrões é o store baseado em SQLite.</p><p name="a151" id="a151" class="graf graf--p graf-after--p">O fato é que os conceitos que envolvem o Core Data são um pouco mais complexos devido aos cenários para os quais o mesmo foi adaptado para funcionar. A própria Apple diz que o Core Data é uma tecnologia sofisticada e sou obrigado a concordar com eles. E como toda tecnologia sofisticada, há suas pegadinhas.</p><p name="72cb" id="72cb" class="graf graf--p graf-after--p">Mas, vale a pena aprender a usar o Core Data? A resposta é um estrondoso <strong class="markup--strong markup--p-strong">sim<em class="markup--em markup--p-em">. </em></strong>As vantagens oferecidas pela tecnologia são muito superiores à dificuldade inicial de aprender a usá-la. Algumas coisas que o Core Data lhe dá de graça:</p><ul class="postList"><li name="4f91" id="4f91" class="graf graf--li graf-after--p">controle de undo, redo automático, com integração ao <em class="markup--em markup--li-em">shake to undo</em> do iPhone, sem necessidade de <em class="markup--em markup--li-em">boiler plate code</em>.</li><li name="eea1" id="eea1" class="graf graf--li graf-after--li">garantia de persistência quando o aplicativo é desligado pelo usuário.</li><li name="415e" id="415e" class="graf graf--li graf-after--li"><em class="markup--em markup--li-em">lazy load</em> dos dados, o que economiza memória e outros recursos.</li><li name="36b0" id="36b0" class="graf graf--li graf-after--li"><em class="markup--em markup--li-em">faulting</em>, um recurso que permite que uma instância seja carregada da persistência uma única vez, independente do contexto onde isso acontece.</li><li name="6a4a" id="6a4a" class="graf graf--li graf-after--li">Migração de dados automatizada, com inferência de mudanças em casos simples e alterações simplificadas em casos mais complexos.</li></ul><p name="5469" id="5469" class="graf graf--p graf-after--li">Esta é uma lista tímida e pequenina dos benefícios, esta é a verdade. Estes são os pontos que considero os mais importantes da tecnologia, com especial atenção ao Lazy Load e ao Faulting.</p><p name="a99f" id="a99f" class="graf graf--p graf-after--p">O Lazy Load é tão fantástico que se um objeto tem uma dependência de outro através de uma propriedade, a propriedade só é carregada quando alguém faz uma referência a ela através de um getter ou setter. Isso pode parecer pouco, mas economiza um bocado de memória, fazendo com que a gestão do grafo de objetos seja o ponto alto do Core Data.</p><p name="4619" id="4619" class="graf graf--p graf-after--p">O Faulting é outra coisa fantástica. Se você alterar um objeto em um contexto e depois usá-lo em outro, as alterações que você realizou já serão acessíveis pois não é necessário recarregar nada da persistência pois o Core Data garante que um objeto deserializado sempre será o mesmo, não importa onde você o obteve. Assim, você pode obter uma instância em um controller e depois em outro controller que é garantido serem exatamente a mesma instância.</p><p name="e3d8" id="e3d8" class="graf graf--p graf-after--p">Outra coisa bacana é o editor de modelo de dados. É todo visual. Você cria as classes, cria relacionamentos, atributos, validações e mais uma série de coisas sem a necessidade de escrever absolutamente nenhuma linha de código. Por outro lado, também é possível definir toda a sua estrutura de classes por código.</p><p name="3875" id="3875" class="graf graf--p graf-after--p">As buscas no Core Data são feitas através de <em class="markup--em markup--p-em">fetch requests. </em>Você pode ordenar os resultados da mesma forma como ordena arrays, através de sort descriptors. A filtragem dos resultados é obtida através de <em class="markup--em markup--p-em">predicates</em>. Ou seja, toda a tecnologia está muito bem integrada ao restante do Cocoa e do Cocoa Touch.</p><p name="a79b" id="a79b" class="graf graf--p graf-after--p graf--trailing">Efetivamente programa-se integralmente em Objective C ou Swift, sem a necessidade de escrever algo numa linguagem de consulta. O código, portanto, fica bem homogêneo, sem strings com instruções como <em class="markup--em markup--p-em">select </em>ou <em class="markup--em markup--p-em">update</em>.</p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/30d7218e569a"><time class="dt-published" datetime="2016-04-29T12:36:10.393Z">April 29, 2016</time></a>.</p><p><a href="https://medium.com/@ronaldolima/voc%C3%AA-ainda-usa-sqlite-no-ios-30d7218e569a" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>

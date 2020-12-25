@@ -1,0 +1,72 @@
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>A dificuldade de programar orientado ao objeto</title><style>
+      * {
+        font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 50px;
+        margin-bottom: 17px;
+        color: #333;
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 1.6;
+        margin: 30px 0 0 0;
+        margin-bottom: 18px;
+        margin-top: 33px;
+        color: #333;
+      }
+      h3 {
+        font-size: 30px;
+        margin: 10px 0 20px 0;
+        color: #333;
+      }
+      header {
+        width: 640px;
+        margin: auto;
+      }
+      section {
+        width: 640px;
+        margin: auto;
+      }
+      section p {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #333;
+      }
+      section img {
+        max-width: 640px;
+      }
+      footer {
+        padding: 0 20px;
+        margin: 50px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .aspectRatioPlaceholder {
+        max-width: auto !important;
+        max-height: auto !important;
+      }
+      .aspectRatioPlaceholder-fill {
+        padding-bottom: 0 !important;
+      }
+      header,
+      section[data-field=subtitle],
+      section[data-field=description] {
+        display: none;
+      }
+      </style></head><body><article class="h-entry">
+<header>
+<h1 class="p-name">A dificuldade de programar orientado ao objeto</h1>
+</header>
+<section data-field="subtitle" class="p-summary">
+Este artigo é fruto de algumas observações que venho fazendo já há algum tempo. Bom, aprendi a programar orientado ao objeto ainda no Turbo…
+</section>
+<section data-field="body" class="e-content">
+<section name="c931" class="section section--body section--first"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><h2 name="2aaa" id="2aaa" class="graf graf--h2 graf--leading graf--title">A dificuldade de programar orientado ao objeto</h2><figure name="fb6d" id="fb6d" class="graf graf--figure graf-after--h2"><img class="graf-image" data-image-id="0*FnipXdVL1WVjGrP5.png" data-width="100" data-height="100" src="https://cdn-images-1.medium.com/max/800/0*FnipXdVL1WVjGrP5.png"></figure><p name="9826" id="9826" class="graf graf--p graf-after--figure">Este artigo é fruto de algumas observações que venho fazendo já há algum tempo. Bom, aprendi a programar orientado ao objeto ainda no Turbo Pascal 5.5, o primeiro compilador Pascal da Borland que suportava a programação orientada ao objeto. Na época, a Borland já tinha um compilador C++. Isso foi há mais de 20 anos. De lá para cá, a forma de abstrair os requisitos e modelá-los em objetos mudou bastante. Hoje, a programação orientada ao objeto é um misto de programação funcional, procedural e orientada ao objeto.</p><p name="89e2" id="89e2" class="graf graf--p graf-after--p">Muita gente acha que programar orientado ao objeto é sair escrevendo uma montanha de classes e interações entre elas. Existe uma premissa que, atualmente, é francamente ignorada: é preciso projetar o seu software antes de escrever a primeira linha de código.</p><p name="5974" id="5974" class="graf graf--p graf-after--p">A primeira coisa é como transformar os dados em informações úteis e, por fim, como estruturar estas informações em grafos, organizando suas dependências e quais operações são viáveis com cada informação. Já deu para sacar que a programação orientada ao objeto parte da suposição, que hoje sabemos ser incorreta, de que você tem toda a informação que precisa para modelar seu software no início do seu projeto.</p><p name="e822" id="e822" class="graf graf--p graf-after--p">Como hoje usamos algum tipo de método iterativo para desenvolver software, fica complicado demais escrever software orientado ao objeto sem ter todas as informações na largada. O pior: muitas vezes é necessária uma mudança radical no grafo de objetos devido a uma dependência que não foi inicialmente prevista.</p><p name="1890" id="1890" class="graf graf--p graf-after--p">Porém, essa limitação da POO foi solucionada com o uso de <em class="markup--em markup--p-em">design patterns</em>: Façades, MVCs, por exemplo, isolam o modelo de dados do restante da sua aplicação e permitem que você altere o seu modelo de dados com impacto minimizado para o restante do sistema.</p><h3 name="80cf" id="80cf" class="graf graf--h3 graf-after--p">Herança</h3><p name="3f8f" id="3f8f" class="graf graf--p graf-after--h3">A herança foi uma das grandes <em class="markup--em markup--p-em">features</em> da programação orientada ao objeto durante anos, principalmente devido à possibilidade de reutilização de código, generalização e especialização. Porém, a herança tem um custo que normalmente se traduz em performance.</p><p name="4cf0" id="4cf0" class="graf graf--p graf-after--p">Cadeias de hierarquia muito profundas fazem com que chamadas de métodos em super classes causem buscas custosas nas tabelas virtuais das classes, atrasando em vários microssegundos a ativação de um método. Pode parecer pouco, mas um microssegundo é uma eternidade em termos computacionais.</p><p name="7066" id="7066" class="graf graf--p graf-after--p">Hoje em dia prefere-se a implementação de interfaces do que a herança justamente por este motivo, em um esquema de programação chamado de programação orientada a contrato. A interface é o contrato que a classe que implementa-a tem de cumprir para ser corretamente ativada.</p><p name="9e69" id="9e69" class="graf graf--p graf-after--p">Objective C implementou este princípio pela primeira vez através da adoção de um princípio chamado de <em class="markup--em markup--p-em">protocolo</em>. Logo foi seguida por Eiffel e Java. Para quem não sabe, Objective C apareceu em 1983 através de uma pequena empresa chamada Stepstone, Eiffel em 1985 e Java em 1995.</p><h3 name="ce21" id="ce21" class="graf graf--h3 graf-after--p">Por que é complicado?</h3><p name="eee2" id="eee2" class="graf graf--p graf-after--h3">Ao contrário da programação procedural, a programação orientada ao objeto exige um alto grau de abstração. Os modelos orientados ao objeto acabam se tornando mais abstratos e mais complexos, principalmente no tocante à dependência funcional e temporal entre entidades.</p><p name="6168" id="6168" class="graf graf--p graf-after--p">Com o encapsulamento, torna-se mais difícil, em alguns casos, identificar as dependências. Nem sempre você tem o código-fonte da super-classe que está usando.</p><p name="f43e" id="f43e" class="graf graf--p graf-after--p">Ideias como hierarquias de classes e grafos de objetos são, por si só, bastante sofisticadas do ponto-de-vista computacional. Comparando com a programação procedural, é muito mais fácil descrever-se um fluxo de trabalho do que descrever interações entre classes distintas de dados.</p><h3 name="986b" id="986b" class="graf graf--h3 graf-after--p">Semântica Procedural</h3><p name="73b0" id="73b0" class="graf graf--p graf-after--h3">Eu tenho visto muito código que é sintaticamente orientado ao objeto mas que semanticamente é procedural. Por que isso é ruim? Por conta das dependências que isso gera. Por exemplo, já vi código cheio de <em class="markup--em markup--p-em">helpers</em> que nada mais são que um <em class="markup--em markup--p-em">namespace</em> para funções que não compartilham nenhum estado entre si. Isso não é POO, mas uma forma de infringir a POO através da semântica.</p><p name="7f22" id="7f22" class="graf graf--p graf-after--p">Eu comecei a detectar isso em código java, primeiramente, principalmente em código que executa dentro de containers JEE. Justamente por não permitir nenhuma forma de função, java é uma linguagem na qual os programadores infringem a POO usando <em class="markup--em markup--p-em">design patterns</em> ou construções da própria linguagem, como o uso de métodos de classe.</p><p name="d7e4" id="d7e4" class="graf graf--p graf-after--p">O efeito disso é código complexo, acredite. Classes com excesso de responsabilidades, classes sem responsabilidade alguma que funcionam simplesmente como estruturas de dados sem inteligência. É comum, também, ver código altamente acoplado através do uso exacerbado de <em class="markup--em markup--p-em">singletons, </em>algo que chamo de <em class="markup--em markup--p-em">a forma sofisticada de criar uma variável global</em>.</p><h3 name="abcb" id="abcb" class="graf graf--h3 graf-after--p">O que fazer?</h3><p name="3f99" id="3f99" class="graf graf--p graf-after--h3">Programar orientado ao objeto não é simplesmente sair criando classe. É preciso projetar o seu código de forma consciente. É um trabalho iterativo que segue a sequência <em class="markup--em markup--p-em">projeta-escreve-testa-corrige</em> indefinidamente, durante toda a duração do projeto.</p><p name="a7fa" id="a7fa" class="graf graf--p graf-after--p">O fato é que programar orientado ao objeto é um paradigma e não uma tecnologia. Antes de aprender a linguagem, é importante compreender o paradigma para, só depois, aprender a linguagem que expressa, sintaticamente, a POO. É possível programar orientado ao objeto mesmo em linguagens inerentemente procedurais, como C. A Win32, da Microsoft, é escrita integralmente em C e é totalmente orientada ao objeto. A biblioteca Core Graphics da Apple é escrita em C e é orientada ao objeto.</p><p name="5319" id="5319" class="graf graf--p graf-after--p graf--trailing">Portanto, a minha dica é: para dominar a POO é preciso, primeiro, dominar o paradigma para, só depois, dominar uma linguagem. Caso contrário, você se torna o autor do caos, escrevendo código que sintaticamente é orientado ao objeto, mas cuja semântica é totalmente procedural.</p></div></div></section><section name="5535" class="section section--body section--last"><div class="section-divider"><hr class="section-divider"></div><div class="section-content"><div class="section-inner sectionLayout--insetColumn"><p name="0c53" id="0c53" class="graf graf--p graf--leading graf--trailing"><em class="markup--em markup--p-em">Originally published at </em><a href="http://www.ronaldolima.eti.br/2015/06/27/a-dificuldade-de-programar-orientado-ao-objeto/" data-href="http://www.ronaldolima.eti.br/2015/06/27/a-dificuldade-de-programar-orientado-ao-objeto/" class="markup--anchor markup--p-anchor" rel="noopener" target="_blank"><em class="markup--em markup--p-em">www.ronaldolima.eti.br</em></a><em class="markup--em markup--p-em"> on June 27, 2015.</em></p></div></div></section>
+</section>
+<footer><p>By <a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a> on <a href="https://medium.com/p/bdf5d0f643f5"><time class="dt-published" datetime="2015-07-05T16:12:34.485Z">July 5, 2015</time></a>.</p><p><a href="https://medium.com/@ronaldolima/a-dificuldade-de-programar-orientado-ao-objeto-bdf5d0f643f5" class="p-canonical">Canonical link</a></p><p>Exported from <a href="https://medium.com">Medium</a> on December 25, 2020.</p></footer></article></body></html>
