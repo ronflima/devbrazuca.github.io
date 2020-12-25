@@ -14,20 +14,20 @@
 /**************/
 
 html {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+    background: $white;
+    font: 18px/1.4 $helvetica;
+    color: $darkGray;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+    margin: 0 auto;
+    max-width: 740px;
+    padding: 0 10px;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,7 +65,8 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+    margin: 15px 0;
+    text-align: justify;
 }
 
 a {
