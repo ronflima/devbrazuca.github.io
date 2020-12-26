@@ -1,13 +1,7 @@
-Conheça os operadores Bitwise
-=============================
-
-O operador é um dos blocos construtivos básicos de qualquer linguagem de
-programação moderna. A primeira coisa que se aprende em qualquer…
-
-------------------------------------------------------------------------
-
-Conheça os operadores Bitwise
------------------------------
+---
+layout: post
+title: Conheça os operadores Bitwise
+---
 
 O operador é um dos blocos construtivos básicos de qualquer linguagem de
 programação moderna. A primeira coisa que se aprende em qualquer
@@ -90,7 +84,9 @@ flags. Para testar se um determinado flag está ativo, basta fazer isto:
 Para ajustar um conjunto de flags dentro de uma palavra binária, é
 igualmente simples:
 
+```
 flag = kCFCalendarUnitEra | kCFCalendarUnitYear | kCFCalendarUnitDay;
+```
 
 Agora que você já sabe o que são os bitwises e como usá-los, vai mesmo
 continuar criando aquele monte de flags booleanos no seu software?
