@@ -1,16 +1,11 @@
-Bypass no modem Humax da NET
-============================
+---
+layout: post
+title: Bypass no modem Humax da NET
+---
 
-Eu trabalho em casa, no famoso esquema home office. Assim, dependo da
-conexão da NET para que minha atividade possa ser levada à cabo.
+![modem humax](/images/2015-06-15-Bypass-no-modem-Humax-da-NET-01.jpeg)
 
-------------------------------------------------------------------------
-
-### Bypass no modem Humax da NET
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*jaQXAz6lGpPQKIqer6oHwA.jpeg" class="graf-image" />
-</figure>Eu trabalho em casa, no famoso esquema *home office*. Assim,
+Eu trabalho em casa, no famoso esquema *home office*. Assim,
 dependo da conexão da NET para que minha atividade possa ser levada à
 cabo.
 
@@ -82,9 +77,9 @@ que você imagina. Entre em *Advanced Network Settings* e depois em
 uma aba *Definir* (ou Settings). Clique nesta aba e depois procure pela
 opção *Modo Switch*.
 
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*8IpC6usqwdenveI6dQYRwg.png" class="graf-image" />
-</figure>Na caixa de seleção desta opção, selecione *Bridge*. Salve e é
+![tela](/images/2015-06-15-Bypass-no-modem-Humax-da-NET-02.png)
+
+Na caixa de seleção desta opção, selecione *Bridge*. Salve e é
 só isso. A partir daí o seu modem passa a funcionar no modo bypass sem a
 necessidade de informar MAC Address e mais nada.
 
@@ -92,11 +87,3 @@ Lembre-se, porém, de desligar o rádio do seu modem. Em *Sem Fio (ou
 Wireless)*, vá em *Rede Primária* e desative-a. Esta última atualização
 do modem não permite que você desligue o rádio na opção *Rádio*. Porém,
 isto é suficiente para desligar o wi-fi deste equipamento.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [June 15, 2015](https://medium.com/p/f04a3af0a3e4).
-
-<a href="https://medium.com/@ronaldolima/bypass-no-modem-humax-da-net-f04a3af0a3e4" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
