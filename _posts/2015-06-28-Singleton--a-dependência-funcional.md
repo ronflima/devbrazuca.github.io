@@ -1,16 +1,11 @@
-Singleton: a dependência funcional
-==================================
+---
+layout: post
+title: Singleton: a dependência funcional
+---
 
-De todos os design patterns, o singleton é talvez o mais popular. É
-simples de ser implementado, simples de ser demonstrado e simples de…
+![singleton](/images/2015-06-28-Singleton--a-dependência-funcional.jpeg)
 
-------------------------------------------------------------------------
-
-### Singleton: a dependência funcional
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*U2J-lhHhNvec6-MbD8p76A.jpeg" class="graf-image" />
-</figure>De todos os *design patterns*, o *singleton* é talvez o mais
+De todos os *design patterns*, o *singleton* é talvez o mais
 popular. É simples de ser implementado, simples de ser demonstrado e
 simples de ser entendido. É igualmente simples de causar transtornos no
 seu software.
@@ -46,11 +41,3 @@ Assim, o seu código fica mais simples de ser compreendido e as
 dependências ficam explícitas. O reaproveitamento deste código torna-se
 mais simples pois basta criar uma instância da classe mandatória em
 outro contexto.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [June 28, 2015](https://medium.com/p/d56b8ebdbf51).
-
-<a href="https://medium.com/@ronaldolima/singleton-a-depend%C3%AAncia-funcional-d56b8ebdbf51" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
