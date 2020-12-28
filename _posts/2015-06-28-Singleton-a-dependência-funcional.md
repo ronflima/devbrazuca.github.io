@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Singleton: a dependência funcional
+title: "Singleton: a dependência funcional"
 ---
 
 ![singleton](/images/2015-06-28-Singleton--a-dependência-funcional.jpeg)
