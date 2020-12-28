@@ -1,17 +1,11 @@
-Argumentando algoritmos com assertivas
-======================================
+---
+layout: post
+title: Argumentando algoritmos com assertivas
+---
 
-As assertivas apareceram, inicialmente, na linguagem C, através do
-arquivo de cabeçalho assert.h. As assertivas são normalmente associadas…
+![argumentação de algoritmos](/images/2015-07-04-Argumentando-algoritmos-com-assertivas.jpeg)
 
-------------------------------------------------------------------------
-
-Argumentando algoritmos com assertivas
---------------------------------------
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*BojhFMcBWL7pNIplk4e-ow.jpeg" class="graf-image" />
-</figure>As assertivas apareceram, inicialmente, na linguagem C, através
+As assertivas apareceram, inicialmente, na linguagem C, através
 do arquivo de cabeçalho *assert.h*. As assertivas são normalmente
 associadas a código de depuração e há quem as defenda em código de
 produção. A ideia da assertiva é ter uma ferramenta para argumentar
@@ -61,17 +55,3 @@ instrumentação por questões de performance.
 O uso de assertivas permite que você rapidamente saiba por que
 determinado bug ocorre, facilitando inclusive técnicas de
 desenvolvimento como o TDD ou o BDD.
-
-------------------------------------------------------------------------
-
-*Originally published at*
-<a href="http://www.ronaldolima.eti.br/2015/02/14/argumentando-algoritmos-com-assertivas/" class="markup--anchor markup--p-anchor"><em>www.ronaldolima.eti.br</em></a>
-*on February 14, 2015.*
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [July 4, 2015](https://medium.com/p/95377c1ea3e5).
-
-<a href="https://medium.com/@ronaldolima/argumentando-algoritmos-com-assertivas-95377c1ea3e5" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
