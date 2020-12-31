@@ -4,7 +4,7 @@ title: Sobre
 permalink: /sobre/
 ---
 
-![gravatar](https://s.gravatar.com/avatar/5c056fe27aa7e852bae7fb8bff186cee?s=80)
+![gravatar](https://s.gravatar.com/avatar/5c056fe27aa7e852bae7fb8bff186cee?s=300)
 
 Sou desenvolvedor profissional há algum tempo. Comecei minha carreira
 como programador em 1994 e desde então já programei em diversas
