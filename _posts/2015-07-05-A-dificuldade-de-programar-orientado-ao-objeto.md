@@ -1,17 +1,12 @@
-A dificuldade de programar orientado ao objeto
-==============================================
+---
+layout: post
+title: A dificuldade de programar orientado ao objeto
+image: https://cdn-images-1.medium.com/max/800/0*FnipXdVL1WVjGrP5.png
+author: ronaldo
+categories: [Desenvolvimento, Programação]
+---
 
-Este artigo é fruto de algumas observações que venho fazendo já há algum
-tempo. Bom, aprendi a programar orientado ao objeto ainda no Turbo…
-
-------------------------------------------------------------------------
-
-A dificuldade de programar orientado ao objeto
-----------------------------------------------
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/0*FnipXdVL1WVjGrP5.png" class="graf-image" />
-</figure>Este artigo é fruto de algumas observações que venho fazendo já
+Este artigo é fruto de algumas observações que venho fazendo já
 há algum tempo. Bom, aprendi a programar orientado ao objeto ainda no
 Turbo Pascal 5.5, o primeiro compilador Pascal da Borland que suportava
 a programação orientada ao objeto. Na época, a Borland já tinha um
@@ -125,16 +120,3 @@ contrário, você se torna o autor do caos, escrevendo código que
 sintaticamente é orientado ao objeto, mas cuja semântica é totalmente
 procedural.
 
-------------------------------------------------------------------------
-
-*Originally published at*
-<a href="http://www.ronaldolima.eti.br/2015/06/27/a-dificuldade-de-programar-orientado-ao-objeto/" class="markup--anchor markup--p-anchor"><em>www.ronaldolima.eti.br</em></a>
-*on June 27, 2015.*
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [July 5, 2015](https://medium.com/p/bdf5d0f643f5).
-
-<a href="https://medium.com/@ronaldolima/a-dificuldade-de-programar-orientado-ao-objeto-bdf5d0f643f5" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
