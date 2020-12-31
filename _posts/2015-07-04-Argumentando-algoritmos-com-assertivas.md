@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Argumentando algoritmos com assertivas
+image: assets/images/2015-07-04-Argumentando-algoritmos-com-assertivas.jpeg
+author: ronaldo
 ---
-
-![argumentação de algoritmos](/images/2015-07-04-Argumentando-algoritmos-com-assertivas.jpeg)
 
 As assertivas apareceram, inicialmente, na linguagem C, através
 do arquivo de cabeçalho *assert.h*. As assertivas são normalmente

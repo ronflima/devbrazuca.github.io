@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Checagem de CPF em C
+image: assets/images/2015-05-31-Checagem-de-CPF-em-C.jpeg
+author: ronaldo
 ---
-
-![image](/images/2015-05-31-Checagem-de-CPF-em-C.jpeg)
 
 Depois de um longo e tenebroso inverno, eis que resolvi escrever um
 pequeno código de exemplo que valida um número arbitrário de CPF.

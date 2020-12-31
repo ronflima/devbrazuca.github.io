@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Conheça os operadores Bitwise
+author: ronaldo
+image: https://miro.medium.com/max/3000/1*KLRByQhD_Lldtaj1Rw_5dg.png
 ---
 
 O operador é um dos blocos construtivos básicos de qualquer linguagem de

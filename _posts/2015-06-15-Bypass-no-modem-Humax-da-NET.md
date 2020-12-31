@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Bypass no modem Humax da NET
+image: assets/images/2015-06-15-Bypass-no-modem-Humax-da-NET-01.jpeg
+author: ronaldo
 ---
-
-![modem humax](/images/2015-06-15-Bypass-no-modem-Humax-da-NET-01.jpeg)
 
 Eu trabalho em casa, no famoso esquema *home office*. Assim,
 dependo da conexão da NET para que minha atividade possa ser levada à
@@ -77,7 +77,7 @@ que você imagina. Entre em *Advanced Network Settings* e depois em
 uma aba *Definir* (ou Settings). Clique nesta aba e depois procure pela
 opção *Modo Switch*.
 
-![tela](/images/2015-06-15-Bypass-no-modem-Humax-da-NET-02.png)
+![tela](/assets/images/2015-06-15-Bypass-no-modem-Humax-da-NET-02.png)
 
 Na caixa de seleção desta opção, selecione *Bridge*. Salve e é
 só isso. A partir daí o seu modem passa a funcionar no modo bypass sem a

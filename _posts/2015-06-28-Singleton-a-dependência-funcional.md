@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Singleton: a dependência funcional"
+image: assets/images/2015-06-28-Singleton--a-dependência-funcional.jpeg
+author: ronaldo
 ---
-
-![singleton](/images/2015-06-28-Singleton--a-dependência-funcional.jpeg)
 
 De todos os *design patterns*, o *singleton* é talvez o mais
 popular. É simples de ser implementado, simples de ser demonstrado e
