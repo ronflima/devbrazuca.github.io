@@ -1,12 +1,12 @@
-Apaga o raio do código!
-=======================
+---
+layout: post
+title: Apaga o raio do código!
+image: https://images.pexels.com/photos/850216/pexels-photo-850216.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1920
+author: ronaldo
+categories: [Programação, Opiniões]
+---
 
-O cenário é bem conhecido de qualquer programador: você está dando
-manutenção em um código e parte do código deixou de ser útil. É a vida…
-
-------------------------------------------------------------------------
-
-### Apaga o raio do código!
+### Apaga o raio do código!
 
 O cenário é bem conhecido de qualquer programador: você está dando
 manutenção em um código e parte do código deixou de ser útil. É a vida,
@@ -57,11 +57,3 @@ confusões no futuro e vai economizar muito tempo seu. O importante hoje
 em dia não é escrever o código mais perfeito do mundo, mas ser rápido
 para dar manutenção no seu código. Se o seu código tem qualidade e é
 rápido de manter, você tem um diferencial de mercado.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [November 1, 2015](https://medium.com/p/a714132ce34d).
-
-<a href="https://medium.com/@ronaldolima/apaga-o-raio-do-c%C3%B3digo-a714132ce34d" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.

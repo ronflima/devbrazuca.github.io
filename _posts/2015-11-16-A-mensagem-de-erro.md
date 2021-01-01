@@ -1,16 +1,12 @@
-A mensagem de erro
-==================
+---
+layout: post
+title: A mensagem de erro
+image: https://cdn-images-1.medium.com/max/800/1*PgPq_cM7S1N-YoUugFJcOQ.png
+author: ronaldo
+categories: [Programação, Opiniões]
+---
 
-Você escreveu aquele software maneiro e quando o usuário foi usar,
-aconteceu uma coisa errada: erro ao salvar o arquivo de dados…
-
-------------------------------------------------------------------------
-
-### A mensagem de erro
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*PgPq_cM7S1N-YoUugFJcOQ.png" alt="Meu sonho de consumo!" class="graf-image" /><figcaption>Meu sonho de consumo!</figcaption>
-</figure>Você escreveu aquele software maneiro e quando o usuário foi
+Você escreveu aquele software maneiro e quando o usuário foi
 usar, aconteceu uma coisa errada: erro ao salvar o arquivo de dados!
 Provavelmente sua empresa vai pedir para você codificar esse erro com
 números hexadecimais, código de erro, código de localização, código de
@@ -63,11 +59,3 @@ Esses sistemas fazem rotação de log, limpeza e arquivamento.
 
 Bom, se você usa sistema de log baseado em biblioteca que você mesmo
 escreveu ou não usa, compre aspirina. Você vai precisar.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [November 16, 2015](https://medium.com/p/42a0ad077986).
-
-<a href="https://medium.com/@ronaldolima/a-mensagem-de-erro-42a0ad077986" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.

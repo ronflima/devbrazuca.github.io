@@ -1,19 +1,18 @@
+---
+layout: post
+title: A mensagem de erro
+image: https://cdn-images-1.medium.com/max/800/1*CiXSct82f-C5AcQmkBzUMw.jpeg
+author: ronaldo
+categories: [Programação, Opiniões]
+---
 A magia do quadro branco
 ========================
 
-Quando estou programando, as ideias voam na cabeça. Com os anos, passei
-a programar menos e a usar mais o meu tempo para projetar o que vou…
-
-------------------------------------------------------------------------
-
-### A magia do quadro branco
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*CiXSct82f-C5AcQmkBzUMw.jpeg" class="graf-image" />
-</figure>Quando estou programando, as ideias voam na cabeça. Com os
-anos, passei a programar menos e a usar mais o meu tempo para projetar o
-que vou fazer. Eu diria que hoje eu gasto 70% do meu tempo pensando no
-que vou fazer e 30% do tempo realmente escrevendo e testando código.
+Quando estou programando, as ideiasQuando estou programando, as ideias
+voam na cabeça. Com os anos, passei a programar menos e a usar mais o
+meu tempo para projetar o que vou fazer. Eu diria que hoje eu gasto
+70% do meu tempo pensando no que vou fazer e 30% do tempo realmente
+escrevendo e testando código.
 
 Sou o *The Flash* da programação? Longe disso. O fato é que quando você
 sabe exatamente o que tem de fazer, fica fácil escrever código. O
@@ -54,11 +53,3 @@ Escrever no quadro branco é gostoso. Dá uma sensação de que o raciocínio
 está fluindo e quebra um pouco a monotonia de ficar sentado usando
 somente o cérebro e a ponta dos dedos. É uma sensação mágica que alivia
 um pouco a tensão de ficar sentado com um problema nas mãos.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [November 21, 2015](https://medium.com/p/8432d41313bc).
-
-<a href="https://medium.com/@ronaldolima/a-magia-do-quadro-branco-8432d41313bc" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
