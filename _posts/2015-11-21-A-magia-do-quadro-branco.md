@@ -1,21 +1,18 @@
 ---
 layout: post
-title: A mensagem de erro
+title: A magia do quadro branco
 image: https://cdn-images-1.medium.com/max/800/1*CiXSct82f-C5AcQmkBzUMw.jpeg
 author: ronaldo
-categories: [Programação, Opiniões]
+categories: [Opiniões, Desenvolvimento]
 ---
-A magia do quadro branco
-========================
 
-Quando estou programando, as ideiasQuando estou programando, as ideias
-voam na cabeça. Com os anos, passei a programar menos e a usar mais o
-meu tempo para projetar o que vou fazer. Eu diria que hoje eu gasto
-70% do meu tempo pensando no que vou fazer e 30% do tempo realmente
-escrevendo e testando código.
+Quando estou programando, as ideias voam na cabeça. Com os anos,
+passei a programar menos e a usar mais o meu tempo para projetar o que
+vou fazer. Eu diria que hoje eu gasto 70% do meu tempo pensando no que
+vou fazer e 30% do tempo realmente escrevendo e testando código.
 
-Sou o *The Flash* da programação? Longe disso. O fato é que quando você
-sabe exatamente o que tem de fazer, fica fácil escrever código. O
+Sou o *The Flash* da programação? Longe disso. O fato é que quando
+você sabe exatamente o que tem de fazer, fica fácil escrever código. O
 problema é saber exatamente o que fazer.
 
 Antigamente, e bota antigamente nisso, eu costumava usar um caderno

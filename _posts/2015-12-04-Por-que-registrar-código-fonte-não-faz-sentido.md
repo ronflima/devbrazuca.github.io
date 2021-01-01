@@ -1,16 +1,12 @@
-Por que registrar código-fonte não faz sentido
-==============================================
+---
+layout: post
+title: Por que registrar código-fonte não faz sentido
+image: https://cdn-images-1.medium.com/max/800/1*Vp_Jv7sjsXUScHoiY-b4tg.jpeg
+author: ronaldo
+categories: [Opiniões, Empreendedorismo]
+---
 
-De tempos em tempos eu vejo alguém defendendo a ideia de realizar
-registro de código-fonte. Os argumentos legais são empolgantes e bem…
-
-------------------------------------------------------------------------
-
-### Por que registrar código-fonte não faz sentido
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*Vp_Jv7sjsXUScHoiY-b4tg.jpeg" class="graf-image" />
-</figure>De tempos em tempos eu vejo alguém defendendo a ideia de
+De tempos em tempos eu vejo alguém defendendo a ideia de
 realizar registro de código-fonte. Os argumentos legais são empolgantes
 e bem fundamentados. Porém, registrar código-fonte não é uma boa ideia,
 principalmente do ponto-de-vista financeiro. É um investimento que, no
@@ -107,11 +103,3 @@ nem é mais o segredo industrial.
 O segredo industrial é o algoritmo, a técnica que levou você a escrever
 determinado código. Se um dia você quiser patentear algo ou registrar
 algo, registre o algoritmo e não o seu código-fonte.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [December 4, 2015](https://medium.com/p/7c1765d38ae9).
-
-<a href="https://medium.com/@ronaldolima/por-que-registrar-c%C3%B3digo-fonte-n%C3%A3o-faz-sentido-7c1765d38ae9" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
