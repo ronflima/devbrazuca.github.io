@@ -1,16 +1,12 @@
-Algoritmos, pra que te quero?
-=============================
+---
+layout: post
+title: Algoritmos, pra que te quero?
+image: https://cdn-images-1.medium.com/max/800/1*xn8Zwy5O8PCndtBzZsx2lQ.png
+author: ronaldo
+categories: [Opiniões, Desenvolvimento, Programação]
+---
 
-Os algoritmos estão dentre as disciplinas que os alunos de computação,
-de uma forma geral, mais detestam. Não é incomum ouvir alguém…
-
-------------------------------------------------------------------------
-
-### Algoritmos, pra que te quero?
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*xn8Zwy5O8PCndtBzZsx2lQ.png" class="graf-image" />
-</figure>Os algoritmos estão dentre as disciplinas que os alunos de
+Os algoritmos estão dentre as disciplinas que os alunos de
 computação, de uma forma geral, mais detestam. Não é incomum ouvir
 alguém dizendo "*por que preciso aprender esta porcaria*", ou "*isso não
 faz diferença nenhuma pois o cliente quer é o produto*". Sim, faz
@@ -48,11 +44,3 @@ dita *programação comercial*, saiba que a compreensão de algoritmos e
 estruturas de dados lhe permitirão criar soluções mais eficientes,
 elegantes, mais simples de manter e com performance muito superior,
 enquanto consumindo menos recursos computacionais.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [August 1, 2015](https://medium.com/p/12f825ca4067).
-
-<a href="https://medium.com/@ronaldolima/algoritmos-pra-que-te-quero-12f825ca4067" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
