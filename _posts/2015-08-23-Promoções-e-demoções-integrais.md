@@ -1,16 +1,12 @@
-Promoções e demoções integrais
-==============================
+---
+layout: post
+title: Promoções e demoções integrais
+image: https://cdn-images-1.medium.com/max/800/1*uw_6qvP2TeHbT55uWFAJSQ.jpeg
+author: ronaldo
+categories: [Programação]
+---
 
-Os números normalmente são negligenciados pelos programadores, de uma
-forma geral. O mais engraçado é que sem os números não existem…
-
-------------------------------------------------------------------------
-
-### Promoções e demoções integrais
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*uw_6qvP2TeHbT55uWFAJSQ.jpeg" class="graf-image" />
-</figure>Os números normalmente são negligenciados pelos programadores,
+Os números normalmente são negligenciados pelos programadores,
 de uma forma geral. O mais engraçado é que sem os números não existem
 programas de computador. Em última instância, tudo em um computador é
 representado por uma sequência de zeros e uns, através da representação
@@ -38,7 +34,7 @@ quando demovemos um ponto flutuante para um inteiro.
 Por que raios isso é importante? Veja a seguinte operação, em linguagem
 Swift:
 
-let a = 3 /2
+    let a = 3 /2
 
 Qual o valor de *a?* Se for diferente de 1, sou mico de circo. E um mico
 bem gordo, diga-se de passagem. Praticamente um orangotango.
@@ -52,11 +48,11 @@ Para evitar o truncamento e obter o resultado de ponto flutuante é
 necessário provocar a promoção de um dos operandos. Ao promover um dos
 operandos, o resultado da operação é, igualmente promovido. Assim:
 
-let b = 3.0 / 2
+    let b = 3.0 / 2
 
 dará como resultado o número 1.5. Porém:
 
-let c = 3 / 2.0
+    let c = 3 / 2.0
 
 também dará o mesmo resultado. A existência de um número de ponto
 flutuante no numerador ou no denominador provoca a promoção de todo o
@@ -69,7 +65,7 @@ para entender para qual tipo é realizada a promoção automática.
 É possível, no entanto, realizar a promoção manual dos tipos. Voltando
 ao exemplo:
 
-let np = Float(3)/2
+    let np = Float(3)/2
 
 Neste exemplo a promoção é feita forçosamente para Float. Observe que 3
 é convertido para Float o que força a promoção de toda a expressão para
@@ -79,13 +75,13 @@ E se quisermos fazer justamente o contrário, ou seja, demover o
 resultado para que seja inteiro? Aqui está uma sugestão que não é a
 melhor:
 
-let d = Int(3.0) / Int(2.0)
+    let d = Int(3.0) / Int(2.0)
 
 O resultado disso é 1. Ambos numerador e denominador foram demovidos.
 Observe que forcei um *cast* para que isso acontecesse. Uma outra forma
 é:
 
-let e = Int(3.0/2.0)
+    let e = Int(3.0/2.0)
 
 ou seja, aplicamos a demoção no resultado da operação.
 
@@ -103,7 +99,7 @@ O *type cast* não é apenas o “cala-boca” de compilador. Trata-se de um
 tipos para avaliação de expressões. Se estivermos escrevendo um código
 em C, teremos:
 
-double f = (double)3/2;
+    double f = (double)3/2;
 
 O *cast* para *double* força a promoção integral de toda a expressão
 para o tipo *double*. Portanto, o *cast* é uma forma de forçar o
@@ -114,16 +110,3 @@ tipo é forçado para outro, algo que ocorre com muita frequência nas
 conversões entre números de precisão diferentes ou tipos integrais
 diferentes (ponto-flutuante para inteiros, por exemplo.
 
-------------------------------------------------------------------------
-
-*Originally published at*
-<a href="http://www.ronaldolima.eti.br/2015/06/18/promocao-e-democao-integrais/" class="markup--anchor markup--p-anchor"><em>www.ronaldolima.eti.br</em></a>
-*on June 18, 2015.*
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [August 23, 2015](https://medium.com/p/fb0ad612aecc).
-
-<a href="https://medium.com/@ronaldolima/promo%C3%A7%C3%B5es-e-demo%C3%A7%C3%B5es-integrais-fb0ad612aecc" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
