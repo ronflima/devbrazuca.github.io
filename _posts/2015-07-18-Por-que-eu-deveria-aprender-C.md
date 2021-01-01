@@ -1,16 +1,12 @@
-Por que eu deveria aprender C?
-==============================
+---
+layout: post
+title: Por que eu deveria aprender C
+image: https://cdn-images-1.medium.com/max/800/1*7JT1y5DcOC6U93G3tCGB4w.png
+author: ronaldo
+categories: [Opiniões, Desenvolvimento, Programação]
+---
 
-C nasceu em 1972 pelas mãos do brilhante Dennis M. Ritchie, falecido em
-2011 alguns meses depois de Steve Jobs. É uma linguagem compacta…
-
-------------------------------------------------------------------------
-
-### Por que eu deveria aprender C?
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*7JT1y5DcOC6U93G3tCGB4w.png" class="graf-image" />
-</figure>C nasceu em 1972 pelas mãos do brilhante Dennis M. Ritchie,
+C nasceu em 1972 pelas mãos do brilhante Dennis M. Ritchie,
 falecido em 2011 alguns meses depois de Steve Jobs. É uma linguagem
 compacta, baseada na Linguagem B, outra linguagem inventada por Dennis
 M. Ritchie em parceria com Ken Thompson, o maior programador de todos os
@@ -50,7 +46,7 @@ que impedem que um programa seja livremente portado de uma plataforma
 para outra, detalhes estes que são facilmente contornados pelo uso de
 uma técnica chamada de *compilação condicional.*
 
-### Por que devo aprender C?
+### Por que devo aprender C?
 
 Como é uma linguagem muito simples, muita coisa é delegada ao
 programador. C exige que o programador seja disciplinado e consistente.
@@ -143,11 +139,3 @@ Escrito em C. Kernel do Linux? C. MySQL? hm… C.
 
 A ideia de usar C é por que os compiladores C são muito estáveis e a
 biblioteca STDC está há muito estabelecida.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [July 18, 2015](https://medium.com/p/e5f2f35a07ff).
-
-<a href="https://medium.com/@ronaldolima/por-que-eu-deveria-aprender-c-e5f2f35a07ff" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
