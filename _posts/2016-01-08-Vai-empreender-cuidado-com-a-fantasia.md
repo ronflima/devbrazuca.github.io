@@ -1,9 +1,9 @@
 ---
 layout: post
-title:Vai Empreender? Cuidado com a fantasia!
+title: "Vai Empreender? Cuidado com a fantasia!"
 image: https://cdn-images-1.medium.com/max/800/1*GnEg_vL6YOYrw7nwGakNZA.jpeg
 author: ronaldo
-categories:
+categories: [Empreendedorismo]
 ---
 
 Muita gente tem falado sobre abrir uma empresa como forma de escapar
