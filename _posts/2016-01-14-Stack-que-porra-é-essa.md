@@ -1,17 +1,13 @@
-Stack: que porra é essa?
-========================
+---
+layout: post
+title: "Stack: que porra é essa?"
+image: https://cdn-images-1.medium.com/max/800/1*F7JbgyRUlEvH4ht_1wzpXg.jpeg
+author: ronaldo
+categories: [Desenvolvimento, Programação]
+---
 
 Quem estudou algoritmos sabe bem o que é uma pilha. Trata-se de uma
-estrutura de dados que usa o esquema FILO: First In, Last Out. Ou seja…
-
-------------------------------------------------------------------------
-
-### Stack: que porra é essa?
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*F7JbgyRUlEvH4ht_1wzpXg.jpeg" class="graf-image" />
-</figure>Quem estudou algoritmos sabe bem o que é uma pilha. Trata-se de
-uma estrutura de dados que usa o esquema FILO: *First In, Last Out.* Ou
+estrutura de dados que usa o esquema FILO: *First In, Last Out.* Ou
 seja, o primeiro elemento a ser colocado na estrutura é o último a ser
 retirado. Mas, por que a pilha, ou *stack* é uma estrutura tão
 importante?
@@ -76,11 +72,3 @@ dos processadores atuais, o trabalho extra do *run-time* é quase
 irrelevante. Torna-se algo relevante em pequenos sistemas embarcados
 mas, convenhamos, estamos falando de uma pequena parcela de todos os
 sistemas que existem pelo globo afora.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [January 14, 2016](https://medium.com/p/19c6ba5f786f).
-
-<a href="https://medium.com/@ronaldolima/stack-que-porra-%C3%A9-essa-19c6ba5f786f" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
