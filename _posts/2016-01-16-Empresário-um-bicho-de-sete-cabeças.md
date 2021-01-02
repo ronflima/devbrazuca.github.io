@@ -1,22 +1,18 @@
-Empresário: um bicho de sete cabeças?
-=====================================
+---
+layout: post
+title:Empresário: um bicho de sete cabeças?
+image: https://cdn-images-1.medium.com/max/800/1*1QvYqId9sS2s7v8aCMNq8w.jpeg
+author: ronaldo
+categories: [Opiniões, Empreendedorismo]
+---
 
 De vez em quando eu esbarro com alguém descendo a lenha no empresário
-brasileiro, usando como argumentação a ideia de que o empresário vive…
-
-------------------------------------------------------------------------
-
-### Empresário: um bicho de sete cabeças?
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*1QvYqId9sS2s7v8aCMNq8w.jpeg" class="graf-image" />
-</figure>De vez em quando eu esbarro com alguém descendo a lenha no
-empresário brasileiro, usando como argumentação a ideia de que o
-empresário vive a custa de altíssimos lucros. Esse tipo de generalização
-não cabe, na minha opinião. Quem tem esse tipo de discurso não faz a
-menor ideia do quanto é difícil abrir e manter uma empresa no Brasil e
-desconhece por que não há nenhuma empresa brasileira que tenha o porte
-de uma Apple ou de uma IBM.
+brasileiro, usando como argumentação a ideia de que o empresário vive
+a custa de altíssimos lucros. Esse tipo de generalização não cabe, na
+minha opinião. Quem tem esse tipo de discurso não faz a menor ideia do
+quanto é difícil abrir e manter uma empresa no Brasil e desconhece por
+que não há nenhuma empresa brasileira que tenha o porte de uma Apple
+ou de uma IBM.
 
 Empreender no Brasil é um desafio por si só. O crédito é difícil, o que
 significa dizer que o dinheiro aqui é um recurso muito mais caro do que
@@ -78,11 +74,3 @@ todos saem ganhando. Exemplos não faltam no Brasil: Sururu Valley, San
 Pedro Valley, Porto Digital, Supera em Ribeirão Preto e tantas outras
 iniciativas inovadoras que estão pipocando pelo Brasil afora que estão
 redefinindo a nossa indústria.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [January 16, 2016](https://medium.com/p/9d23ac7b9b59).
-
-<a href="https://medium.com/@ronaldolima/empres%C3%A1rio-um-bicho-de-sete-cabe%C3%A7as-9d23ac7b9b59" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
