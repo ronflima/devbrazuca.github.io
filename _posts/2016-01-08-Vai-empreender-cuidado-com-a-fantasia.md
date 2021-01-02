@@ -1,22 +1,18 @@
-Vai empreender? Cuidado com a fantasia!
-=======================================
+---
+layout: post
+title:Vai Empreender? Cuidado com a fantasia!
+image: https://cdn-images-1.medium.com/max/800/1*GnEg_vL6YOYrw7nwGakNZA.jpeg
+author: ronaldo
+categories:
+---
 
-Muita gente tem falado sobre abrir uma empresa como forma de escapar da
-crise e do desemprego. Há um excelente texto de autoria de Eden…
-
-------------------------------------------------------------------------
-
-### Vai empreender? Cuidado com a fantasia!
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*GnEg_vL6YOYrw7nwGakNZA.jpeg" class="graf-image" />
-</figure>Muita gente tem falado sobre abrir uma empresa como forma de
-escapar da crise e do desemprego. Há um
-<a href="https://medium.com/trend-r/ei-não-morra-de-fome-abra-sua-empresa-otário-34174be8c984#.qlr0ksz8r" class="markup--anchor markup--p-anchor">excelente texto</a>
-de autoria de Eden Wiedemann no qual ele desconstrói essa ideia. O texto
-do Eden é um pouco brutal e gostaria de elaborar um pouco sobre o
-assunto, de uma ótica um pouco menos pessimista — apesar de concordar
-com o alerta que ele dá no excelente texto que escreveu.
+Muita gente tem falado sobre abrir uma empresa como forma de escapar
+da crise e do desemprego. Há um [excelente
+texto](https://medium.com/trend-r/ei-não-morra-de-fome-abra-sua-empresa-otário-34174be8c984#.qlr0ksz8r)
+de autoria de Eden Wiedemann no qual ele desconstrói essa ideia. O
+texto do Eden é um pouco brutal e gostaria de elaborar um pouco sobre
+o assunto, de uma ótica um pouco menos pessimista — apesar de
+concordar com o alerta que ele dá no excelente texto que escreveu.
 
 Tornar-se empreendedor não é fácil. Falo por experiência própria. Sou
 empreendedor desde 2009, quando abri minha primeira empresa. Estou na
@@ -26,11 +22,9 @@ venderam essa ideia, te venderam gato por lebre.
 
 É preciso aprender a ser empresário. Infelizmente, vivemos uma cultura
 na qual somos preparados para nos tornarmos empregados e não donos do
-nosso próprio nariz. Eu escrevi
-<a href="https://medium.com/dev-brazuca/o-que-você-deseja-é-uma-mentira-9bf3285d2939#.9fqaqok7d" class="markup--anchor markup--p-anchor">um texto sobre a mentira</a>
-que é a nossa formação. Quando abri minha primeira empresa
-definitivamente eu não estava preparado para ser empresário. O resultado
-foi que a empresa quebrou antes de completar um ano de vida.
+nosso próprio nariz. Quando abri minha primeira empresa
+definitivamente eu não estava preparado para ser empresário. O
+resultado foi que a empresa quebrou antes de completar um ano de vida.
 
 Assim, se você acha que basta abrir uma empresa para escapar da crise,
 tire isso da cabeça. Você estará abrindo sua empresa pelos motivos
@@ -93,11 +87,3 @@ Aquela ideia de abrir uma empresa na garagem que vira uma grande
 corporação em alguns meses é uma ilusão, um sonho impossível. Não caia
 nessa armadilha pois você poderá colocar em risco o seu patrimônio que
 foi construído com muito suor e sangue.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [January 8, 2016](https://medium.com/p/33a12c6472eb).
-
-<a href="https://medium.com/@ronaldolima/vai-empreender-cuidado-com-a-fantasia-33a12c6472eb" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
