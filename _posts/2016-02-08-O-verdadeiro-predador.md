@@ -1,18 +1,13 @@
-O verdadeiro predador
-=====================
+---
+layout: post
+title: O verdadeiro predador
+image: https://cdn-images-1.medium.com/max/800/1*tmcC4LJN7ta0l0-PYj2t3A.jpeg
+author: ronaldo
+categories: [Pensamentos, Opiniões]
+---
 
 Uma coisa ruim que aconteceu com o Homem foi o distanciamento que
 criamos da natureza. Criamos um mundo artificial à nossa volta e
-chamamos…
-
-------------------------------------------------------------------------
-
-### O verdadeiro predador
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*tmcC4LJN7ta0l0-PYj2t3A.jpeg" class="graf-image" />
-</figure>Uma coisa ruim que aconteceu com o Homem foi o distanciamento
-que criamos da natureza. Criamos um mundo artificial à nossa volta e
 chamamos esse mundo de *civilização*. Isso nos fez distanciar-nos da
 nossa verdadeira natureza.
 
@@ -27,9 +22,9 @@ A nossa relação com a natureza, que cada vez é mais tênue, é o que nos
 leva a depredá-la. Estamos transformando nosso planeta em um lugar
 árido. Precisamos, antes que seja tarde de mais, renovar nosso
 compromisso com a natureza, nos colocando no nosso devido lugar. O
-primeiro passo é reconhecer que somos tão animais quanto qualquer outro
-animal que existe à nossa volta. O segundo passo é nos integrar à
-natureza, criando soluções para o nosso dia-a-dia que minimizem os
+primeiro passo é reconhecer que somos tão animais quanto qualquer
+outro animal que existe à nossa volta. O segundo passo é nos integrar
+à natureza, criando soluções para o nosso dia-a-dia que minimizem os
 estragos que causamos.
 
 Nossa tecnologia é um reflexo disso. Construímos casas que são pouco
@@ -53,19 +48,11 @@ poluição e tirando proveito do que a natureza nos dá de graça: água da
 chuva, terra em abundância, energia dos ventos e do sol… Poderíamos
 plantar mais árvores frutíferas e aproveitar seus frutos. Poderíamos
 plantar mais árvores, mesmo não frutíferas, que ajudam a regular a
-temperatura ambiente e a gerar chuvas mais ricas e constantes por conta
-da sua respiração.
+temperatura ambiente e a gerar chuvas mais ricas e constantes por
+conta da sua respiração.
 
 Acredito que a era pós-industrial está chegando e, com ela, a
 consciência de que precisamos voltar à natureza. Nossa sobrevivência
 depende disso. Ou entraremos, no futuro, para o rol das espécies que
-reinaram neste planeta e que foram extintas, com a diferença que seremos
-extintos pelos nossos próprios méritos.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [February 8, 2016](https://medium.com/p/696a33689d5d).
-
-<a href="https://medium.com/@ronaldolima/o-verdadeiro-predador-696a33689d5d" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
+reinaram neste planeta e que foram extintas, com a diferença que
+seremos extintos pelos nossos próprios méritos.
