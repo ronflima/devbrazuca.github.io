@@ -2,7 +2,7 @@
 layout: post
 title: O espião de empregados
 subtitle: Por que a privacidade e as boas condições de trabalho são importantes.
-image: https://cdn-images-1.medium.com/max/800/1*zy2_QBN8T7h-SIIf7pnn-A.jpge
+image: https://cdn-images-1.medium.com/max/800/1*zy2_QBN8T7h-SIIf7pnn-A.jpeg
 author: ronaldo
 categories: [Empreendedorismo, Opiniões]
 ---
