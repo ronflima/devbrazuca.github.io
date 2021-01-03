@@ -35,23 +35,21 @@ post_class: post-template
                         <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Siga</a>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
-                    <!-- Post Date -->
-                    <div>
-                        <small>
-                            <span class="post-date">
-                                <time class="post-date" datetime="{{ page.date | date:"%d/%m/%Y" }}">{{ page.date | date_to_string }}</time>
-                            </span>           
-                            {% if page.last_modified_at %}
-                            (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%d/%M/%Y" }}</time>)
-                            {% endif %}
-                        </small>
-                   </div>
                 </div>
                 {% endif %}
-
+                <!-- Post Date -->
+                <div>
+                    <small>
+                        <span class="post-date">
+                            <time class="post-date" datetime="{{ page.date | date:"%d/%m/%Y" }}">{{ page.date | date:"%d/%m/%Y" }}</time>
+                        </span>           
+                        {% if page.last_modified_at %}
+                        (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%d/%m/%Y" }}</time>)
+                        {% endif %}
+                    </small>
+                </div>
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
-
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
