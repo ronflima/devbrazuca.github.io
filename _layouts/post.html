@@ -35,6 +35,17 @@ post_class: post-template
                         <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Siga</a>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
+                    <!-- Post Date -->
+                    <div>
+                        <small>
+                            <span class="post-date">
+                                <time class="post-date" datetime="{{ page.date | date:"%d/%m/%Y" }}">{{ page.date | date_to_string }}</time>
+                            </span>           
+                            {% if page.last_modified_at %}
+                            (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%d/%M/%Y" }}</time>)
+                            {% endif %}
+                        </small>
+                   </div>
                 </div>
                 {% endif %}
 
@@ -83,16 +94,6 @@ post_class: post-template
                 <strong class="mr-1">Avaliação:</strong> {% include star_rating.html %}
             </div>
             {% endif %}
-
-            <!-- Post Date -->
-            <p>
-            <small>
-                <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d/%M/%Y" }}">{{ page.date | date_to_string }}</time></span>           
-                {% if page.last_modified_at %}
-                (Updated: <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ page.last_modified_at | date: "%d/%M/%Y" }}</time>)
-                {% endif %}
-                </small>
-            </p>
 
             <!-- Post Categories -->
             <div class="after-post-cats">
