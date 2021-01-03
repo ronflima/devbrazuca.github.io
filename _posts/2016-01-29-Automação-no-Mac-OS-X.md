@@ -1,9 +1,9 @@
 ---
 layout: post
-title:Automação no Mac OS X
+title: Automação no Mac OS X
 image: https://cdn-images-1.medium.com/max/800/1*laPZMVm2QI8SNy2D9QdZ_w.png
 author: ronaldo
-categories: [Sistemas Operacionais, Dicas, Scripting, Automação]
+categories: ["Sistemas Operacionais", Dicas, Scripting, Automação]
 ---
 
 Já há bastante tempo que descobri duas coisas fantásticas no Mac OS

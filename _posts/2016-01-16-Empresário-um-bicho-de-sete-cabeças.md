@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Empresário: um bicho de sete cabeças?
+title: "Empresário: um bicho de sete cabeças?"
 image: https://cdn-images-1.medium.com/max/800/1*1QvYqId9sS2s7v8aCMNq8w.jpeg
 author: ronaldo
 categories: [Opiniões, Empreendedorismo]
