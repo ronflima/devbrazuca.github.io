@@ -1,7 +1,7 @@
 ---
 layout: post
-title:O seu código não é tão bom assim
-image:https://cdn-images-1.medium.com/max/800/1*hNb-Bcd0AS_EC5fbgGrfBw.gif
+title: O seu código não é tão bom assim
+image: https://cdn-images-1.medium.com/max/800/1*hNb-Bcd0AS_EC5fbgGrfBw.gif
 author: ronaldo
 categories: [Desenvolvimento, Opiniões]
 ---
