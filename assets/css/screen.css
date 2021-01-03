@@ -314,6 +314,12 @@ span.post-read-more a:hover {
     margin-bottom: 1rem;
 }
 
+.mainheading h2.postsubtitle {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #aaa;
+}
+
 .footer {
     border-top: 1px solid rgba(0, 0, 0, .05) !important;
     padding-top: 15px;

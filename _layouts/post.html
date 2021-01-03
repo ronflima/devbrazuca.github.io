@@ -39,6 +39,9 @@ post_class: post-template
                 {% endif %}
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
+                {% if page.subtitle %}
+                <h2 class="postsubtitle">{{ page.subtitle }}</h2>
+                {% endif %}
                 <!-- Post Date -->
                 <div>
                     <small>
