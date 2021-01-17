@@ -38,12 +38,16 @@ forem saindo, prometo que volto neste assunto.
 
 Com o editor aberto, digite o código abaixo:
 
+<script src="https://gist.github.com/ronflima/6f0109df67d48d634f61.js"></script>
+
 Este é um exemplo praticamente inútil. Ligue o áudio do seu computador
 e tecle ⌘R. Isso executará o seu script. Isso fará com que o seu Mac
 fale com você.
 
 Vamos fazer algo mais útil. Vamos fazer o seu Mac lhe saudar
 dependendo da hora do dia:
+
+<script src="https://gist.github.com/ronflima/015486d8830ff866d6ce.js"></script>
 
 Este exemplo demonstra algumas coisas importantes:
 
