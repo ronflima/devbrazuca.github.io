@@ -39,9 +39,10 @@ pre {
 }
 
 .mediumnavigation {
-    background: rgba(255, 255, 255, .97);
+    background-color: rgba(255, 255, 255, .90) !important;
     box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
     transition: top 0.2s ease-in-out;
+    height: 6rem;
 }
 
 .main-content {
@@ -51,7 +52,7 @@ pre {
 .site-content {
     min-height: 60vh;
     padding-top: 1.5rem;
-    margin-top: 57px;
+    margin-top: 6rem;
     transition: all 0.4s;
 }
 
@@ -301,7 +302,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-width: 100px;
     margin-right: 5px;
 }
 
