@@ -308,17 +308,11 @@ span.post-read-more a:hover {
 
 .mainheading h1.sitetitle {
     font-family: Righteous;
+    margin-bottom: 0;
 }
 
-.mainheading h1.posttitle {
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-.mainheading h2.postsubtitle {
-    font-weight: 500;
-    margin-bottom: 1rem;
-    color: #aaa;
+.mainheading p.lead {
+    margin-bottom: 0;
 }
 
 .footer {
