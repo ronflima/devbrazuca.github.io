@@ -76,6 +76,8 @@ troque a instrução.
 Vamos melhorar nosso exemplo: agora quero que a coisa fique mais
 pessoal, ou seja, quero que o computador saude-me pelo primeiro nome:
 
+<script src="https://gist.github.com/ronflima/5c39b567b921d277ccc6.js"></script>
+
 A estrutura do programa é a mesma. O que mudou foi que obtivemos o
 nome *curto* do usuário corrente do sistema e o concatenamos à
 saudação.  Observe que a concatenação se parece muito com a do Visual
