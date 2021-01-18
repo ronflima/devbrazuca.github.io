@@ -1,13 +1,11 @@
-Aprender a programar não é tão simples assim
-============================================
-
-Muita gente vende a ideia que é fácil. E essa ideia torna-se frustração.
-
-------------------------------------------------------------------------
-
-### Aprender a programar não é tão simples assim
-
-#### Muita gente vende a ideia que é fácil. E essa ideia torna-se frustração.
+---
+layout: post
+title: Aprender a programar não é tão simples assim
+subtitle: Muita gente vende a ideia que é fácil. E essa ideia torna-se uma frustração.
+image: https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
+author: ronaldo
+categories: [Opiniões, Tecnologia]
+---
 
 Hoje em dia vivemos uma onda onde todo mundo tem uma ideia genial e todo
 mundo quer sair criando um aplicativo ou serviço para dar suporte a esta
@@ -81,11 +79,3 @@ conhecimento básico é muito amplo. Ainda hoje estudo algoritmos, e me
 pego voltando a conceitos básicos.
 
 Mas é um mundo tão abrangente, tão ilimitado que vale a pena o esforço.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [June 27, 2016](https://medium.com/p/24d894ace82a).
-
-<a href="https://medium.com/@ronaldolima/aprender-a-programar-n%C3%A3o-%C3%A9-t%C3%A3o-simples-assim-24d894ace82a" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.

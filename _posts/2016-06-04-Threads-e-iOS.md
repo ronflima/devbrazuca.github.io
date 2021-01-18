@@ -1,19 +1,15 @@
-Threads e iOS
-=============
+---
+layout: post
+title: Threads e iOS
+subtitle: A importância de conhecer o sistema no qual você programa
+image: https://cdn-images-1.medium.com/max/800/1*XQN6E3sj3JkB-6ORRSV9-A.jpeg
+author: ronaldo
+categories: [iOS, Apple, Desenvolvimento]
+---
 
-A importância de conhecer o sistema no qual você programa.
-
-------------------------------------------------------------------------
-
-### Threads e iOS
-
-#### A importância de conhecer o sistema no qual você programa.
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*XQN6E3sj3JkB-6ORRSV9-A.jpeg" class="graf-image" />
-</figure>Programar em ambientes multi-threaded não é uma tarefa fácil.
-As threads adicionam elementos de incerteza no seu código que podem
-levar a problemas muito difíceis de serem reproduzidos *in vitro*, ou a
+Programar em ambientes multi-threaded não é uma tarefa fácil. As
+threads adicionam elementos de incerteza no seu código que podem levar
+a problemas muito difíceis de serem reproduzidos *in vitro*, ou a
 problemas intermitentes. Porém, se você programa para iOS, não importa
 se em Objective C ou em Swift, as threads vão bater na sua porta, cedo
 ou tarde.
@@ -99,16 +95,8 @@ barreiras, as condition variables. Cada coisa dessas tem uma função
 diferente e serve para um determinado cenário que depende do design que
 você fizer do seu código.
 
-A minha sugestão: leia o livro
-<a href="https://www.amazon.com.br/Programming-POSIX-Threads-David-Butenhof-ebook/dp/B006QTHCJ6/ref=sr_1_1?ie=UTF8&amp;qid=1465048349&amp;sr=8-1&amp;keywords=posix+threads" class="markup--anchor markup--p-anchor">Programming with POSIX Threads</a>,
+A minha sugestão: leia o livro [Programming With POSIX
+Threads](https://www.amazon.com.br/Programming-POSIX-Threads-David-Butenhof-ebook/dp/B006QTHCJ6/ref=sr_1_1?ie=UTF8&amp;qid=1465048349&amp;sr=8-1&amp;keywords=posix+threads),
 de David Butenhof. É um livro antigo, mas excelente e ainda atual. O
-importante do livro não são as threads POSIX em si, mas os conceitos que
-envolvem as mesmas.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [June 4, 2016](https://medium.com/p/3e1cbe9fe1a).
-
-<a href="https://medium.com/@ronaldolima/threads-e-ios-3e1cbe9fe1a" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
+importante do livro não são as threads POSIX em si, mas os conceitos
+que envolvem as mesmas.

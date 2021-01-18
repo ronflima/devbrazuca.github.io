@@ -1,18 +1,13 @@
-A super simplificação do developer
-==================================
+---
+layout: post
+title: A super simplificação do developer
+subtitle: Cursos rápidos prometem fazer programadores da noite para o dia. Mas o buraco é bem mais embaixo.
+image: https://cdn-images-1.medium.com/max/800/1*o65JPdws8djsIgvRzsxPRQ.jpeg
+author: ronaldo
+categories: [Desenvolvimento, Opiniões]
+---
 
-Cursos rápidos prometem fazer programadores da noite para o dia. Mas o
-buraco é bem mais embaixo.
-
-------------------------------------------------------------------------
-
-### A super simplificação do developer
-
-#### Cursos rápidos prometem fazer programadores da noite para o dia. Mas o buraco é bem mais embaixo.
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*o65JPdws8djsIgvRzsxPRQ.jpeg" class="graf-image" />
-</figure>A internet anda pipocando de cursos milagrosos que transformam
+A internet anda pipocando de cursos milagrosos que transformam
 qualquer pessoa em programador. E muita gente tem investido dinheiro
 nesses cursos na esperança de se tornarem developers.
 
@@ -106,11 +101,3 @@ desenvolvimento de software. É preciso ainda ter analistas de sistemas,
 de negócio, profissionais de modelagem e análise de dados, designers e
 mais uma penca de outros profissionais caso você queira desenvolver
 software de qualidade.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [June 7, 2016](https://medium.com/p/d1a2612ad4e1).
-
-<a href="https://medium.com/@ronaldolima/a-super-simplifica%C3%A7%C3%A3o-do-developer-d1a2612ad4e1" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.

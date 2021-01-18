@@ -1,29 +1,26 @@
-O poder do contexto
-===================
+---
+layout: post
+title: O poder do contexto
+subtitle: O contexto define a realdade das coisas. Mude o contexto e tudo muda.
+image: https://cdn-images-1.medium.com/max/800/1*yDwFJg4nxzhNB9Ona9orbg.jpeg
+author: ronaldo
+categories: [Pensamentos, Opiniões, Empreendedorismo]
+---
 
-O contexto define a realidade das coisas. Mude o contexto e tudo muda.
-
-------------------------------------------------------------------------
-
-### O poder do contexto
-
-#### O contexto define a realidade das coisas. Mude o contexto e tudo muda.
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*yDwFJg4nxzhNB9Ona9orbg.jpeg" alt="Cena do filme 13º Andar" class="graf-image" /><figcaption>Cena do filme 13º Andar</figcaption>
-</figure>Estava nesta discussão com minha mulher, quando estava vindo ao
+Estava nesta discussão com minha mulher, quando estava vindo ao
 trabalho hoje pela manhã: algumas coisas só dariam certo mesmo nos
 Estados Unidos. O assunto era justamente por que algumas coisas dão
 certo lá fora e a mesma coisa não funciona por aqui. Foi quando me deu
-aquele "estalo" e percebi que o contexto no qual as coisas acontecem é o
-que faz toda a diferença.
+aquele "estalo" e percebi que o contexto no qual as coisas acontecem é
+o que faz toda a diferença.
 
 Vamos fazer um exercício? Imagine-se que você está em 1977 e teve a
-brilhante ideia de criar o computador pessoal. Se você estivesse aqui no
-Brasil, o primeiro problema seria achar componentes para montar seu
-primeiro protótipo. De início, você não teria o conhecimento suficiente
-pois em 1977 estávamos no meio da ditadura militar, mais precisamente no
-fim do mandado do General Ernesto Geisel — ele deixaria o poder em 1979.
+brilhante ideia de criar o computador pessoal. Se você estivesse aqui
+no Brasil, o primeiro problema seria achar componentes para montar seu
+primeiro protótipo. De início, você não teria o conhecimento
+suficiente pois em 1977 estávamos no meio da ditadura militar, mais
+precisamente no fim do mandado do General Ernesto Geisel — ele
+deixaria o poder em 1979.
 
 Havia a reserva de mercado. Ter acesso a componentes eletrônicos,
 naquela época, era uma tarefa hercúlea. Imagine, no entanto, que você
@@ -65,13 +62,5 @@ que um modelo que funciona em determinado contexto precisa ser adaptado
 para continuar funcionando em outro.
 
 O meu ponto é este: os modelos precisam ser adaptados. Sem adaptação
-adequada o seu modelo arrisca-se não funcionar dependendo do contexto no
-qual você deseja aplicá-lo.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [May 25, 2016](https://medium.com/p/15d2bc9b367f).
-
-<a href="https://medium.com/@ronaldolima/o-poder-do-contexto-15d2bc9b367f" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
+adequada o seu modelo arrisca-se não funcionar dependendo do contexto
+no qual você deseja aplicá-lo.
