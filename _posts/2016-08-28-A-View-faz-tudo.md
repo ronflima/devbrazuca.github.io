@@ -1,22 +1,17 @@
-A View faz-tudo
-===============
+---
+layout: post
+title: A View faz-tudo
+subtitle: Mais um conto de terror do mundo da programação
+image: "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/xcode-essentials/learn-interface-builder/images/277d3a77258bda692c01e6a09edd9384_storyboards-storyboard-full-app.png"
+author: ronaldo
+categories: [Desenvolvimento, Opiniões]
+---
 
-Mais um conto de terror do mundo da programação…
-
-------------------------------------------------------------------------
-
-### A View faz-tudo
-
-#### Mais um conto de terror do mundo da programação…
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*CnE2QbHmP2R8iFkQgFrE6Q.png" class="graf-image" />
-</figure>Muita gente fala sobre as maravilhas do MVC mas pouca gente, na
-realidade, sabe como programar neste modelo. Não é absolutamente incomum
-encontrar código que desrespeita abertamente os conceitos do MVC, mesmo
-em um ambiente totalmente focado nisso. Por exemplo, o UIKit do Cocoa
-Touch foi construído tendo como base o MVC. Portanto, é impossível
-programar no Cocoa Touch senão usando MVC.
+Muita gente fala sobre as maravilhas do MVC mas pouca gente, na realidade, sabe
+como programar neste modelo. Não é absolutamente incomum encontrar código que
+desrespeita abertamente os conceitos do MVC, mesmo em um ambiente totalmente
+focado nisso. Por exemplo, o UIKit do Cocoa Touch foi construído tendo como base
+o MVC. Portanto, é impossível programar no Cocoa Touch senão usando MVC.
 
 O problema é que vários programadores querem generalizar seu código e
 acabam infringindo este modelo de programação de formas incrivelmente
