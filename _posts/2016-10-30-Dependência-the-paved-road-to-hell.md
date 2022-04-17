@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dependência: the paved road to hell"
-subtitle: Por que dependenr de bibliotecas externas de forma negligente é ruim
+subtitle: Por que depender de bibliotecas externas de forma negligente é ruim
 image: "https://cdn-images-1.medium.com/max/800/1*p81_580mm2QvL3hBpHQn9A.jpeg"
 author: ronaldo
 categories: [Desenvolvimento, Opiniões]
