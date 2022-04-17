@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Retorne já: simplificando seus algoritmos
+title: "Retorne já: simplificando seus algoritmos"
 subtitle: Simplifique seus algoritmos e seja feliz
 image: "https://cdn-images-1.medium.com/max/800/1*wfGjLviT7L5RzzE2Z7Bq4g.jpeg"
 author: ronaldo
