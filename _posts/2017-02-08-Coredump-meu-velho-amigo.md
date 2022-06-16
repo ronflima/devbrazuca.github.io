@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Coredump: meu velho amigo
+title: "Coredump: meu velho amigo"
 subtitle: Parece piada, mas tem um fundo de verdade
 image: https://cdn-images-1.medium.com/max/800/1*pqF4i1cMz4d745SZUMKPpg.jpeg
 author: ronaldo
