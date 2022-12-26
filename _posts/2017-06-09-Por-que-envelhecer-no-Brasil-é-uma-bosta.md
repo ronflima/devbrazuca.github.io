@@ -11,7 +11,7 @@ Experimenta ficar velho, colega! Você entra no distinto grupo de pessoas vítim
 do preconceito. Velho lerdo, velho burro. Um dia alguém vai te chamar assim.
 
 Eu ainda não cheguei lá. Estou no que chamam de meia-idade. Em Agosto deste ano
-chego aos 46 anos de vida. Em 2021 faço com 50. Você realmente acha que demora
+chego aos 46 anos de vida. Em 2021 faço 50. Você realmente acha que demora
 muito? 2021 está logo ali, na esquina. São apenas 4 anos daqui para lá. Isso
 passa voando.
 
@@ -32,18 +32,18 @@ Já trabalhava na área desde 1971. Já contava com 19 anos de experiência.
 
 #### Preconceito
 
-Trabalho na área de desenvolvimento de software profissionalmente desde
-1994. Ou seja, conto com 23 anos de experiência na área. Já escrevi
-software numa penca de linguagens, sistemas operacionais, bancos de
-dados usando diversas tecnologias diferentes. E estou sempre me
-atualizando. É uma necessidade para quem trabalha nesta área.
+Trabalho na área de desenvolvimento de software profissionalmente desde 1994. Ou
+seja, conto com 23 anos de experiência na área. Já escrevi software numa penca
+de linguagens, sistemas operacionais, bancos de dados usando diversas
+tecnologias diferentes. E estou sempre me atualizando. É uma necessidade para
+quem trabalha nesta área.
 
 Porém, os meus cabelos brancos são vistos pelos mais novos com desrespeito. O
 velho que não sabe nada. (Já ouvi essa). A experiência é francamente ignorada na
 cultura do brasileiro. A experiência é o velho. O quente é o novo. E tome
 preconceito. Nas discussões técnicas que tenho nos grupos de desenvolvimento,
-vira e mexe vejo gracejos impertinentes. Levo na brincadeira. Afinal, um dia
-essas pessoas também vão ficar velhas e vão passar por isso.
+vira e mexe ouço gracejos impertinentes. Levo na brincadeira. Afinal, um dia
+essas pessoas também ficarão velhas e passarão por isso.
 
 Eu entendo os mais novos. Eu já fui jovem. Não nasci velho, porra. A vida
 ensina. A vida é o professor mais inclemente que existe. Não há piedade. Ou você
