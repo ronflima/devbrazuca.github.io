@@ -19,7 +19,7 @@ Na meia idade já começo a sentir o peso que é envelhecer aqui no Brasil. Esto
 vivendo exatamente o que meu pai viveu quando se aproximou dos 50. Depois que
 você passa dos 35 anos, ou você se vira para virar diretor de alguma porra ou
 prepara para ficar sem emprego. Por uma questão de conhecer bem meu perfil, me
-mantive na área técnica. Pô, eu adoro programador computadores. Sempre gostei.
+mantive na área técnica. Pô, eu adoro programar computadores. Sempre gostei.
 Por que caralhos eu iria me meter a ser gerente de alguma 💩? Só se for para
 passar raiva, ser incompetente e me estressar.
 
