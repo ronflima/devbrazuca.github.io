@@ -36,9 +36,7 @@ desde então.
 
 - [Linkedin](https://www.linkedin.com/in/ronlima/)
 - [Github](https://github.com/ronflima)
-- [Facebook](https://www.facebook.com/ronflima)
 - [Instagram](https://www.instagram.com/ronflima/)
-- [Blog Grood.Me](https://www.grood.me/blog/categories/ronaldo-faria-lima)
 - [ronaldo dot faria dot lima at gmail dot com](mailto:ronaldo.faria.lima@gmail.com)
 
 ### Mais Informações
