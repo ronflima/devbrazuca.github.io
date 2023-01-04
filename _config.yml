@@ -19,7 +19,6 @@ authors:
     gravatar: 5c056fe27aa7e852bae7fb8bff186cee
     email: ronaldo.faria.lima@gmail.com
     web: https://brazuca.dev
-    twitter:
     description: "Desenvolvedor, pai, cidadão do mundo."
 #
 # Flags below are optional
@@ -29,14 +28,12 @@ authors:
 footer-links:
   dribbble:
   email: ronaldo.faria.lima@gmail.com
-  facebook: 
   flickr:
   github: https://github.com/ronflima
   instagram: https://www.instagram.com/ronflima/
   linkedin: https://www.linkedin.com/in/ronlima/
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: channel/UCDB18Csl2JEdXu2rACl1MNQ # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
