@@ -76,7 +76,7 @@ post_class: post-template
                 endif %}" alt="{{ page.title }}">
             {% else %}
             <img class="featured-image img-fluid"
-                src="{% if page.image contains ' ://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}"
+                src="{% if page.image contains '://' %}{{ page.image }}{% else %}{{ site.url }}{{ page.image }}{% endif %}"
                 alt="{{ page.title }}">
             {% endif %}
 
