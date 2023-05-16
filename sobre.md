@@ -36,8 +36,7 @@ desde então.
 
 - [Linkedin](https://www.linkedin.com/in/ronlima/)
 - [Github](https://github.com/ronflima)
-- [Instagram](https://www.instagram.com/ronflima/)
-- [ronaldo dot faria dot lima at gmail dot com](mailto:ronaldo.faria.lima@gmail.com)
+- [ronaldo at brazuca dot dev](mailto:ronaldo@brazuca.dev)
 
 ### Mais Informações
 

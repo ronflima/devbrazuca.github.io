@@ -17,7 +17,7 @@ authors:
     name: Ronaldo Faria Lima
     display_name: Ronaldo
     gravatar: 5c056fe27aa7e852bae7fb8bff186cee
-    email: ronaldo.faria.lima@gmail.com
+    email: ronaldo@brazuca.dev
     web: https://brazuca.dev
     description: "Desenvolvedor, pai, cidadão do mundo."
 #
@@ -27,10 +27,10 @@ authors:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: ronaldo.faria.lima@gmail.com
+  email: ronaldo@brazuca.dev
   flickr:
   github: https://github.com/ronflima
-  instagram: https://www.instagram.com/ronflima/
+  instagram:
   linkedin: https://www.linkedin.com/in/ronlima/
   pinterest:
   rss: # just type anything here for a working RSS icon
