@@ -1,17 +1,13 @@
-Guia rápido da produtividade no seu computador
-==============================================
+---
+layout: post
+title: "Guia rápido da produtividade no seu computador"
+subtitle: "Saiba onde está sua toalha…"
+image: "https://cdn-images-1.medium.com/max/800/1*qv4ARAndWsMLgatpUeum1g.jpeg"
+author: ronaldo
+categories: [Dicas, Macetes, Produtividade, Computador]
+---
 
-Saiba onde está sua toalha…
-
-------------------------------------------------------------------------
-
-### Guia rápido da produtividade no seu computador
-
-#### Saiba onde está sua toalha…
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*qv4ARAndWsMLgatpUeum1g.jpeg" class="graf-image" />
-</figure>Ter um computador e ter tudo quanto é ferramenta avançada não
+Ter um computador e ter tudo quanto é ferramenta avançada não
 faz de você uma pessoa produtiva ao computador. A verdade é que a
 produtividade vem com um *mind set* específico. Não basta ser um
 *fuçador:* é preciso mais. Bem, aqui vão algumas dicas para que você
@@ -19,7 +15,7 @@ ganhe produtividade ao seu computador, baseadas na minha experiência
 pessoal com essas coisas ao longo de mais de 20 anos lidando com
 tecnologia da informação.
 
-#### Faça uma coisa de cada vez
+# Faça uma coisa de cada vez
 
 Vamos começar do mais óbvio. Faça uma coisa de cada vez. Quando a
 multi-tarefa chegou aos computadores, foi algo festejado para só depois
@@ -37,7 +33,7 @@ mesmo tempo. Se for realizar uma tarefa, foque-se exclusivamente nela,
 trabalhe com atomicidade, ou seja, mude de tarefa se, e somente se,
 tiver terminado a anterior.
 
-#### Conheça seu sistema operacional
+# Conheça seu sistema operacional
 
 Saiba o que o seu sistema operacional pode fazer por você. Leia a ajuda,
 leia livros, veja vídeos. Você descobrirá que várias coisas que você
@@ -57,7 +53,7 @@ Windows NT que é possível criar pastas compactadas (os arquivos aparecem
 em azul no Windows Explorer), algo que economiza uma cacetada de disco,
 principalmente para arquivos antigos.
 
-#### Conheça seu software
+# Conheça seu software
 
 Conheça bem o software que você usa. Se for o caso, faça um curso ou
 leia um livro sobre ele. Um exemplo, é o Microsoft Office. Poucas
@@ -71,7 +67,7 @@ rotinas bem definidas e totalmente automatizadas. Porém, para
 implementar algo assim, é preciso entender como o Office funciona. E não
 é preciso ser um programador experiente para isso.
 
-#### Automatize! Automatize!
+# Automatize! Automatize!
 
 Se uma tarefa que você executa ao computador é repetitiva, certamente é
 possível automatizar. O seu sistema operacional lhe dá uma pancada de
@@ -85,7 +81,7 @@ dele. Depois que aprendeu a usar o Automator, a gestão do acervo
 documental do escritório ficou simples e coisas que demoravam horas
 passaram a custar apenas alguns poucos minutos.
 
-#### Vale a pena investir seu tempo!
+# Vale a pena investir seu tempo!
 
 Normalmente as pessoas evitam aprender a usar melhor seus computadores
 por que acreditam que não é da alçada delas entender como as máquinas
@@ -111,11 +107,3 @@ possui. Economizar tempo significa usar o tempo economizado para viver
 mais.
 
 Happy Computing!
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [March 6, 2018](https://medium.com/p/87c518d3be12).
-
-<a href="https://medium.com/@ronaldolima/guia-r%C3%A1pido-da-produtividade-no-seu-computador-87c518d3be12" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.

@@ -1,23 +1,19 @@
-Funcional, procedural, orientado ao objeto?
-===========================================
+---
+layout: post
+title: "Funcional, procedural, orientado ao objeto?"
+subtitle: "Qual paradigma usar no seu projeto?"
+image: "https://cdn-images-1.medium.com/max/800/1*PGEK6GYufhxFaQ91LYUjNw.jpeg"
+author: ronaldo
+categories: [Desenvolvimento, Software, Programação]
+---
 
-Qual paradigma usar no seu projeto?
-
-------------------------------------------------------------------------
-
-### Funcional, procedural, orientado ao objeto?
-
-#### Qual paradigma usar no seu projeto?
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*PGEK6GYufhxFaQ91LYUjNw.jpeg" class="graf-image" />
-</figure>Hoje em dia existem diversas formas de fazer a mesma coisa. Com
+Hoje em dia existem diversas formas de fazer a mesma coisa. Com
 a evolução da tecnologia também evoluiu a forma de escrever código.
 Atualmente existem diversos paradigmas, tecnologias, linguagens e
 padrões que são ferramentas valiosas para desenvolver software. Porém,
 qual é a que você deve usar no seu projeto?
 
-#### O Melhor Paradigma
+# O Melhor Paradigma
 
 O melhor paradigma é aquele que vai lhe dar menos trabalho para atingir
 seus objetivos e que vai levá-lo a um código simples, eficiente e
@@ -39,7 +35,7 @@ para o seu empregador. No caso do developer ser dono do próprio negócio,
 Trocando em miúdos: o melhor paradigma é aquele que custa menos para
 resolver as dores do cliente.
 
-#### Simplicidade ≠ Gambiarra
+# Simplicidade ≠ Gambiarra
 
 Código simples não é código *gambiarrado*. Código simples quer dizer que
 pensou-se na solução mais simples que resolve o problema. Este é, em
@@ -52,7 +48,7 @@ difíceis de encontrar, mas valem a pena do ponto-de-vista financeiro:
 você escreve menos, o seu código fica mais simples e a manutenção fica
 mais barata.
 
-#### Por que falar em dinheiro?
+# Por que falar em dinheiro?
 
 O tempo que todo desenvolvedor gasta para escrever código novo é pago
 pelo cliente. Se não for assim, trabalha-se de graça. Todo o lucro
@@ -71,7 +67,7 @@ cliente, você tem uma fonte de receita a menos e pode chegar ao dia em
 que será necessário começar as demissões para que a empresa continue
 viva no mercado.
 
-#### Paradigmas sofisticados são mais caros
+# Paradigmas sofisticados são mais caros
 
 Se você optar por usar paradigmas de desenvolvimento muito sofisticados,
 prepare-se para pagar mais caro por isso, a começar pela contratação de
@@ -83,7 +79,7 @@ Resultado? Se a concorrência conseguir desenvolver a mesma solução por
 um custo mais baixo que o seu, provavelmente você estará em maus
 lençois.
 
-#### Empreendedorismo de mãos dadas com o desenvolvimento de software
+# Empreendedorismo de mãos dadas com o desenvolvimento de software
 
 É um assunto quase recorrente nos meus artigos a questão financeira
 ligada ao desenvolvimento de software. E não é para menos: o que
@@ -113,14 +109,12 @@ quanto mais manutenção corretiva um código exige, mais caro ele fica.
 Quando falo em *mais barato* quero dizer: *a solução eficaz com o menor
 custo possível*. Isto implica:
 
--   <span id="5f1c">excelente qualidade de código, com baixa taxa de
-    defeitos e desvios funcionais;</span>
--   <span id="dce3">eficácia na resolução do problema proposto;</span>
--   <span id="cd1f">eficiência na resolução do problema proposto;</span>
--   <span id="5826">uso racional de recursos, minimizando-se o que for
-    possível.</span>
+- excelente qualidade de código, com baixa taxa de defeitos e desvios funcionais;
+- eficácia na resolução do problema proposto;
+- eficiência na resolução do problema proposto;
+- uso racional de recursos, minimizando-se o que for possível.
 
-#### Conclusão
+# Conclusão
 
 Não importa qual paradigma você vai usar no desenvolvimento do seu
 projeto. O que importa é: qualquer que seja o que você decidir, que
@@ -130,11 +124,3 @@ custo possível.
 Fazer diferente disso é alimentar o próprio ego.
 
 Happy Coding!
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [February 6, 2018](https://medium.com/p/28e755a2c693).
-
-<a href="https://medium.com/@ronaldolima/funcional-procedural-orientado-ao-objeto-28e755a2c693" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
