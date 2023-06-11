@@ -1,22 +1,17 @@
-Como fazer seu projeto virar realidade
-======================================
-
-Um guia rápido.
-
-------------------------------------------------------------------------
-
-### Como fazer seu projeto virar realidade
-
-#### Um guia rápido.
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*w_nB8Tri4dl1Yw8DkYj67w.jpeg" class="graf-image" />
-</figure>Todo mundo tem um projeto que quer realizar. Seja um produto
+---
+layout: post
+title: Como fazer seu projeto virar realidade
+subtitle: Um guia rápido.
+image: "https://cdn-images-1.medium.com/max/800/1*w_nB8Tri4dl1Yw8DkYj67w.jpeg"
+author: ronaldo
+categories: [Empreendedorismo, Projetos, Dicas]
+---
+Todo mundo tem um projeto que quer realizar. Seja um produto
 novo, um projeto de vida, não importa. Há uma tendência em ter pontos
 comuns entre todos os projetos e aqui vão algumas dicas de como tirar
 seu projeto do papel.
 
-#### Escreva sua ideia
+# Escreva sua ideia
 
 Sun Tzu, general chinês, nascido em 544 A.C., autor do genial *A Arte da
 Guerra*, dizia que se você tem uma ideia e não a escreve, você tem
@@ -33,7 +28,7 @@ no papel tem muito mais substância do que gravada na sua memória. E ao
 escrever a sua ideia você começa um processo mental de como fazer para
 realizá-la.
 
-#### Escreva o que precisa fazer para que sua ideia vire realidade
+# Escreva o que precisa fazer para que sua ideia vire realidade
 
 Uma vez que você tenha escrito sua ideia é hora de determinar o que você
 precisa fazer para que a sua ideia se torne uma realidade. Quanto mais
@@ -44,7 +39,7 @@ fazer agora e postergando o que pode ser feito depois.
 
 Este é o segundo passo para tornar seu projeto uma realidade.
 
-#### Quanto vou gastar?
+# Quanto vou gastar?
 
 Não importa qual seja o seu projeto: você precisará de dinheiro. Ah, mas
 só vou gastar tempo das pessoas. E tempo é o que, meu amigo? Dinheiro!
@@ -67,17 +62,16 @@ exista monetização adequada no projeto, o lucro vem bem depois.
 
 Uma forma adequada de remunerar os voluntários é:
 
--   <span id="8834">levantar o valor do trabalho do voluntário com base
-    no tempo que ele investirá no projeto. Este valor será o principal
-    que este voluntário investirá no projeto;</span>
--   <span id="146c">de posse do valor total do projeto, calcule a
-    percentagem do trabalho do voluntário que é devido, para que se
-    saiba qual a percentagem dos lucros ele receberá;</span>
--   <span id="8a4e">remunere os voluntários de acordo com a divisão de
-    lucros por um determinado tempo, tempo este que deve ser previamente
-    estipulado.</span>
--   <span id="f7aa">Ao finalizar o tempo estipulado, pague o valor total
-    devido ao voluntário, corrigido monetariamente.</span>
+- levantar o valor do trabalho do voluntário com base no tempo que ele investirá
+  no projeto. Este valor será o principal que este voluntário investirá no
+  projeto;
+- de posse do valor total do projeto, calcule a percentagem do trabalho do
+  voluntário que é devido, para que se saiba qual a percentagem dos lucros ele
+  receberá;
+- remunere os voluntários de acordo com a divisão de lucros por um determinado
+  tempo, tempo este que deve ser previamente estipulado.
+- Ao finalizar o tempo estipulado, pague o valor total devido ao voluntário,
+  corrigido monetariamente.
 
 Eu não inventei essa fórmula. Trata-se da maneira como a Lei 123/2006
 funciona para investidores-anjo: estipula-se um tempo de investimento e
@@ -91,7 +85,7 @@ interessantes, dependendo do período no qual você deseja utilizar este
 dinheiro. Porém é importante ter em mente que o dinheiro do banco é um
 dinheiro *caro* devido à forma de remuneração.
 
-#### Execute
+# Execute
 
 Uma vez que você tenha o plano financeiro e o plano do seu projeto,
 execute-o. Ficar parado aí não vai fazer você chegar a lugar algum. Se o
@@ -110,7 +104,7 @@ Aquela ideia romântica de largar tudo para investir numa ideia
 mirabolante só funciona nos filmes. Abandonar tudo aumenta
 dramaticamente o risco e as chances das coisas darem errado.
 
-#### Não vai ser fácil
+# Não vai ser fácil
 
 Tornar seu projeto uma realidade exige muita energia e disposição. Vale
 a pena? Com toda certeza. Mas não vai ser fácil. Você será tentado a
@@ -118,11 +112,3 @@ desistir do projeto. Vários obstáculos aparecerão no caminho. Alguns
 serão esperados, outros serão totalmente inesperados. Mas não deixe a
 peteca cair, pois a persistência é o que vai te levar a concluir o seu
 projeto.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [August 28, 2018](https://medium.com/p/86ed7f5fdf6a).
-
-<a href="https://medium.com/@ronaldolima/como-fazer-seu-projeto-virar-realidade-86ed7f5fdf6a" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.

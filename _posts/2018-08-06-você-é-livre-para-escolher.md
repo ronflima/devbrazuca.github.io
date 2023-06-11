@@ -1,21 +1,15 @@
-Você é livre para escolher
-==========================
-
-Mas é responsável por suas escolhas.
-
-------------------------------------------------------------------------
-
-### Você é livre para escolher
-
-#### Mas é responsável por suas escolhas.
-
-<figure>
-<img src="https://cdn-images-1.medium.com/max/800/1*tvVCusAo0a31uW96RZlwSg.jpeg" class="graf-image" />
-</figure>Há algum tempo atrás meu grande amigo Abel Passos apresentou
-uma
-<a href="https://youtu.be/1CPgtTYlZPY" class="markup--anchor markup--p-anchor">palestra provocativa e cativante</a>
-no TEDx em Belo Horizonte. Vale a pena gastar 15 minutinhos do seu tempo
-para assistir à palestra, que te faz parar para pensar.
+---
+layout: post
+title: Você é livre para escolher
+subtitle: Mas é responsável por suas escolhas.
+image: "https://cdn-images-1.medium.com/max/800/1*tvVCusAo0a31uW96RZlwSg.jpeg"
+author: ronaldo
+categories: [Pensamentos, Reflexões, Opiniões, Empreendedorismo]
+---
+Há algum tempo atrás meu grande amigo Abel Passos apresentou uma [palestra
+provocativa e cativante](https://youtu.be/1CPgtTYlZPY) no TEDx em Belo
+Horizonte. Vale a pena gastar 15 minutinhos do seu tempo para assistir à
+palestra, que te faz parar para pensar.
 
 Neste artigo, eu olho para o mundo do empreendedorismo através da lente
 do tema abordado na palestra do Abel: as escolhas e a responsabilidade
@@ -47,7 +41,7 @@ Dito isto, permitam-me compartilhar um pouco da minha experiência no que
 diz respeito às escolhas que fiz e faço nas empresas por onde passei,
 que fundei e nas que estou hoje.
 
-#### Informação sempre, sem ignorar o feeling
+# Informação sempre, sem ignorar o feeling
 
 Nunca tome decisões sem um mínimo de informações. Fatos são muito
 importantes. Analise-os e entenda o que os fatos lhe dizem. Porém, nem
@@ -74,7 +68,7 @@ precisa e terá de mergulhar numa piscina escura sem saber a
 profundidade. E é importante que uma vez tomada sua decisão, você assuma
 a responsabilidade por ela.
 
-#### Não há certo ou errado
+# Não há certo ou errado
 
 Ao olhar para o passado você poderá julgar que determinada decisão foi
 incorreta. Será mesmo? Tudo depende de contexto. Olhar para o passado
@@ -100,7 +94,7 @@ uma decisão. O desenrolar de eventos posteriores é o que determina se as
 consequências foram as que você pretendia ou não. Porém,
 independentemente do resultado, você continua responsável pela decisão.
 
-#### Evidencie suas decisões
+# Evidencie suas decisões
 
 Tomou uma decisão? Evidencie-a! Que seja por uma anotação, um documento
 de ata, não importa. Evidencie que você tomou a decisão e saiba quando
@@ -113,7 +107,7 @@ de como conduziu a situação. Ou seja, trata-se de um *aprendizado*. Não
 dá para acertar sempre, mas é importante que o aprendizado o permita
 errar cada vez menos. Isto é uma otimização das suas habilidades.
 
-#### Responsabilidade não é um fardo, mas uma dádiva
+# Responsabilidade não é um fardo, mas uma dádiva
 
 Para finalizar, cabe falar um pouco sobre a responsabilidade que
 acompanha cada escolha que fazemos na vida. Muita gente lê a palavra
@@ -131,11 +125,3 @@ tão logo esta seja feita. E a responsabilidade é a cola que une você à
 sua escolha. Sem a responsabilidade, você escolhe de forma irresponsável
 e sem avaliar corretamente os cenários aos quais sua escolha pode te
 levar.
-
-By
-<a href="https://medium.com/@ronaldolima" class="p-author h-card">Ronaldo Faria Lima</a>
-on [August 6, 2018](https://medium.com/p/18530ec5e351).
-
-<a href="https://medium.com/@ronaldolima/voc%C3%AA-%C3%A9-livre-para-escolher-18530ec5e351" class="p-canonical">Canonical link</a>
-
-Exported from [Medium](https://medium.com) on December 25, 2020.
