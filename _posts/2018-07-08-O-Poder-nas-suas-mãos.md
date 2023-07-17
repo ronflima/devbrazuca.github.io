@@ -1,12 +1,3 @@
-O Poder nas suas mãos
-=====================
-
-Sim, você pode mudar a sua realidade.
-
-------------------------------------------------------------------------
-
-### O Poder nas suas mãos
-
 ---
 layout: post
 title: O Poder nas suas mãos
