@@ -1,6 +1,6 @@
 ---
 layout: post
-title: O efeito "Picolé de Chocolate"
+title: O efeito Picolé de Chocolate
 subtitle: Mais uma das minhas loucas teorizações
 image: "https://cdn-images-1.medium.com/max/800/1*sCQ8Jz228V53JikX2srQKg.jpeg"
 author: ronaldo
