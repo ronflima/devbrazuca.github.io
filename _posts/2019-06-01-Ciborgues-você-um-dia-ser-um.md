@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ciborgues: você um dia será um
+title: "Ciborgues: você um dia será um"
 subtitle: Parece ficção científica, mas não é
 image: "https://cdn-images-1.medium.com/max/800/1*YVmHOpD6ijqvtK-m8_HX6g.jpeg"
 author: ronaldo
