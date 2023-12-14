@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A inabilidade das companhias aéreas
-subtitle: Processos errados, falta de informação... a lista é enorme!
+subtitle: "Processos errados, falta de informação... a lista é enorme!"
 image: "https://cdn-images-1.medium.com/max/800/1*DpJ5l7YMq2cFvoBQG1SAYA.jpeg"
 author: ronaldo
 categories: [Inovação, Empreendedorismo]
