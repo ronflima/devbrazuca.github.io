@@ -2,7 +2,7 @@
 layout: post
 title: "Que diabos são as filas?"
 subtitle: Saiba um pouco sobre esta importante estrutura de dados
-image: ""https://cdn-images-1.medium.com/max/800/1*_bVU40MJgXduM_LOvaoy7g.jpeg"
+image: "https://cdn-images-1.medium.com/max/800/1*_bVU40MJgXduM_LOvaoy7g.jpeg"
 author: ronaldo
 categories: [Desenvolvimento, Algoritmos, Programação]
 ---
