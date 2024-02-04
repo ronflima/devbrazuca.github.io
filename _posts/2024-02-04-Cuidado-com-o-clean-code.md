@@ -7,7 +7,7 @@ author: ronaldo
 categories: [clean code, desenvolvimento]
 ---
 
-Vejo muita gente defendendo com unhas e dentes o livro de Bob Martin, [Clean Code](<https://www.amazon.com.br/gp/search?ie=UTF8&tag=devbrazuca-20&linkCode=ur2&linkId=531f235553ee5752d2831038041b900f&camp=1789&creative=9325&index=books&keywords=Clean> Code). Eu já li o livro e estou relendo o mesmo. É um guia interessante, porém não é uma instituição de verdades absolutas. Muita coisa que há ali pode não ser possível aplicar a determinados contextos e aqui está um pouco da minha opinião sobre o assunto.
+Vejo muita gente defendendo com unhas e dentes o livro de Bob Martin, [Clean Code](https://www.amazon.com.br/gp/search?ie=UTF8&tag=devbrazuca-20&linkCode=ur2&linkId=531f235553ee5752d2831038041b900f&camp=1789&creative=9325&index=books&keywords=Clean%20Code). Eu já li o livro e estou relendo o mesmo. É um guia interessante, porém não é uma instituição de verdades absolutas. Muita coisa que há ali pode não ser possível aplicar a determinados contextos e aqui está um pouco da minha opinião sobre o assunto.
 
 ## Não Há Bala de Prata
 
