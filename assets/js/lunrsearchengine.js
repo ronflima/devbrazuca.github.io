@@ -21,6 +21,14 @@ var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or p
     "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | replace '\', '\\' | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
     }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
+/*
+DEBUG 
+
+{% for page in site.pages %}
+    {{ page.content | replace: '\', '\\' }}
+{% endfor %}
+*/
+
 var idx = lunr(function () {
     this.ref('id')
     this.field('title')
