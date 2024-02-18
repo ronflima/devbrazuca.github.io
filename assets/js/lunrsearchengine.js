@@ -25,7 +25,7 @@ var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or p
 DEBUG 
 
 {% for page in site.pages %}
-    {{ page.content | replace: '\\', '\\\\' }}
+    {{ page.content | replace: '\', '\\\\' }}
 {% endfor %}
 */
 
