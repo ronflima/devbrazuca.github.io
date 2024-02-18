@@ -35,10 +35,10 @@ Esta pequena lista não tem a intenção de ser uma tábua da verdade e muito me
 
 Toda linguagem de programação moderna apresenta uma ou outra forma de tratar erros: seja com o lançamento de exceções, seja com o retorno de flags de processamento, não importa. O importante aqui é que é preciso criar uma convenção no seu projeto para que os erros sejam corretamente tratados, registrados e auditados. Normalmente, seguir a prática da comunidade que cresce no entorno da sua linguagem ou plataforma de desenvolvimento é sempre uma boa ideia. Porém, você precisa tornar isso uma convenção a ser seguida pelo seu time de desenvolvimento. Se o tratamento de erros for negligenciado, você terá os seguintes efeitos negativos:
 
-- cada pedaço do seu software vai informar erros de uma maneira diferente, criando inconsistência de comportamento;
-- partes do software terâo formas diferentes de capturar, registrar e tratar os erros, o que torna a manutenção complexa;
+- cada pedaço do seu software informará erros de uma maneira diferente, criando inconsistências de comportamento;
+- ao tratar erros de forma diferente, a manutenção torna-se mais complexa;
 - a adição de membros novos à equipe de desenvolvimento torna-se um pesadelo, pois cada pedaço software trata erros de uma maneira diferente;
-- a auditoria dos erros aumenta consideravelmente em complexidade, ficand bastante difícil configurar e operar sistemas de monitoramento.
+- a auditoria dos erros aumenta consideravelmente em complexidade. A configuração e operação de sistemas de monitoramento torna-se uma tarefa árdua.
 
 Tratar erros não é apenas colocar um try/catch ou testar por retorno de funções. Trata-se de algo bem mais abrangente, que pode indicar, inclusive, falhas na escrita do software, ou seja, a presença de bugs. Por este motivo, o tratamento dos erros precisa ser algo padronizado e realizado de forma racional no seu sistema. Caso contrário, auditar erros pode se tornar um pesadelo.
 
@@ -48,13 +48,13 @@ O seu tratamento de erros deve prever, inclusive, rastreabilidade: onde, no cód
 
 ## Uma palavra sobre as exceções
 
-As linguagens de programação moderna optaram pelo tratamento de erros através do uso de um mecanismo chamado "lançamento de exceções". É importante, no entanto, entender como isso funciona e quais as consequências desse modelo, algo que muitos programadores desconhecem a ponto de condenar este mecanismo.
+Algumas linguagens de programação modernas optaram pelo tratamento de erros através do uso de um mecanismo chamado "lançamento de exceções". É importante, no entanto, entender como isso funciona e quais as consequências desse modelo, algo que muitos programadores desconhecem a ponto de condenar este mecanismo.
 
 As exceções são erros. Simples assim. Fica a critério do programador determinar se são erros fatais ou se são recuperáveis.
 
-O lançamento de uma exceção causa uma pesquisa, no frame atual, por uma cláusula try/catch, ou similar, que satisfaça a captura da exceção. Caso a pesquisa seja bem-sucedida, o tratamento da exceção é levado em conta. Em caso negativo, a pilha é retrocedida ao frame superior e a busca continua. Este processo ocorre até que não existam mais frames para retroceder, ou seja, o frame superior é atingido. Caso o frame superior seja atingido, sem que a pesquisa seja satisfeita, o tratamento de erros padrão da linguagem é executado. Usualmente o tratamento de erros padrão é ecoar na tela a pilha que existia quando a exceção foi lançada e abortar o processamento. Alguns runtimes ainda ecoam o estado de todas as threads, em runtimes que suportam multi-threading.
+O lançamento de uma exceção causa uma pesquisa, no frame atual, por uma cláusula try/catch, ou similar, que satisfaça o tratamento da exceção. Caso a pesquisa seja bem-sucedida, o tratamento da exceção é levado em conta. Em caso negativo, a pilha é retrocedida ao frame superior e a busca continua. Este processo ocorre até que não existam mais frames para retroceder, ou seja, o frame superior é atingido. Caso o frame superior seja atingido, sem que a pesquisa seja satisfeita, o tratamento de erros padrão da linguagem é executado. Usualmente o tratamento de erros padrão é ecoar na tela a pilha que existia quando a exceção foi inicialmente lançada e abortar o processamento. Alguns runtimes ainda ecoam o estado de todas as threads, em runtimes que suportam multi-threading.
 
-As consequências deste mecanismo são interessantes. Sem um tratamento adequado de exceções, o programa pode ser abortado completamente. Este comportamento pode indicar um bug no tratamento adequado de erros quando o problema, em si, é considerado recuperável. Como efeito colateral da retrocessão da pilha, pode haver vazamento de recursos. Não é incomum vazamento de memória ou descritores de arquivos continuarem válidos após a ocorrência de uma exceção.
+As consequências deste mecanismo são interessantes. Sem um tratamento adequado de exceções, o programa pode ser abortado completamente. Este comportamento pode indicar um bug no tratamento de erros quando o problema, em si, é considerado recuperável. Como efeito colateral da retrocessão da pilha, pode haver vazamento de recursos. Não é incomum vazamento de memória ou descritores de arquivos continuarem válidos após a ocorrência de uma exceção.
 
 O efeito colateral que pode ser causado pelo retrocesso da pilha durante o tratamento de exceções não é uma justificativa plausível para não usar o mecanismo para tratamento de erros. Em verdade, a ideia por detrás é permitir a implementação de um fluxo de erros desacoplado do fluxo principal de processamento, algo que não é evidente na sintaxe das linguages que usam exceções para o tratamento de erros.
 
