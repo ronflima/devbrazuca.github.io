@@ -67,16 +67,16 @@ uso:
 <Configuration>
   <MappedFolders>
     <MappedFolder>
-      <HostFolder>D:\\wsb</HostFolder>
+      <HostFolder>D:\wsb</HostFolder>
       <ReadOnly>true</ReadOnly>
     </MappedFolder>
     <MappedFolder>
-      <HostFolder>D:\\tmp\\downloads</HostFolder>
+      <HostFolder>D:\tmp\downloads</HostFolder>
       <ReadOnly>false</ReadOnly>
     </MappedFolder>
   </MappedFolders>
   <LogonCommand>
-    <Command>c:\\users\WDAGUtilityAccount\\Desktop\\wsb\\warsaw-bb.exe</Command>
+    <Command>c:\users\WDAGUtilityAccount\Desktop\wsb\warsaw-bb.exe</Command>
   </LogonCommand>
 </Configuration>
 ```
@@ -84,8 +84,8 @@ uso:
 - MappedFolders: Permite que você crie o mapeamento de pastas do seu computador
     dentro do Sandbox.
 - LogonCommand: É o comando que você vai executar quando acabar de ligar a VM.
-- C:\\users\\WDAGUtilityAccount: É a conta interna do Sandbox. Os folders
-    mapeados aparecem no Desktop.
+- `C:\users\WDAGUtilityAccount`: É a conta interna do Sandbox. Os folders mapeados aparecem no
+    Desktop.
 
 O truque aqui é simples: baixei o instalador do Warsaw numa pasta qualquer do
 meu PC, fiz o mapeamento para esta pasta e coloquei-o como comando de logon no
