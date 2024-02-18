@@ -19,7 +19,7 @@ usados pelos bancos, no meu computador.
 A ideia é instalar o Warsaw dentro do Sandbox, usar o banco e fechar o sandbox,
 sem deixar essa porcaria de Warsaw instalado. Mas há algumas pegadinhas.
 
-# O que é o Sandbox?
+## O que é o Sandbox?
 
 A ideia do Windows Sandbox é executar uma versão do Windows dentro de um
 ambiente isolado. O que quer que seja que aconteça dentro do Sandbox, fica
@@ -32,12 +32,11 @@ ele seja desligado. Ele apaga tudo. Não há nenhuma persistência. E é aqui qu
 mora a mágica do negócio: ele sempre inicia do zero, como se fosse uma
 instalação novinha do Windows.
 
-# Como instalar?
+## Como instalar?
 
 Você precisa ter o Windows 10 Professional ou Enterprise para usar o Windows
 Sandbox. Para instalar, entre no Painel de Controle, vá em Programas e Recursos
 e, por fim, em Ativar ou Desativar Recursos do Windows:
-
 
 ![Instalação da Área Restrita do Windows](https://cdn-images-1.medium.com/max/600/1*TS7eszRHNQjjj3QIGB79pQ.png")
 
@@ -58,33 +57,34 @@ Você pode usar dois métodos: o método que causa dor e o método indolor. No
 método que causa dor, você simplesmente tenta entrar e faz todo o processo na
 unha. No método indolor, você usa um arquivo *wsb* de configuração.
 
-# Configurando…
+## Configurando
 
 O arquivo com extensão *wsb* é basicamente um XML. Aqui está o que eu
 uso:
-```
-    <!-- -*-xml-*- -->
-    <Configuration>
-      <MappedFolders>
-        <MappedFolder>
-          <HostFolder>D:\wsb</HostFolder>
-          <ReadOnly>true</ReadOnly>
-        </MappedFolder>
-        <MappedFolder>
-          <HostFolder>D:\tmp\downloads</HostFolder>
-          <ReadOnly>false</ReadOnly>
-        </MappedFolder>
-      </MappedFolders>
-      <LogonCommand>
-        <Command>c:\users\WDAGUtilityAccount\Desktop\wsb\warsaw-bb.exe</Command>
-      </LogonCommand>
-    </Configuration>
+
+```xml
+<!-- -*-xml-*- -->
+<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>D:\\wsb</HostFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>D:\\tmp\\downloads</HostFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>c:\\users\WDAGUtilityAccount\\Desktop\\wsb\\warsaw-bb.exe</Command>
+  </LogonCommand>
+</Configuration>
 ```
 
 - MappedFolders: Permite que você crie o mapeamento de pastas do seu computador
     dentro do Sandbox.
--   LogonCommand: É o comando que você vai executar quando acabar de ligar a VM.
--  C:\\users\\WDAGUtilityAccount: É a conta interna do Sandbox. Os folders
+- LogonCommand: É o comando que você vai executar quando acabar de ligar a VM.
+- C:\\users\\WDAGUtilityAccount: É a conta interna do Sandbox. Os folders
     mapeados aparecem no Desktop.
 
 O truque aqui é simples: baixei o instalador do Warsaw numa pasta qualquer do
@@ -99,7 +99,7 @@ Se você quiser saber mais sobre o XML, [clique
 aqui](https://techcommunity.microsoft.com/t5/windows-kernel-internals/windows-sandbox-config-files/ba-p/354902).
 O formato do arquivo é suficientemente simples.
 
-# Conclusão
+## Conclusão
 
 Se você chegou até aqui o seu Sandbox está funcionando e agora você não
 precisa mais da bosta do Warsaw enchendo o seu saco durante o dia. Se
