@@ -25,7 +25,7 @@ Tudo depende do contexto no qual a sua invariante tornou-se falsa e a gravidade 
 
 Normalmente, os erros são qualificados assim:
 
-- advertência: causa algum tipo de degeneração no processamento dos dados, sem causar estragos ao resultado final.
+- advertência: causa algum tipo de degradação no processamento dos dados, sem causar estragos ao resultado final.
 - erro operacional: a operação não pode continuar pois invariantes importantes tornaram-se falsas e, com isso, não há como prosseguir para a determinação do resultado do processamento.
 - erro fatal: a operação não pode continuar e precisa ser suspensa imediatamente pois algo muito grave aconteceu de forma que nada mais pode ser realizado.
 
