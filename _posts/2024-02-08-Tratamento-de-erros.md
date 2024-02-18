@@ -13,7 +13,7 @@ Outro dia alguém publicou algo no Linkedin sobre tratamento de erros, falando e
 
 Uma invariante é uma condição que você assume sendo verdadeira para o bom funcionamento do seu software. Este termo é usado no excelente livro de David Butenhof, [Programming With POSIX threads](https://www.amazon.com.br/gp/search?ie=UTF8&tag=devbrazuca-20&linkCode=ur2&linkId=9e41d1b5a069300b9911a21a0ff3023c&camp=1789&creative=9325&index=books&keywords=Programming%20with%20POSIX%20threads), quando o mesmo explica sobre seções críticas. Em termos geral, o conceito é basicamente o mesmo.
 
-Um erro normalmente ocorre quando uma invariante torna-se falsa. Por exemplo, quando a memória do sistema exaure-se, torna-se falsa a premissa de que há memória para o seu sistema operar. E isso gera um erro.
+Um erro normalmente ocorre quando uma invariante torna-se falsa. Por exemplo, quando a memória do sistema exaure-se, torna-se falsa a premissa de que há memória para o seu sistema operar. E isso provoca um erro.
 
 Como pode ser visto, trata-se de um conceito muito simples e que explica de forma bem clara o que é um erro dentro de um sistema computacional.
 
