@@ -62,6 +62,8 @@ Algumas linguagens, como C++, exigem bastante atenção no tratamento de erros f
 
 ## Conclusão
 
-Tratar erros é, em última palavra, uma questão de design do fluxo alternativo de exceção do seu código. Para deixar clara a terminologia, fluxo de exceção é o que é feito quando um erro ocorre e nada tem a ver com lançamento de exceções: é o que o seu programa faz quando uma invariante é torna-se falsa.
+Tratar erros é, em última palavra, uma questão de design do fluxo alternativo de exceção do seu código. Para deixar clara a terminologia, fluxo de exceção é o que é feito quando um erro ocorre e nada tem a ver com lançamento de exceções: é o que o seu programa faz quando uma invariante torna-se falsa.
 
 Isto posto, é importante entender como sua linguagem de programação trata fluxos de exceção e, mais importante, desenhar de maneira adequada e, de preferência, padronizada, como realizar o tratamento dos erros encontrados durante o processamento, criando fluxos de exceção consistentes e auditáveis.
+
+É importante, também, tirar proveito da infra-estrutura oferecida pela sua linguagem de programação e, também, seguir convenções usadas pela comunidade que usa esta linguagem. Isto permite que você escreva código mais fácil de manter e mais aderente a práticas de mercado, facilitando, inclusive, o on-boarding de novos membros à sua equipe.
