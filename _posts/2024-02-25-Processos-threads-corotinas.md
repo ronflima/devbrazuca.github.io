@@ -7,7 +7,7 @@ author: ronaldo
 categories: [Sistemas Operacionais, Programação, Desenvolvimento]
 ---
 
-Com a popularização de linguagens de alto nível, cada vez menos programadores tem conhecimento sobre como funcionam os sistemas operacionais modernos. Ficar distante do sistema operacional faz com que vários conceitos tornem-se desconhecidos, ou superficialmente conhecidos, levando progoamadores à criação de código ineficiente ou com premissas incorretas.
+Com a popularização de linguagens de alto nível, cada vez menos programadores tem conhecimento sobre como funcionam os sistemas operacionais modernos. Ficar distante do sistema operacional faz com que vários conceitos tornem-se desconhecidos, ou superficialmente conhecidos, levando programadores à criação de código ineficiente ou com premissas incorretas.
 
 Neste artigo, abordo três princípios importantes, sendo dois deles referindo-se diretamente a entidades do sistema operacional: Processos, Threads e Co-rotinas, nesta ordem. E há um motivo para esta ordem.
 
