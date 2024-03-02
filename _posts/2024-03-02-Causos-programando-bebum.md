@@ -59,7 +59,7 @@ Passei a semana testando e ajustando o código para outros cenários que foram a
 
 Fiquei num hotel muito charmoso, com estilo colonial. Confortável, mas não era luxuoso. Sofisticado para os padrões tupiniquins. Uma vez no quarto entendi o aviso do meu chefe: o papel higiênico do lugar era rosa.
 
-Parecisa uma lixa d´água: limpa, penteia e lustra. E aí as palavras do chefe fizeram todo o sentido: aquilo realmente era para quem tem o cu feito de couro. Conversei com o chefe pelo messenger da empresa, para dar notícia de como foi nossa chegada e nosso dia no trabalho. E foi aí que dei razão à observação. Foi quando ele me solta uma pérola:
+Parecia uma lixa d´água: limpa, penteia e lustra. E aí as palavras do chefe fizeram todo o sentido: aquilo realmente era para quem tem o cu feito de couro. Conversei com o chefe pelo messenger da empresa, para dar notícia de como foi nossa chegada e nosso dia no trabalho. E foi aí que dei razão à observação. Foi quando ele me solta uma pérola:
 
 - A moça da copa acabou de passar por aqui com um pacote de Neve!
 
