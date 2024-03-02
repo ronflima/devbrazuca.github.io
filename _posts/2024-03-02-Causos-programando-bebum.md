@@ -37,7 +37,7 @@ Os mais interessante foram as aeromoças: mal-educadas, apenas uma delas falava 
 
 ## Chegando por lá
 
-Eu e meu gerente chegamos em Frankfurt às 6 da manhã. Fomos admitidos na Alemanha por um sujeito pecular que mal olhou na minha cara antes de carimbar meu passaporte. De lá pegamos um vôo doméstico para Stuttgard, um vôo de pouco menos de 1 hora. O pouso merece menção honrosa: o piloto não aterrisou. Ele jogou o avião no chão. Com tantas horas de vôo, nunca tinha sentido um baque tão forte num pouso antes. Foi uma porrada tão forte que vários compartimentos de bagagem abriram. E, pelo visto, só eu e o meu gerente quem nos assustamos. O resto do povo estava numa paz transcendental.
+Eu e meu gerente chegamos em Frankfurt às 6 da manhã. Fomos admitidos na Alemanha por um sujeito peculiar que mal olhou na minha cara antes de carimbar meu passaporte. De lá pegamos um vôo doméstico para Stuttgard, um vôo de pouco menos de 1 hora. O pouso merece menção honrosa: o piloto não aterrisou. Ele jogou o avião no chão. Com tantas horas de vôo, nunca tinha sentido um baque tão forte num pouso antes. Foi uma porrada tão forte que vários compartimentos de bagagem abriram. E, pelo visto, só eu e o meu gerente quem nos assustamos. O resto do povo estava numa paz transcendental.
 
 Éramos esperados por um sujeito que trabalhava no integrador. O cara se apresentou e foi incrivelmente simpático. Na minha inocência, achei que iríamos para o hotel para dar aquela dormida antes de ir para o trampo. Nada feito, direto para o escritório. Foi quase uma hora de carro até Sidelfingen, uma cidadezinha linda perto de Stuttgard.
 
@@ -54,6 +54,16 @@ Terminado o almoço, voltamos para o escritório. O nosso anfitrião parecia que
 No meio da tarde, eu e meu gerente tivemos uma discussão acalorada sobre a funcionalidade que tínhamos de fazer. Claro, estávamos bêbados, e a discussão foi uma comédia. Equacionamos o problema, apresentamos para o pessoal de lá e me pus a programar. Em 40 minutos já tinha a solução escrita e testada. Fim do dia, vamos ao hotel.
 
 Passei a semana testando e ajustando o código para outros cenários que foram aparecendo no caminho. Ao ler o código, não consegui entender como havia escrito aquilo. Foi o código mais simples, mais eficiente, e mais misterioso que já escrevi na minha vida. Uma obra de arte. Validamos tudo durante a semana e voltamos ao Brasil no fim de semana.
+
+## O Hotel
+
+Fiquei num hotel muito charmoso, com estilo colonial. Confortável, mas não era luxuoso. Sofisticado para os padrões tupiniquins. Uma vez no quarto entendi o aviso do meu chefe: o papel higiênico do lugar era rosa.
+
+Parecisa uma lixa d´água: limpa, penteia e lustra. E aí as palavras do chefe fizeram todo o sentido: aquilo realmente era para quem tem o cu feito de couro. Conversei com o chefe pelo messenger da empresa, para dar notícia de como foi nossa chegada e nosso dia no trabalho. E foi aí que dei razão à observação. Foi quando ele me solta uma pérola:
+
+- A moça da copa acabou de passar por aqui com um pacote de Neve!
+
+Confesso que senti inveja.
 
 ## De volta para casa
 
