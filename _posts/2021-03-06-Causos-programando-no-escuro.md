@@ -4,7 +4,7 @@ title: "Causos: Programando no escuro"
 subtitle: Isso aconteceu de verdade!
 image: https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 author: ronaldo
-categories: [Causos, Programação]
+categories: [Causos de Programador]
 ---
 
 Depois de trocar algumas mensagens com um amigo pelo Facebook, resolvi
@@ -25,7 +25,7 @@ Obviamente que a manutenção aconteceu num fim de semana, mais
 precisamente em um sábado. E tudo aconteceu neste sábado
 fatídico. Partes do sistema que estávamos desenvolvendo estava já em
 fase de implantação. E uma parte chave, que gerava cartas de cobrança,
-estava para entrar em produção. 
+estava para entrar em produção.
 
 Por efeito de uma série de imprevistos, a homologação atrasou a ponto
 de ser necessário colocar em produção o mais rápido possível por conta
@@ -52,7 +52,7 @@ uma pegadinha: a impressora colocava duas cartas de cobrança na mesma
 folha impressa. Depois de terminada a impressão, a pilha de folha era
 guilhotinada ao meio e a pilha da esquerda era colocada por sobre a
 pilha da direita. A pilha final tinha que, necessariamente, ficar na
-ordem correta, senão as cartas eram enviadas para as pessoas erradas. 
+ordem correta, senão as cartas eram enviadas para as pessoas erradas.
 
 Quando comecei a trabalhar na resolução do problema era tarde, logo
 após o almoço. Me recordo que era um dia muito bonito. A energia do
@@ -91,7 +91,7 @@ a parede do outro lado da sala por conta da escuridão, o teclado
 estava iluminado pelo monitor. Como a minha visão nunca foi meu
 atributo mais forte, já sentia dificuldade em ver as teclas e
 praticamente já digitava por instinto. Naquela época eu ainda olhava
-para o teclado para digitar. Era mais catilógrafo do que datilógrafo. 
+para o teclado para digitar. Era mais catilógrafo do que datilógrafo.
 
 Fiz as alterações já resignado em escrever as tais 15 mil cartas no
 Word. Teste, muda cenário, teste novamente. Funcionou com a base de
