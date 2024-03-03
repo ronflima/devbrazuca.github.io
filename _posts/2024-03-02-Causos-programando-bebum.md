@@ -43,11 +43,11 @@ Eu e meu gerente chegamos em Frankfurt às 6 da manhã. Fomos admitidos na Alema
 
 ## Álcool
 
-A manhã transcorreu tranquila. Nos ambientamos, arrumamos um ponto de rede e começamos a trabalhar. Na hora do almoço, o alemão que nos recebeu nos levou para o seu restaurante predileto. E foi aí que aconteceu o fato cômico: ele começou a fazer uma propaganda da cerveja do lugar, que era fabricada pelo próprio restaurante, que era uma das melhores e que achava que tínhamos de provar. Ele há havia pedido uma rodada para a gente.
+A manhã transcorreu tranquila. Nos ambientamos, arrumamos um ponto de rede e começamos a trabalhar. Na hora do almoço, o alemão que nos recebeu nos levou para o seu restaurante predileto. E foi aí que aconteceu o fato cômico: ele começou a fazer uma propaganda da cerveja do lugar, que era fabricada pelo próprio restaurante, que era uma das melhores e que achava que tínhamos de provar. Ele já havia pedido uma rodada para a gente.
 
-O copo de cerveja dos caras é um monstro de 700ml. E a cerveja é leitosa pois lá eles não filtram a danada. Pense numa cerveja forte! Forte, porém muito saborosa. Ao terminar o copo, eu e meu gerente já estávamos para lá de Marrakesh, quando o sujeito diz que tínhamos de provar a tradição do lugar: cerveja com um sei-lá-o-quê misturado. E lá foi outra rodada com copos de 700ml da cerveja do lugar. O sei-lá-o-quê era uma dose de Steinhager que eles misturam na cerveja. Até o copo de dose deles é descomunal.
+O copo de cerveja dos caras é um monstro de 700ml. E a cerveja é leitosa pois lá eles não filtram a danada. Pense numa cerveja forte! Forte, porém muito saborosa. Ao terminar o copo eu e meu gerente já estávamos para lá de Marrakesh. Foi quando o sujeito diz que tínhamos de provar a tradição do lugar: cerveja com um sei-lá-o-quê misturado. E lá foi outra rodada com copos de 700ml da cerveja do lugar. O sei-lá-o-quê era uma dose de Steinhager que eles misturam na cerveja. Até o copo de dose deles é descomunal.
 
-O detalhe é que o alemão também estava todo feliz enchendo a caneca junto com a gente. Depois dessa copada de cerveja forte com Steinhager, o nosso amigo germânico ainda quis mais uma rodada, mas eu já estava suficientemente cheio de álcool para não saber para que lado fica o Brasil. Ele entendeu a nossa recusa em tomar mais uma e pediu mais duas rodadas para si.
+O detalhe é que o alemão também estava todo feliz enchendo a caneca junto com a gente. Depois dessa copada de cerveja forte com Steinhager, o nosso amigo germânico ainda quis mais uma rodada, mas eu já estava suficientemente cheio de álcool para não saber para que lado ficava o Brasil. Ele entendeu a nossa recusa em tomar mais uma e pediu mais duas rodadas para si.
 
 Terminado o almoço, voltamos para o escritório. O nosso anfitrião parecia que tinha tomado água. O cara estava inalterado. Mas eu e o meu gerente estávamos muito felizes. E lá fomos nós trabalhar o resto da tarde literalmente bêbados.
 
@@ -57,7 +57,7 @@ Passei a semana testando e ajustando o código para outros cenários que foram a
 
 ## O Hotel
 
-Fiquei num hotel muito charmoso, com estilo colonial. Confortável, mas não era luxuoso. Sofisticado para os padrões tupiniquins. Uma vez no quarto entendi o aviso do meu chefe: o papel higiênico do lugar era rosa.
+Fiquei num hotel muito charmoso, com estilo europeu. Confortável, mas não era luxuoso. Sofisticado para os padrões tupiniquins. Uma vez no quarto entendi o aviso do meu chefe: o papel higiênico do lugar era rosa.
 
 Parecia uma lixa d´água: limpa, penteia e lustra. E aí as palavras do chefe fizeram todo o sentido: aquilo realmente era para quem tem o cu feito de couro. Conversei com o chefe pelo messenger da empresa, para dar notícia de como foi nossa chegada e nosso dia no trabalho. E foi aí que dei razão à observação. Foi quando ele me solta uma pérola:
 
