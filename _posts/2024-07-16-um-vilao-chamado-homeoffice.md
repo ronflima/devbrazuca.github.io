@@ -2,7 +2,7 @@
 layout: post
 title: "Um vilão chamado Home Office"
 subtitle: "Querem mais um vilão no mundo"
-IMAGE: "https://images.pexels.com/photos/10298130/pexels-photo-10298130.jpeg"
+image: "https://images.pexels.com/photos/10298130/pexels-photo-10298130.jpeg"
 author: ronaldo
 categories: [Opinioões]
 ---
