@@ -7,7 +7,7 @@ author: ronaldo
 categories: [Opiniões]
 ---
 
-Voltou à moda falar mal do Home Office. Um certo CEO anda detonando
+Voltou a moda de falar mal do Home Office. Um certo CEO anda detonando
 esta modalidade de trabalho, afirmando o quanto é ruim para as
 organizações, denegrindo, inclusive, quem trabalha neste
 regime. Enfim, resolvi dissertar sobre, trazendo à luz da discussão
@@ -22,9 +22,9 @@ primeira vez.
 
 Como não tinha dinheiro, o home office foi a única opção viável na
 época. Não dava para gastar em um aluguel de escritório, ainda mais
-com toda a incerteza. E, na época, a decisão foi muito acertada pois a
-empresa que fundei com dois amigos foi fechada 6 meses depois de ser
-aberta.
+com toda a incerteza que envolvia empreender. E, na época, a decisão
+foi muito acertada pois a empresa que fundei com dois amigos foi
+fechada 6 meses depois de ser aberta.
 
 Permaneço trabalhando neste regime até hoje, atuando no mercado
 internacional de desenvolvimento de software. Trabalho, normalmente,
@@ -41,7 +41,7 @@ trabalhar sem interrupções.
 Bom, o home office não é uma bala de prata. Ele pode não ser adequado
 à cultura estabelecida da sua empresa. Empresas pré-pandemia tiveram
 de adaptar-se à força para não fecharem as portas. E estas empresas
-tiveram uma queda considerável na sua produtividade. A questão é que
+tiveram uma queda considerável em sua produtividade. A questão é que
 estas organizações não se adequaram ao estilo de trabalho exigido pelo
 home office. E são estas empresas que estão voltando ao regime
 presencial.
@@ -71,7 +71,9 @@ trabalham on-line, em regime home office.
 A principal vantagem que as empresas viam neste modelo era a
 diminuição considerável dos custos de manutenção de um escritório
 físico, além do tempo gasto pelos colaboradores para se deslocar até o
-local de trabalho.
+local de trabalho, tempo este que passa a ser utilizado para a
+atividade produtiva. Ou seja, os colaboradores passaram a fazer mais
+cursos e a desenvolver profissionalmente suas habilidades.
 
 ## Você não trabalha menos no home office
 
@@ -79,7 +81,7 @@ Um dos principais argumentos contra o home office é justamente o fato
 de se trabalhar menos. Em verdade, desde que comecei neste modelo, eu
 trabalho bem mais do que as parcas 40 horas semanais. Já cheguei a
 trabalhar quase 20 horas em um dia quando fazia parte do _captable_ de
-uma startup que eu havia co-fundado.
+uma startup que eu co-fundei em 2017.
 
 Por não haver tempo de deslocamento até o local de trabalho, você
 acaba trabalhando até mais do que as 8 horas diárias.
@@ -104,13 +106,14 @@ Enfim, se o home office não serve para a sua organização, tudo
 bem. Como eu disse, o home office pode realmente não ser adequado. Não
 é uma bala de prata. Porém, generalizar a sua experiência e afirmar
 coisas como "isso não funciona", ou "quem trabalha assim é vagabundo",
-é um pouco demais.
+demonstra desconhecimento da matéria.
 
 Em 15 anos trabalhando neste esquema posso afirmar que aumentei minha
 produtividade enquanto programador. Além disso, sempre trabalhei duro,
 inclusive fins de semana e feriados. O home office funciona, mas
 depende de uma série de fatores para funcionar adequadamente. A
-organização precisa estar preparada para isso.
+organização precisa estar preparada para isso e precisa treinar seus
+colaboradores para obter o máximo de performance.
 
 Entendo que várias pessoas tiveram experiências negativas, mas são
 apenas elementos de um universo muito maior. Generalizar estas
