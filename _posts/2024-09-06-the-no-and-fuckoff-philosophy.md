@@ -4,7 +4,7 @@ title: "The No and Fuckoff Philosophy"
 subtitle: "The rude way to have a lighter life"
 image: "https://images.pexels.com/photos/355863/pexels-photo-355863.jpeg"
 author: ronaldo
-categories: [Philosophy, Way of life]
+categories: [Philosophy, "Way of life"]
 ---
 
 Life is not easy. Yeah, it sounds dreadful, but it is not. It is part
