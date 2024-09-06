@@ -2,7 +2,7 @@
 layout: post
 title: "The No and Fuckoff Philosophy"
 subtitle: "The rude way to have a lighter life"
-IMAGE: "https://images.pexels.com/photos/355863/pexels-photo-355863.jpeg"
+image: "https://images.pexels.com/photos/355863/pexels-photo-355863.jpeg"
 author: ronaldo
 categories: [Philosophy, Way of life]
 ---
