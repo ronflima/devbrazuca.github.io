@@ -78,4 +78,17 @@ adapt it to yourself, or even not use it at all. The important is to
 have a lighter, happier life. If you get in there, that's what
 matters.
 
+## Bonus: Talk through your actions
 
+This is related to this "philosophy": talk your principles through
+your actions, not through your words. Words are meaningless. They can
+be hollow, empty. Actions, on the other side, have real consequences,
+for the good or for the bad.
+
+The important is not to be afraid of making mistakes. A mistake
+happens because you need to learn something you didn't know before. It
+is a lesson to be taken. If you don't want to make mistakes, just
+don't do anything. But, don't complain if your life is stuck.
+
+Make good actions and good things come back to you. Make bad action,
+only bad things come back.
