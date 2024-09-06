@@ -11,10 +11,10 @@ Life is not easy. Yeah, it sounds dreadful, but it is not. It is part
 of the beauty of life the fact that it is not easy. But, even not
 being a easy thing, it does not need to be a burden. 
 
-Although there is no formula, no secret that make life lighter, I have
-found a principle that helped me having a lighter life. It may no work
-for you, but it works pretty nice for me. It is the *No and Fuckoff
-Philosophy*. Let's look at it in parts. 
+Although there is no formula, no secret that makes life lighter, I
+have found a principle that helped me having a lighter life. It may
+not work for you, but it works pretty nice for me. It is the *No and
+Fuckoff Philosophy*. Let's look at it in parts.
 
 ## The No
 
@@ -26,20 +26,20 @@ the bad news: nobody cares about you. Well, that is a very heavy
 phrase. Actually, only the ones that love you do care about you. But
 this is a very small group.
 
-Although it may sound simple, saying *no* is quite hard. It took me
+Although it may sound simple, saying *no* is quite hard. It tooks me
 years of therapy and a lot of thinking to start saying *no*. As social
 beings, we need to be part of a group. Also, we need to be accepted in
-that group. That's why, in my opinion, it is quite hard to say *no*. 
+that group. That's why, in my opinion, it is quite hard to say *no*.
 
 After learning this important thing, I was able to get back to my
-guitar lessons, got time to spend with my family and, still, kept a
+guitar lessons, got time to spend with my family and, still, keep a
 good productivity in my professional activities. You don't need to
-carry on the weight of the World. Do what you can, with the tools that
+carry the weight of the World. Do what you can, with the tools that
 you have, the best way it is possible to be done.
 
 ## The Fuckoff
 
-That's where things gets interesting: learn to say *fuckoff*. Yeah, it
+That's where things get interesting: learn to say *fuckoff*. Yeah, it
 is rude, but it is incredibly powerful. It is about choosing the
 fights you can fight. There is a interesting fact of the Universe: you
 have control over a few things. Most of time, you don't have
