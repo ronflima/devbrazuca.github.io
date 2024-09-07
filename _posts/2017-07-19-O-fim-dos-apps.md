@@ -4,7 +4,7 @@ title: O fim dos apps
 subtitle: Será mesmo?
 image: "https://cdn-images-1.medium.com/max/800/1*4mSdL0fcVScWHLHb8TGo2Q.jpeg"
 author: ronaldo
-categories: [Opiniões, Tecnologia]
+categories: [Tecnologia]
 ---
 
 Muita gente discute que em 4, 5 anos os apps vão deixar de existir, que a

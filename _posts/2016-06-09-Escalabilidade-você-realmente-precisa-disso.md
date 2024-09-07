@@ -4,7 +4,7 @@ title: "Escalabilidade: você realmente precisa disso?"
 subtitle: Ou como torrar recursos importantes em coisas que você não precisa.
 image: https://cdn-images-1.medium.com/max/800/1*1OsM8dy5ufWwXEgGYyojWA.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Tecnologia, Opiniões]
+categories: [Programação]
 ---
 
 Hoje em dia está na moda falar sobre escalabilidade. Virou quase uma

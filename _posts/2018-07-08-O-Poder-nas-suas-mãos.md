@@ -4,7 +4,7 @@ title: O Poder nas suas mãos
 subtitle: Sim, você pode mudar a sua realidade.
 image: "https://cdn-images-1.medium.com/max/800/1*80tDwdVmH_YQJFoOorPcCw.jpeg"
 author: ronaldo
-categories: [Reflexões, Pensamentos]
+categories: [Pensamentos]
 ---
 
 Não, este não é mais um texto de auto-ajuda ou coisa parecida. Trata-se de uma

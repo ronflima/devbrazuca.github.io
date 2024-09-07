@@ -4,7 +4,7 @@ title: O Universo Interior
 subtitle: Só o que você traz consigo
 image: "https://cdn-images-1.medium.com/max/800/1*NV4kipj2MRzRfJK_90yqFQ.jpeg"
 author: ronaldo
-categories: [Pensamentos, Opiniões, Reflexões]
+categories: [Pensamentos]
 ---
 
 O Universo é uma recursão. Já percebeu que um sistema solar se assemelha a um

@@ -4,7 +4,7 @@ title: "O seu negócio está preparado para a TI?"
 subtitle: "Provavelmente não."
 image: "https://cdn-images-1.medium.com/max/800/1*x1qLQ1gitV7WOlK220gF9g.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Negócios, Tecnologia da Informação]
+categories: [Empreendedorismo]
 ---
 
 Se você empreende ou quer empreender já deve ter se deparado com o tanto de

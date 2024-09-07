@@ -4,7 +4,7 @@ title: Mapas Mentais Simplificados
 subtitle: Alternativa aos caríssimos softwares de mapa mental
 image: "https://cdn-images-1.medium.com/max/800/1*sKmnjHbEjEtVdh7nMNH5bw.jpeg"
 author: ronaldo
-categories: [Dicas, Macetes]
+categories: [Tutoriais]
 ---
 
 Quem usa já sabe do benefício do mapa mental. Trata-se de uma técnica muito

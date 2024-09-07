@@ -4,7 +4,7 @@ title: Aprender a programar não é tão simples assim
 subtitle: Muita gente vende a ideia que é fácil. E essa ideia torna-se uma frustração.
 image: https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 author: ronaldo
-categories: [Opiniões, Tecnologia]
+categories: [Programação]
 ---
 
 Hoje em dia vivemos uma onda onde todo mundo tem uma ideia genial e todo

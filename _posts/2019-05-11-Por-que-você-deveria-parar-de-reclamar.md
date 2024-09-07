@@ -4,7 +4,7 @@ title: Por que você deveria parar de reclamar
 subtitle: E por que você deveria começar a agir
 image: "https://images.pexels.com/photos/1464223/pexels-photo-1464223.jpeg"
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 Reclamar é algo muito cômodo de se fazer. Sim, eu reclamo, como todo mundo.

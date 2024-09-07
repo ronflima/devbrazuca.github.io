@@ -4,7 +4,7 @@ title: Boca suja é o caralho
 subtitle: Liberte-se, fale palavrões e seja feliz!
 image: https://cdn-images-1.medium.com/max/800/1*wTpD2aUZby-JM_xTl2ZwuQ.jpeg
 author: ronaldo
-categories: [Opiniões, Pensamentos]
+categories: [Pensamentos]
 ---
 
 Vivemos em um tempo estranho. Hoje, tudo e todos precisam ser

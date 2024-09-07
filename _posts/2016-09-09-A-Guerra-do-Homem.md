@@ -4,7 +4,7 @@ title: A guerra do Homem
 subtitle: Um ensaio sobre a alma humana
 image: "https://cdn-images-1.medium.com/max/800/1*g5HzF8oku_YHGLPLwQGImQ.jpeg"
 author: ronaldo
-categories: [ensaios, opiniões, pensamentos]
+categories: [Pensamentos]
 ---
 
 Violência. Desequilíbrio. Concentração de riquezas. Diferenças sociais. Estes

@@ -4,7 +4,7 @@ title: Minha Vida Social
 subtitle: Como a exposição nas redes sociais pode ser perigosa
 image: https://images.pexels.com/photos/2818118/pexels-photo-2818118.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 author: ronaldo
-categories: [Opiniões, Tecnologia]
+categories: [Tecnologia]
 ---
 
 As redes sociais são como ferramentas: se você não souber como usar

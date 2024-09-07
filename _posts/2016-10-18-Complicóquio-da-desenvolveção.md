@@ -4,7 +4,7 @@ title: Complicóquio da desenvolveção
 subtitle: Ou como complicar desnecessariamente seu projeto
 image: https://cdn-images-1.medium.com/max/800/1*6ZVJuYVMTKs4Spoma6gObQ.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Programação, Tecnologia da Informação]
+categories: [Programação]
 ---
 
 Quando comecei a programar, lá pelos idos de 1988, a tecnologia era bem mais

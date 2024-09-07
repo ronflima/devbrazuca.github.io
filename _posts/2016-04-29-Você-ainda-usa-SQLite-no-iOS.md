@@ -4,7 +4,7 @@ title: Você ainda usa SQLite no iOS
 subtitle: Existe coisa melhor do que escrever select na mão.
 image: https://cdn-images-1.medium.com/max/600/1*Gm-OI6Z9WZOBj6vqnw5K0g.png
 author: ronaldo
-categories: [Programação, iOS, Apple]
+categories: [Programação]
 ---
 
 Muitos programadores iOS ainda insistem em usar SQLite como storage

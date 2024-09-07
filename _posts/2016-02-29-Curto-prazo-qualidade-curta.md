@@ -4,7 +4,7 @@ title: Curto prazo, qualidade curta
 subtitle: Quando o prazo é muito curto, a qualidade também é curta
 image: https://cdn-images-1.medium.com/max/800/1*dBNJniHykXexu8-f76wkqQ.jpeg
 author: ronaldo
-categories: [Opiniões, Desenvolvimento]
+categories: [Programação]
 ---
 
 [A estória de Howard Scott

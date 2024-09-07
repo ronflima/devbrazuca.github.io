@@ -4,7 +4,7 @@ title: Por que envelhecer no Brasil é uma bosta
 subtitle: Fica frio. Você vai envelhecer também. O tempo passa pra todo mundo
 image: "https://cdn-images-1.medium.com/max/800/1*7V4xlKJJHA7C9WBy_Ln_aQ.jpeg"
 author: ronaldo
-categories: [Opiniões, Reflexões]
+categories: [Pensamentos]
 ---
 Você acha que só as mulheres, o povo LGBT e os negros sofrem preconceito?
 Experimenta ficar velho, colega! Você entra no distinto grupo de pessoas vítimas

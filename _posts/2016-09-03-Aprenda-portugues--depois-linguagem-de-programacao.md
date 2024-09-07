@@ -4,7 +4,7 @@ title: Aprenda português, depois linguagem de programação
 subtitle: Descrever o raciocínio lógico começa com o idioma
 image: https://cdn-images-1.medium.com/max/800/1*bWmW72PgmvUrQw17oGCCTQ.jpeg
 author: ronaldo
-categories: [desenvolvimento,dicas,pensamentos]
+categories: [Programação]
 ---
 
 Quando eu era criança e estava na escola a Língua Portuguesa era a disciplina

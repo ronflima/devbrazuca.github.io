@@ -4,7 +4,7 @@ title: Por que o número telefônico ficou antiquado
 subtitle: Já está na hora de fazermos um upgrade
 image: "https://cdn-images-1.medium.com/max/800/1*ps87U2k7AKTMLzb-4BdMtw.jpeg"
 author: ronaldo
-categories: [Opiniões, Tecnologia]
+categories: [Tecnologia]
 ---
 
 Os números de telefone faziam sentido quando a telefonia era analógica. Naquele

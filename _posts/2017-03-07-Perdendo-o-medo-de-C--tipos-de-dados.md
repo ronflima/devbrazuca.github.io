@@ -4,7 +4,7 @@ title: "Perdendo o medo de C: tipos de dados"
 subtitle: Todo dado tem seu tipo. Todo tipo tem seu dado...
 image: https://cdn-images-1.medium.com/max/800/1*CtL7L-xuiyljKBcX6kxjug.jpeg
 author: ronaldo
-categories: [C, Programação, Desenvolvimento]
+categories: [Programação]
 ---
 
 Dando continuidade à série de artigos sobre linguagem C, me permitam falar dos

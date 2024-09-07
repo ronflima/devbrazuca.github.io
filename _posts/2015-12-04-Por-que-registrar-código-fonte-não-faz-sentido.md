@@ -3,7 +3,7 @@ layout: post
 title: Por que registrar código-fonte não faz sentido
 image: https://cdn-images-1.medium.com/max/800/1*Vp_Jv7sjsXUScHoiY-b4tg.jpeg
 author: ronaldo
-categories: [Opiniões, Empreendedorismo]
+categories: [Empreendedorismo]
 ---
 
 De tempos em tempos eu vejo alguém defendendo a ideia de

@@ -4,7 +4,7 @@ title: A View faz-tudo
 subtitle: Mais um conto de terror do mundo da programação
 image: "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/xcode-essentials/learn-interface-builder/images/277d3a77258bda692c01e6a09edd9384_storyboards-storyboard-full-app.png"
 author: ronaldo
-categories: [Desenvolvimento, Opiniões]
+categories: [Programação]
 ---
 
 Muita gente fala sobre as maravilhas do MVC mas pouca gente, na realidade, sabe

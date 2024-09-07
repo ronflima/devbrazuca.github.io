@@ -4,7 +4,7 @@ title: Qual problema os autotools resolvem?
 subtitle: É bem mais complicado do que parece
 image: "https://cdn-images-1.medium.com/max/800/1*AHOXgoPLadRw7C6htm8ZiA.png"
 author: ronaldo
-categories: [Desenvolvimento,Gestão de Configuração,Tech Ops]
+categories: [Programação]
 ---
 
 Muita gente critica os makefiles por que consideram a sua sintaxe antiga e

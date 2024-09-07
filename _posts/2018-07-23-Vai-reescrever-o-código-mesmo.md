@@ -4,7 +4,7 @@ title: Vai reescrever o código mesmo?
 subtitle: Você não sabe o tamanho da merda que está fazendo.
 image: "https://cdn-images-1.medium.com/max/800/1*uhb_Di-QUNm4KxaY5_7bDQ.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Programação, Dicas]
+categories: [Programação]
 ---
 
 Código antigo é feio. Mas é feio por um motivo: passou por muita manutenção,

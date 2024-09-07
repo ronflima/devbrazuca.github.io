@@ -4,7 +4,7 @@ title: Canais de Comunicação
 subtitle: Sim, o seu software comunica-se sempre!
 image: https://cdn-images-1.medium.com/max/800/1*5NI8U4JRNw5O4aJ1dfRHfw.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Tecnologia]
+categories: [Programação]
 ---
 
 Qualquer que seja o software que você esteja escrevendo, ele está se

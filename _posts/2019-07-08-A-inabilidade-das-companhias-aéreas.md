@@ -4,7 +4,7 @@ title: A inabilidade das companhias aéreas
 subtitle: "Processos errados, falta de informação... a lista é enorme!"
 image: "https://cdn-images-1.medium.com/max/800/1*DpJ5l7YMq2cFvoBQG1SAYA.jpeg"
 author: ronaldo
-categories: [Inovação, Empreendedorismo]
+categories: [Empreendedorismo]
 ---
 
 Fala-se tanto em inovação e empreendedorismo nos dias de hoje mas as companhias

@@ -3,7 +3,7 @@ layout: post
 title: Domine o seu editor de textos
 image: https://cdn-images-1.medium.com/max/800/1*D0Yw3InAL2AUZYeazjowlA.png
 author: ronaldo
-categories: [Desenvolvimento, Tecnologia, Programação]
+categories: [Programação]
 ---
 
 Já ouvi programadores em discussões acaloradas sobre qual é o melhor

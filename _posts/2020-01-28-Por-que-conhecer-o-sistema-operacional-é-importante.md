@@ -4,7 +4,7 @@ title: Porque conhecer o sistema operacional é importante
 subtitle: Isso pode economizar muito dinheiro no seu PaaS predileto
 image: "https://cdn-images-1.medium.com/max/800/1*pVAm5YOJKZez0bQyPB-sXQ.jpeg"
 author: ronaldo
-categories: [Dicas, Infra-estrutura]
+categories: [Programação]
 ---
 
 Uma vez um amigo me perguntou por que é importante saber o que é um system call

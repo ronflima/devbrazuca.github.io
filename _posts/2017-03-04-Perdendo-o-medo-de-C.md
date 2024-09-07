@@ -4,7 +4,7 @@ title: Perdendo o medo de C
 subtitle: A linguagem é bem mais simples do que parece
 image: https://cdn-images-1.medium.com/max/800/1*dVPIbOTyNcv6iwLmK8JWLA.png
 author: ronaldo
-categories: [Programação, Linguagens]
+categories: [Programação]
 ---
 
 Ontem estive na excelente palestra de Mariana Mioto para o Women Tech Makers em

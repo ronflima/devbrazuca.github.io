@@ -4,7 +4,7 @@ title: "Singleton: a dor-de-cabeça escondida"
 subtitle: A ideia é boa. Mas usá-la sem critério vai te dar uma bela ressaca.
 image: https://cdn-images-1.medium.com/max/800/1*2txmnJUPJv3MTbsRvBrLnw.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Tecnologia, Programação]
+categories: [Programação]
 ---
 
 Não estou falando de bebida. Afinal, este é um blog de programador,

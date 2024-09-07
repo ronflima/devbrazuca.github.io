@@ -4,7 +4,7 @@ title: Seu plano de negócios pode estar errado
 subtitle: Ou como criar uma startup que vai afundar
 image: "https://cdn-images-1.medium.com/max/800/1*79Af98kiCsTTmAnOhvWi6A.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Empresas, Startups]
+categories: [Empreendedorismo]
 ---
 
 Com a popularização dos smartphones e dos apps, proliferaram-se as startups que

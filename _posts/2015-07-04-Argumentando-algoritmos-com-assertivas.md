@@ -3,7 +3,7 @@ layout: post
 title: Argumentando algoritmos com assertivas
 image: assets/images/2015-07-04-Argumentando-algoritmos-com-assertivas.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 As assertivas apareceram, inicialmente, na linguagem C, através

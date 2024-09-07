@@ -4,7 +4,7 @@ title: Programação Orientada ao Objeto
 subtitle: Demorei anos para entender que raios era isso. E não é tão simples assim.
 image: https://cdn-images-1.medium.com/max/800/1*XtnYegzS5oCV0xWGEgNaiQ.jpeg
 author: ronaldo
-categories: [Desenvolvimento,Opiniões,Programação]
+categories: [Programação]
 ---
 
 Hoje em dia toda nova linguagem de programação é orientada ao

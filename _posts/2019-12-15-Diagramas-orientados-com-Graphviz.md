@@ -4,7 +4,7 @@ title: Diagramas orientados com Graphviz
 subtitle: Ferramenta Porreta!
 image: "https://cdn-images-1.medium.com/max/800/1*S0UJuuv0e_WjkHoxlPD20A.png"
 author: ronaldo
-categories: [Desenvolvimento, Dicas]
+categories: [Programação]
 ---
 
 Se há algo chatíssimo de fazer é um diagrama, principalmente quando há elementos

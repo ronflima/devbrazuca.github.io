@@ -4,7 +4,7 @@ title: Este macaco é seu!
 subtitle: Resolva o problema do seu cliente, mesmo quando o problema não é seu
 image: "https://cdn-images-1.medium.com/max/800/1*GhKYRmE63HIr77CfhuHaRQ.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Opiniões]
+categories: [Empreendedorismo]
 ---
 
 O atendimento ao cliente é uma ciência complexa. O objetivo é apenas um: fazer

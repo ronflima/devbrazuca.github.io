@@ -4,7 +4,7 @@ title: A super simplificação do developer
 subtitle: Cursos rápidos prometem fazer programadores da noite para o dia. Mas o buraco é bem mais embaixo.
 image: https://cdn-images-1.medium.com/max/800/1*o65JPdws8djsIgvRzsxPRQ.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Opiniões]
+categories: [Pensamentos]
 ---
 
 A internet anda pipocando de cursos milagrosos que transformam

@@ -4,7 +4,7 @@ title: Windows Sandbox
 subtitle: "Um cenário de uso..."
 image: "https://cdn-images-1.medium.com/max/800/1*UfKcOP8gggYARcymQ5lOGg.jpeg"
 author: ronaldo
-categories: [Dicas, Windows]
+categories: [Tutoriais]
 ---
 
 Quando soube do Windows Sandbox vi algumas possibilidades mas nenhum uso prático

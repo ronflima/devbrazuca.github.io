@@ -4,7 +4,7 @@ title: A mágica do mundo que perdeu a mágica
 subtitle: A magia existe. Está ai, na sua porta.
 image: https://cdn-images-1.medium.com/max/800/1*GUTZkbmksa3pjih-3zAi7A.jpeg
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 Quando somos crianças, nossas primeiras experiências no mundo são

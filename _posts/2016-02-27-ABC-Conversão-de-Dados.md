@@ -4,7 +4,7 @@ title: "ABC: Conversão de Dados"
 subtitle: Transformar quadrados em círculos é uma tarefa comum que todo desenvolvedor de software faz. Porém, sua importância é negligenciada.
 image: https://cdn-images-1.medium.com/max/800/1*IROxz9Nbba3fQ2glItVz4A.png
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 Todo programador converte dados sempre que escreve um programa: você

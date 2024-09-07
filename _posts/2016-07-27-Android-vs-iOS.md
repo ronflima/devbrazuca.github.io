@@ -4,7 +4,7 @@ title: Android vs iOS
 subtitle: Nem melhor, nem pior. Apenas diferentes.
 image: https://cdn-images-1.medium.com/max/800/1*Evpa2t2OHTnpdskfPYj22g.jpeg
 author: ronaldo
-categories: [iOS, Tecnologia, Apple]
+categories: [Tecnologia]
 ---
 
 Comecei a programar para iOS lá pelos idos de 2011. Peguei o fim do

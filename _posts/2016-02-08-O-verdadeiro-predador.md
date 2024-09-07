@@ -3,7 +3,7 @@ layout: post
 title: O verdadeiro predador
 image: https://cdn-images-1.medium.com/max/800/1*tmcC4LJN7ta0l0-PYj2t3A.jpeg
 author: ronaldo
-categories: [Pensamentos, Opiniões]
+categories: [Pensamentos]
 ---
 
 Uma coisa ruim que aconteceu com o Homem foi o distanciamento que

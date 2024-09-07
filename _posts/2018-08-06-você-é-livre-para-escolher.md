@@ -4,7 +4,7 @@ title: Você é livre para escolher
 subtitle: Mas é responsável por suas escolhas.
 image: "https://cdn-images-1.medium.com/max/800/1*tvVCusAo0a31uW96RZlwSg.jpeg"
 author: ronaldo
-categories: [Pensamentos, Reflexões, Opiniões, Empreendedorismo]
+categories: [Pensamentos]
 ---
 Há algum tempo atrás meu grande amigo Abel Passos apresentou uma [palestra
 provocativa e cativante](https://youtu.be/1CPgtTYlZPY) no TEDx em Belo

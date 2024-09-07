@@ -4,7 +4,7 @@ title: Uma palavrinha sobre tratamento de erros
 subtitle: Algo altamente negligenciado nos projetos
 image: "https://images.pexels.com/photos/417070/pexels-photo-417070.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 Outro dia alguém publicou algo no Linkedin sobre tratamento de erros, falando especificamente sobre exceções. E isso me inspirou a escrever um pouco sobre tratamento de erros, algo que sempre vejo sendo negligenciado. E antes de seguir adiante, vamos a alguns conceitos importantes.

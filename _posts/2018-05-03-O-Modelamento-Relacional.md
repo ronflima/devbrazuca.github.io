@@ -4,7 +4,7 @@ title: O Modelamento Relacional
 subtitle: E por que ignorá-lo é uma péssima ideia
 image: "https://cdn-images-1.medium.com/max/800/1*gPOuqhPzpLX9GLL0d4F2_w.jpeg"
 author: ronaldo
-categories: [Programação, Banco de Dados]
+categories: [Programação]
 ---
 
 Vivemos num mundo que é regido, atualmente, pelo ORM. Muita gente deposita sua

@@ -4,7 +4,7 @@ title: "Coredump: meu velho amigo"
 subtitle: Parece piada, mas tem um fundo de verdade
 image: https://cdn-images-1.medium.com/max/800/1*pqF4i1cMz4d745SZUMKPpg.jpeg
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 Lá pelos idos de 2002 eu passei dois meses e meio nos EUA a trabalho. O que era
 para ser um treinamento virou um pesadelo, assunto para outro artigo no meu

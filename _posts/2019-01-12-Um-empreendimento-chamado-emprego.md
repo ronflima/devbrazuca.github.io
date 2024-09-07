@@ -4,7 +4,7 @@ title: Um empreendimento chamado emprego
 subtitle: Você é empreendedor mesmo sem saber que é.
 image: "https://cdn-images-1.medium.com/max/800/1*Z76Sd1QpyKBjjLpgyno1dA.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Carreira]
+categories: [Empreendedorismo]
 ---
 
 Já há algum tempo que eu defendo a ideia de que *empreender é para todos*. Eu

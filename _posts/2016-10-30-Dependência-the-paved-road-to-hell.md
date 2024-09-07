@@ -4,9 +4,8 @@ title: "Dependência: the paved road to hell"
 subtitle: Por que depender de bibliotecas externas de forma negligente é ruim
 image: "https://cdn-images-1.medium.com/max/800/1*p81_580mm2QvL3hBpHQn9A.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Opiniões]
+categories: [Programação]
 ---
-
 
 Há alguns anos, quando a vida era mais simples, o software
 dependia de uma ou outra biblioteca, normalmente alguma que fazia parte

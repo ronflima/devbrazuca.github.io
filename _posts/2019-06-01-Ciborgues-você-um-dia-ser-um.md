@@ -4,7 +4,7 @@ title: "Ciborgues: você um dia será um"
 subtitle: Parece ficção científica, mas não é
 image: "https://cdn-images-1.medium.com/max/800/1*YVmHOpD6ijqvtK-m8_HX6g.jpeg"
 author: ronaldo
-categories: [Opiniões, Reflexões]
+categories: [Pensamentos]
 ---
 
 O corpo humano expira. Fato. Rins, fígado, pâncreas… uma hora

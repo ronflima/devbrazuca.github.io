@@ -4,7 +4,7 @@ title: "Código que gera código: pra que serve?"
 subtitle: O cinto de utilidades do developer
 image: "https://cdn-images-1.medium.com/max/800/1*69dARb-dbzH870iNhjLzbg.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Dicas]
+categories: [Programação]
 ---
 
 A ideia de escrever código que gera código não é, absolutamente, uma novidade.

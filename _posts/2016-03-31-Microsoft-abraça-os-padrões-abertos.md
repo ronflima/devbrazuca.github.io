@@ -4,7 +4,7 @@ title: Microsoft abraça os padrões abertos
 subtitle: Chega de viver de padrõs próprios
 image: https://cdn-images-1.medium.com/max/800/1*3Jb1yupKiixo8QZcP6nnVg.jpeg
 author: ronaldo
-categories: [Tecnologia, Opiniões]
+categories: [Tecnologia]
 ---
 
 A adoção do Bourne Again Shell como parte integrante do Windows 10 é

@@ -4,7 +4,7 @@ title: "Reciclagem: transformando um PC velho em algo útil"
 subtitle: Os computadores, como tudo neste mundo, ficam velhos. Porém, é melhor dar um destino mais digno do que a lata de lixo se ainda estiverem…
 image: "https://cdn-images-1.medium.com/max/800/1*_DSi6rv65zOLSOanQ9JoSg.jpeg"
 author: ronaldo
-categories: [Tecnologia, Dicas]
+categories: [Tutoriais]
 ---
 
 Os computadores, como tudo neste mundo, ficam velhos. Porém, é melhor dar um

@@ -3,7 +3,7 @@ layout: post
 title: Adapte-se ou morra desempregado
 image: https://cdn-images-1.medium.com/max/800/1*B5XcSF3O3myaj2FeLMEgxQ.jpeg
 author: ronaldo
-categories: [Opiniões, Empreendedorismo]
+categories: [Empreendedorismo]
 ---
 
 Título tenso, não? Apesar da teatralidade deste título, nada mais

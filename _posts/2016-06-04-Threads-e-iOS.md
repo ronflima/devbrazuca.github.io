@@ -4,7 +4,7 @@ title: Threads e iOS
 subtitle: A importância de conhecer o sistema no qual você programa
 image: https://cdn-images-1.medium.com/max/800/1*XQN6E3sj3JkB-6ORRSV9-A.jpeg
 author: ronaldo
-categories: [iOS, Apple, Desenvolvimento]
+categories: [Programação]
 ---
 
 Programar em ambientes multi-threaded não é uma tarefa fácil. As

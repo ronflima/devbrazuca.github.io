@@ -4,7 +4,7 @@ title: Você sabe que caralhos é um closure?
 subtitle: Abaixando o nível da conversa
 image: "https://cdn-images-1.medium.com/max/800/1*4jXeHRPqKQz7VLiVhUewYg.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 O *closure* tem suas origens nas funções anônimas. A ideia era permitir que

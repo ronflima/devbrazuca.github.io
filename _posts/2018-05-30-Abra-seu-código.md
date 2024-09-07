@@ -4,7 +4,7 @@ title: Abra seu código
 subtitle: Mas não todo ele.
 image: "https://cdn-images-1.medium.com/max/800/1*m40iZNbR8KmpYqvTqAUJtQ.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 Já há algum tempo que escrevi um

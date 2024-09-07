@@ -4,7 +4,7 @@ title: Você não está meio velho para fazer isso?
 subtitle: A juventude não está na idade, mas na atitude.
 image: https://cdn-images-1.medium.com/max/800/1*vYYsnuBJfjbjzThRV-K5YQ.jpeg
 author: ronaldo
-categories: [Opiniões, Pensamentos]
+categories: [Pensamentos]
 ---
 
 Envelhecer é um processo que deveria ser natural. E muita gente acha

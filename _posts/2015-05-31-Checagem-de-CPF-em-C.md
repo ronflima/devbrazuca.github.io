@@ -3,7 +3,7 @@ layout: post
 title: Checagem de CPF em C
 image: assets/images/2015-05-31-Checagem-de-CPF-em-C.jpeg
 author: ronaldo
-categories: [Programação, Desenvolvimento]
+categories: [Programação]
 ---
 
 Depois de um longo e tenebroso inverno, eis que resolvi escrever um

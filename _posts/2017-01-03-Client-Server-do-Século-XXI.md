@@ -4,7 +4,7 @@ title: Client/server do Século XXI
 subtitle: Porque tecnologias antigas são importantes
 image: https://cdn-images-1.medium.com/max/800/1*a5NXsaRSvT7W2TIDDiogIw.jpeg
 author: ronaldo
-categories: [Opiniões, Tecnologia]
+categories: [Programação]
 ---
 
 A tecnologia cliente/servidor apareceu na década de 1960, como um objeto de

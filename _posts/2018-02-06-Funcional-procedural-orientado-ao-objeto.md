@@ -4,7 +4,7 @@ title: "Funcional, procedural, orientado ao objeto?"
 subtitle: "Qual paradigma usar no seu projeto?"
 image: "https://cdn-images-1.medium.com/max/800/1*PGEK6GYufhxFaQ91LYUjNw.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Software, Programação]
+categories: [Programação]
 ---
 
 Hoje em dia existem diversas formas de fazer a mesma coisa. Com

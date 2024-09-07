@@ -4,7 +4,7 @@ title: Faça um curso
 subtitle: Ou continue se orgulhando de não saber usar essas coisas
 image: https://cdn-images-1.medium.com/max/800/1*vPEUDsnnkqhCJGMoIYgdyw.jpeg
 author: ronaldo
-categories: [Reflexões, Opiniões, Tecnologia da Informação]
+categories: [Pensamentos]
 ---
 
 Windows e Microsoft Office. Esta é uma combinação tão comum que é estranho

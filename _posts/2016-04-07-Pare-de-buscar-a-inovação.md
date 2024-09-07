@@ -4,7 +4,7 @@ title: Pare de buscar a inovação!
 subtitle: "Inover não é fazer algo diferente ou novo: é simplesmente sobreviver!"
 image: https://cdn-images-1.medium.com/max/800/1*l_KCzfvyyd8-p1GK15c2Kw.jpeg
 author: ronaldo
-categories: [Empreendedorismo, Opiniões]
+categories: [Empreendedorismo]
 ---
 
 Inovar é quase um mantra entre os novos empreendedores. A inovação

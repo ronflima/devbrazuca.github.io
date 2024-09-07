@@ -4,7 +4,7 @@ title: Introdução ao Applescript
 subtitle: Automatize seu Mac OS X. Seja mais produtivo!
 image: https://cdn-images-1.medium.com/max/800/1*Ly3oN665xRg6vcnn24t1wg.png
 author: ronaldo
-categories: [Computadores, Tecnologia, Apple]
+categories: [Programação]
 ---
 
 Eu já venho puxando o saco do Applescript já tem algum tempo e já é

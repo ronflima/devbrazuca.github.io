@@ -4,7 +4,7 @@ title: "Acordo de confidencialidade: proteja-se!"
 subtitle: Quem não deve, não tem nada a temer!
 image: "https://cdn-images-1.medium.com/max/800/1*gvzN7B63yQ0Ue1a2Y6Jl7w.jpeg"
 author: ronaldo
-categories: [Opiniões, Dicas]
+categories: [Pensamentos]
 ---
 
 Não é incomum a uma empresa ou startup procurar consultoria. Afinal, o

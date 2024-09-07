@@ -3,7 +3,7 @@ layout: post
 title: Algoritmos, pra que te quero?
 image: https://cdn-images-1.medium.com/max/800/1*xn8Zwy5O8PCndtBzZsx2lQ.png
 author: ronaldo
-categories: [Opiniões, Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 Os algoritmos estão dentre as disciplinas que os alunos de

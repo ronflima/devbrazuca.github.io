@@ -4,7 +4,7 @@ title: Tipos em Swift
 subtitle: Uma diferença importante com relação ao Objective C
 image: https://cdn-images-1.medium.com/max/800/1*u8iaICEmxjkSFw9H3EPbtw.jpeg
 author: ronaldo
-categories: [Programação, iOS, Apple, Desenvolvimento]
+categories: [Programação]
 ---
 
 A tipagem nas linguagens de programação sempre foi um assunto

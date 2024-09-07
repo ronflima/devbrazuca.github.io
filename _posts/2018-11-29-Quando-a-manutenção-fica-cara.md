@@ -4,7 +4,7 @@ title: Quando a manutenção fica cara
 subtitle: Uma estória de horror daquelas de deixar a gente sem dormir…
 image: "https://cdn-images-1.medium.com/max/800/1*qcvCiFjAnQl37dFwiUadaw.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Causos]
+categories: [Programação]
 ---
 
 Me lembrei de um caso que vale a pena compartilhar. Há alguns anos, quando eu
@@ -15,7 +15,7 @@ bugs, travamentos, problemas diversos. O projeto, no entanto, era bastante
 pontual em termos de funcionalidades alteradas, mas havia uma questão: a
 fundação estava ruim.
 
-# A Fundação que Afunda
+# A Fundação que Afunda
 
 Todo software é construído por sobre dois tipos de requisitos: os requisitos
 funcionais, que são aqueles que o cliente precisa e solicitou; os requisitos

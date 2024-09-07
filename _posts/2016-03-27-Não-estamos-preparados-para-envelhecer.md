@@ -4,7 +4,7 @@ title: Não estamos preparados para envelhecer
 subtitle: Sequer estamos preparados para viver!
 image: https://cdn-images-1.medium.com/max/800/1*lVlBfeCiFAK7qMcYBr42ZQ.jpeg
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 Hoje realizei um desejo que venho guardando há 30 anos: fazer uma

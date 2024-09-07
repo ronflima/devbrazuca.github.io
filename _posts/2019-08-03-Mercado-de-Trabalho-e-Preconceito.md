@@ -4,7 +4,7 @@ title: Mercado de Trabalho e Preconceito
 subtitle: Inclusão é um assunto bem mais complicado do que parece
 image: "https://cdn-images-1.medium.com/max/800/1*YAcfbrVwH3cis1gbRtuBGw.jpeg"
 author: ronaldo
-categories: [Reflexões, Trabalho, Inclusão]
+categories: [Pensamentos]
 ---
 
 Muito se discute hoje sobre o preconceito e a inclusão no mercado de trabalho,

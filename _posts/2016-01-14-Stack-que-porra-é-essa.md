@@ -3,7 +3,7 @@ layout: post
 title: "Stack: que porra é essa?"
 image: https://cdn-images-1.medium.com/max/800/1*F7JbgyRUlEvH4ht_1wzpXg.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 Quem estudou algoritmos sabe bem o que é uma pilha. Trata-se de uma

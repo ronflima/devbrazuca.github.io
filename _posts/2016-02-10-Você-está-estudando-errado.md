@@ -3,7 +3,7 @@ layout: post
 title: Você está estudando errado
 image: https://cdn-images-1.medium.com/max/800/1*sYvVtV7XAUWzlFQ8gEIDjw.jpeg
 author: ronaldo
-categories: [Opiniões, Pensamentos]
+categories: [Pensamentos]
 ---
 
 Em um tempo no qual a documentação dos sistemas era árida e não havia

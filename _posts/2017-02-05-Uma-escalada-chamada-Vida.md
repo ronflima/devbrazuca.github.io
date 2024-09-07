@@ -4,7 +4,7 @@ title: Uma escalada chamada Vida
 subtitle: Você escolhe como vai envelhecer
 image: https://cdn-images-1.medium.com/max/800/1*GtgFNaFVi9G5UboLRlnQAA.jpeg
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 Depois que cheguei à dita meia-idade comecei a entender o que é a tal *crise da

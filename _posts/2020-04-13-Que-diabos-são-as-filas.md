@@ -4,7 +4,7 @@ title: "Que diabos são as filas?"
 subtitle: Saiba um pouco sobre esta importante estrutura de dados
 image: "https://cdn-images-1.medium.com/max/800/1*_bVU40MJgXduM_LOvaoy7g.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Algoritmos, Programação]
+categories: [Programação]
 ---
 
 Voltando a falar um pouco sobre estruturas de dados, agora é a hora de falar

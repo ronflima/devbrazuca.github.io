@@ -4,7 +4,7 @@ title: Rule Engines
 subtitle: O que são
 image: https://cdn-images-1.medium.com/max/800/1*rYKYSxdAKU7uGcR-WHg00Q.jpeg
 author: ronaldo
-categories: [Programação, Informações]
+categories: [Programação]
 ---
 
 O cenário é este: você precisa escrever um software com funcionalidades gerais

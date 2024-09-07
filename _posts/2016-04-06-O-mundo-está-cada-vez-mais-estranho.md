@@ -4,7 +4,7 @@ title: O mundo está cada vez mais estranho
 subtitle: Acho que ando perdendo o senso da realidade
 image: https://cdn-images-1.medium.com/max/800/1*VRfxFVVF9HKh3xE16zv_sg.jpeg
 author: ronaldo
-categories: [Opiniões, Pensamentos]
+categories: [Pensamentos]
 ---
 
 Ou estou ficando louco ou a realidade andou exagerando na dose de

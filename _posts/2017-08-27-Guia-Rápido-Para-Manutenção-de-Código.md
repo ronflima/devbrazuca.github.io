@@ -4,7 +4,7 @@ title: Guia rápido para manutenção de código
 subtitle: Como suportar aquele código que não foi você quem escreveu
 image: "https://cdn-images-1.medium.com/max/800/1*6QxLkGwACWZuAKeghakBpw.jpeg"
 author: ronaldo
-categories: [Desenvolvimento, Dicas]
+categories: [Programação]
 ---
 
 Todo mundo que trabalha com desenvolvimento cedo ou tarde vai manter código que

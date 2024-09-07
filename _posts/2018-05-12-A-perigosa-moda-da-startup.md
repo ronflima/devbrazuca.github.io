@@ -4,7 +4,7 @@ title: A perigosa moda da startup
 subtitle: E por que você precisa ficar ligado nisso
 image: "https://cdn-images-1.medium.com/max/800/1*UsnNefyJzq09TJYvkMWufA.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Opiniões]
+categories: [Empreendedorismo]
 ---
 
 A *startup* está na moda. Todo mundo quer ser dono do próximo unicórnio.

@@ -4,7 +4,7 @@ title: Guia rápido do empreendedor
 subtitle: Empreender é para todos
 image: "https://cdn-images-1.medium.com/max/800/1*Prnhh5VCRmeFEVJwqbMUXw.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Dicas]
+categories: [Empreendedorismo]
 ---
 
 Outro dia vi uma discussão na internet de um empreendedor dizendo que empreender

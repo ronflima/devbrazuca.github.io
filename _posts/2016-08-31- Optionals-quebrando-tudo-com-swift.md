@@ -4,7 +4,7 @@ title: "Optionals: quebrando tudo com swift!"
 subtitle: Esta é, sem dúvida, a feature mais quente do swift.
 image: "https://cdn-images-1.medium.com/max/800/1*F0DxrY5aXA9DGpdB_jySww.jpeg"
 author: ronaldo
-categories: [Apple,Desenvolvimento,Programação,Swift]
+categories: [Programação]
 ---
 
 Entre todas as características da linguagem Swift, a que mais me chamou a

@@ -4,7 +4,7 @@ title: Como fazer seu projeto virar realidade
 subtitle: Um guia rápido.
 image: "https://cdn-images-1.medium.com/max/800/1*w_nB8Tri4dl1Yw8DkYj67w.jpeg"
 author: ronaldo
-categories: [Empreendedorismo, Projetos, Dicas]
+categories: [Empreendedorismo]
 ---
 Todo mundo tem um projeto que quer realizar. Seja um produto
 novo, um projeto de vida, não importa. Há uma tendência em ter pontos

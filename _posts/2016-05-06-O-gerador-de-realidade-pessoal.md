@@ -4,7 +4,7 @@ title: O gerador de realidade pessoal
 subtitle: Você realmente sabe dizer o que é real e o que não é?
 image: https://cdn-images-1.medium.com/max/800/1*FcfAwLUSr9JaCdcBdsy23Q.jpeg
 author: ronaldo
-categories: [Opiniões, Pensamentos]
+categories: [Pensamentos]
 ---
 
 Acompanhando as discussões acaloradas nas redes sociais sobre a

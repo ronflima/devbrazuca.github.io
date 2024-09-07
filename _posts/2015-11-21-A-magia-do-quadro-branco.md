@@ -3,7 +3,7 @@ layout: post
 title: A magia do quadro branco
 image: https://cdn-images-1.medium.com/max/800/1*CiXSct82f-C5AcQmkBzUMw.jpeg
 author: ronaldo
-categories: [Opiniões, Desenvolvimento]
+categories: [Programação]
 ---
 
 Quando estou programando, as ideias voam na cabeça. Com os anos,

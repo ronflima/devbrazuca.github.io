@@ -4,7 +4,7 @@ title: The super-simplification of the programming craftsman
 subtitle: Developing software is not that simple. In fact, it became far more complicated
 image: https://cdn-images-1.medium.com/max/800/1*AwGb23K0GhjwsLuTkNfCCA.jpeg
 author: ronaldo
-categories: [Opiniões, Desenvolvimento]
+categories: [Pensamentos]
 ---
 
 Some time ago, coding was a simple matter. Yes, it was simpler than today.

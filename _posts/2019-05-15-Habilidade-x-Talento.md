@@ -4,7 +4,7 @@ title: Habilidade X Talento
 subtitle: Você pode fazer o que quiser da sua vida. E ponto final.
 image: "https://cdn-images-1.medium.com/max/800/1*DU6JgJmsMcMf3uOmLhbdFg.jpeg"
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 Muita gente confunde talento com habilidade. E no meio dessa confusão surgem

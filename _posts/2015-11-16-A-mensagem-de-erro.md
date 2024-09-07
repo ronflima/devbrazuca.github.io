@@ -3,7 +3,7 @@ layout: post
 title: A mensagem de erro
 image: https://cdn-images-1.medium.com/max/800/1*PgPq_cM7S1N-YoUugFJcOQ.png
 author: ronaldo
-categories: [Programação, Opiniões]
+categories: [Programação]
 ---
 
 Você escreveu aquele software maneiro e quando o usuário foi

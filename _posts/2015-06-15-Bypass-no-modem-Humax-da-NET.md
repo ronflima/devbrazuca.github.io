@@ -3,7 +3,7 @@ layout: post
 title: Bypass no modem Humax da NET
 image: assets/images/2015-06-15-Bypass-no-modem-Humax-da-NET-01.jpeg
 author: ronaldo
-categories: [Tecnologia, Dicas, Tutoriais]
+categories: [Tutoriais]
 ---
 
 Eu trabalho em casa, no famoso esquema *home office*. Assim,

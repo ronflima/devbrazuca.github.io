@@ -4,7 +4,7 @@ title: Quando a discussão vira um monólogo
 subtitle: Ningém quer discutir. Todos querem ter razão.
 image: "https://cdn-images-1.medium.com/max/800/1*ZzEoSJwVGOO0xRbm_Izyew.jpeg"
 author: ronaldo
-categories: [Pensamentos, Opiniões]
+categories: [Pensamentos]
 ---
 
 Você certamente já vivenciou este cenário: você expõe sua opinião em uma rede

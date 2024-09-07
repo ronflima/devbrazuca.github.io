@@ -4,7 +4,7 @@ title: O custo da programação genérica
 subtitle: Nada é de graça, mesmo o que é bom
 image: https://cdn-images-1.medium.com/max/800/1*TU9RRODLViUP4olwkj3Jwg.jpeg
 author: ronaldo
-categories: [Desenvolvimento, Opiniões]
+categories: [Programação]
 ---
 
 Swift é uma linguagem que incorporou o que há de bom em diversas linguagens de

@@ -4,7 +4,7 @@ title: "Guia rápido da produtividade no seu computador"
 subtitle: "Saiba onde está sua toalha…"
 image: "https://cdn-images-1.medium.com/max/800/1*qv4ARAndWsMLgatpUeum1g.jpeg"
 author: ronaldo
-categories: [Dicas, Macetes, Produtividade, Computador]
+categories: [Tutoriais]
 ---
 
 Ter um computador e ter tudo quanto é ferramenta avançada não

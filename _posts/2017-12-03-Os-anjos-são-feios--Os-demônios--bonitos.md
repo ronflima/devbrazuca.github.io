@@ -4,7 +4,7 @@ title: Os anjos são feios. Os demônios, bonitos.
 subtitle: Quem quer te seduzir não é o bem, mas o mal.
 image: "https://cdn-images-1.medium.com/max/800/1*0nAeVMI-Lxtqrt0JmvPhCQ.png"
 author: ronaldo 
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 A beleza é uma medida abstrata e relativa. O que é feio para você pode ser

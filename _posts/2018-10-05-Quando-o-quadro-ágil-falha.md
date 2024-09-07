@@ -4,7 +4,7 @@ title: Quando o quadro ágil falha...
 subtitle: Papel é coisa do Século XX. Estamos no Século XXI!
 image: "https://cdn-images-1.medium.com/max/800/1*zRRX6aT_dmucd7G3AaFraQ.jpeg"
 author: ronaldo
-categories: [Agilidade, Scrum, Desenvolvimento]
+categories: [Programação]
 ---
 
 Quem estuda metodologias ágeis já deve ter esbarrado, certamente, com aquela

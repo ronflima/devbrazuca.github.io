@@ -3,7 +3,7 @@ layout: post
 title: A dificuldade de programar orientado ao objeto
 image: https://cdn-images-1.medium.com/max/800/0*FnipXdVL1WVjGrP5.png
 author: ronaldo
-categories: [Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 Este artigo é fruto de algumas observações que venho fazendo já

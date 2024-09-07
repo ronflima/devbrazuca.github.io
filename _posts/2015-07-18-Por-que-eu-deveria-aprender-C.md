@@ -3,7 +3,7 @@ layout: post
 title: Por que eu deveria aprender C
 image: https://cdn-images-1.medium.com/max/800/1*7JT1y5DcOC6U93G3tCGB4w.png
 author: ronaldo
-categories: [Opiniões, Desenvolvimento, Programação]
+categories: [Programação]
 ---
 
 C nasceu em 1972 pelas mãos do brilhante Dennis M. Ritchie,

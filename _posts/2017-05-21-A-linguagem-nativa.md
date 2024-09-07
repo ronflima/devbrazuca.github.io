@@ -4,7 +4,7 @@ title: A linguagem Nativa
 subtitle: Saiba por que você chama sua linguagem de "nativa"
 image: https://cdn-images-1.medium.com/max/800/1*EMUzCn2MMj_Q7bde85XRaA.jpeg
 author: ronaldo
-categories: [Desenvolvimento, dicas, programação]
+categories: [Programação]
 ---
 
 Ultimamente muito se fala sobre *linguagem nativa*. Muita gente fala sobre isso

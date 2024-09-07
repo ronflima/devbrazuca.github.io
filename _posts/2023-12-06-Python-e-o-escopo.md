@@ -4,7 +4,7 @@ title: Python e o escopo
 subtitle: Algumas dicas interessantes
 image: "https://images.pexels.com/photos/6091168/pexels-photo-6091168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 author: ronaldo
-categories: [Python, Desenvolvimento]
+categories: [Programação]
 ---
 
 O entendimento do escopo é sempre confuso nas linguagens de programação. Em

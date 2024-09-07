@@ -4,7 +4,7 @@ title: O poder do contexto
 subtitle: O contexto define a realdade das coisas. Mude o contexto e tudo muda.
 image: https://cdn-images-1.medium.com/max/800/1*yDwFJg4nxzhNB9Ona9orbg.jpeg
 author: ronaldo
-categories: [Pensamentos, Opiniões, Empreendedorismo]
+categories: [Empreendedorismo]
 ---
 
 Estava nesta discussão com minha mulher, quando estava vindo ao

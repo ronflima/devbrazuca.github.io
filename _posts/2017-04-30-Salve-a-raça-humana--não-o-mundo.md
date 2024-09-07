@@ -4,7 +4,7 @@ title: Salve a raça humana, não o mundo
 subtitle: O mundo continua. A gente não.
 image: "https://cdn-images-1.medium.com/max/800/1*EjyS8N84s5tlU2_ZJH6tNw.jpeg"
 author: ronaldo
-categories: [Pensamentos, Reflexões]
+categories: [Pensamentos]
 ---
 
 Por um momento pense em como seria o apocalipse. O fim dos tempos. O fim do

@@ -3,7 +3,7 @@ layout: post
 title: Apaga o raio do código!
 image: https://images.pexels.com/photos/850216/pexels-photo-850216.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1920
 author: ronaldo
-categories: [Programação, Opiniões]
+categories: [Programação]
 ---
 
 ### Apaga o raio do código!

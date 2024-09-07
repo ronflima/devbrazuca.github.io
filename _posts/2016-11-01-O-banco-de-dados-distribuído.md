@@ -4,7 +4,7 @@ title: O banco de dados distribuído
 subtitle: Seu database hoje está em todo lugar.
 image: https://cdn-images-1.medium.com/max/800/1*glUyflKnooLJsJRALtHOjA.jpeg
 author: ronaldo
-categories: [Desenvolvimento,Programação]
+categories: [Programação]
 ---
 
 Pense no seguinte cenário: você tem uma aplicação que tem como interface uma

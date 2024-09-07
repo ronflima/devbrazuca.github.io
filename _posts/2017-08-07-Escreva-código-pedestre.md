@@ -4,7 +4,7 @@ title: Escreva código pedestre
 subtitle: E durma mais, viva mais e seja mais feliz
 image: "https://cdn-images-1.medium.com/max/800/1*Teu2Tiy6TRmqyFeZtJDhJQ.jpeg"
 author: ronaldo
-categories: [Desenvolvimento,Dicas,Opiniões]
+categories: [Programação]
 ---
 
 Eu, enquanto programador, tenho a péssima tendência de escrever código

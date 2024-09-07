@@ -4,7 +4,7 @@ title: Como extrair mais produtividade do seu PC
 subtitle: Pare de passar raiva!
 image: "https://cdn-images-1.medium.com/max/800/1*XAoKotK5MK8fwExeYDzygA.jpeg"
 author: ronaldo
-categories: [Tecnologia, PC, Produtividade]
+categories: [Tutoriais]
 ---
 
 Muita gente compra máquinas poderosas mas, quando vai usar é aquela decepção: a

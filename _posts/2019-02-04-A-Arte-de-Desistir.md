@@ -4,7 +4,7 @@ title: A arte de desistir
 subtitle: Nem sempre desistir é uma má ideiia. Às vezes é a única saída.
 image: "https://cdn-images-1.medium.com/max/800/1*Qrm-hZlPh1c1aZGbSAYjuw.jpeg"
 author: ronaldo
-categories: [Opiniões, Empreendedorismo]
+categories: [Empreendedorismo]
 ---
 
 Já ouviu aquela máxima que você não deve desistir nunca? Poético, porém

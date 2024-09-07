@@ -4,7 +4,7 @@ title: Por que seu ambiente de trabalho precisa ser uma merda?
 subtitle: Já parou para pensar que você passa 1/3 do seu dia na empresa onde trabalha?
 image: "https://cdn-images-1.medium.com/max/800/1*mKbBRyQ3IiME1uySGUwAtw.jpeg"
 author: ronaldo
-categories: [Opiniões, Reflexões]
+categories: [Pensamentos]
 ---
 
 Em várias empresas por onde passei o ambiente de trabalho era uma merda.
