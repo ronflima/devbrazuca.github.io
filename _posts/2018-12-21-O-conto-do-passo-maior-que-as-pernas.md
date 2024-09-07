@@ -4,7 +4,7 @@ title: O conto do passo maior que as pernas
 subtitle: Quando a experiência do cliente é jogada no lixo
 image: "https://cdn-images-1.medium.com/max/800/1*Yg_cOPL5KDMjjYW57GAvzg.jpeg"
 author: ronaldo
-categories: [Lista de categorias separada por vírgulas]
+categories: [Empreendedorismo]
 ---
 
 Vender é essencial para qualquer negócio. Sem vendas, não há negócio. Qualquer
