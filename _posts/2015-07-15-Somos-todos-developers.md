@@ -3,7 +3,7 @@ layout: post
 title: Somos Todos Developers
 image: https://cdn-images-1.medium.com/max/800/1*8uAU58KQ17hL28KJhTA1dA.jpeg
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Uns programam para iOS, outros para Android. E ainda, outros

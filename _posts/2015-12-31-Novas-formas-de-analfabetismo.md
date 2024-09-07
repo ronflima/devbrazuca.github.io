@@ -3,7 +3,7 @@ layout: post
 title: Novas formas de analfabetismo
 image: https://cdn-images-1.medium.com/max/800/1*vTTHsVVinevRK_jfYSM_JA.jpeg
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Até algum tempo atrás o analfabetismo era composto, basicamente, de

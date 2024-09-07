@@ -4,7 +4,7 @@ title: Guia rápido para um home office de sucesso
 subtitle: Como criar seu escritório em casa com sucesso
 image: "https://images.pexels.com/photos/159839/office-home-house-desk-159839.jpeg"
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Com a pressão da volta ao regime presencial, muito tem se discutido sobre o home

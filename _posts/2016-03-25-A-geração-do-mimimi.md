@@ -4,7 +4,7 @@ title: A geração mimimi
 subtitle: Como desistir à primeira dificuldade
 image: https://cdn-images-1.medium.com/max/800/1*VSccusDYIRlsU9OROA2Xvw.jpeg
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Há alguns dias rolou na internet uma [carta aberta para o CEO do

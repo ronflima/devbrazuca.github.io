@@ -4,7 +4,7 @@ title: "Um vilão chamado Home Office"
 subtitle: "Querem mais um vilão no mundo"
 image: "https://images.pexels.com/photos/10298130/pexels-photo-10298130.jpeg"
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Voltou a moda de falar mal do Home Office. Um certo CEO anda detonando

@@ -4,7 +4,7 @@ title: O segredo do sucesso é...
 subtitle: Não existem balas de prata nem fórmulas mágicas
 image: "https://cdn-images-1.medium.com/max/800/1*g5xyK9gSBU_FD46xfiEVoA.jpeg"
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Vários blogs voltados ao empreendedorismo publicam coisas como *os livros que

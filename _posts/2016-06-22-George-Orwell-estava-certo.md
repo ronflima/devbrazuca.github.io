@@ -3,7 +3,7 @@ layout: post
 title: "George Orwell estava certo?"
 image: https://cdn-images-1.medium.com/max/2560/1*2YiXIAq2dGvvHReiuKSimg.jpeg
 author: ronaldo
-categories: [Opiniões]
+categories: [Pensamentos]
 ---
 
 Acompanhando a brigaiada da Apple com o FBI e agora a briga da justiça
