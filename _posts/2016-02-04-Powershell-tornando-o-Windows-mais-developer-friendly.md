@@ -3,7 +3,7 @@ layout: post
 title: "Powershell: tornando o Windows mais developer friendly"
 image: https://cdn-images-1.medium.com/max/800/1*5xZG6DQp4EXpfO-W9jqaTQ.png
 author: ronaldo
-categories: [Sistemas Operacionais, Scripting, Dicas]
+categories: [Programação]
 ---
 
 Depois que voltei a programar para Windows, saí explorando o novo
