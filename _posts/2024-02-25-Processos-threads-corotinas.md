@@ -4,7 +4,7 @@ title: Processos, Threads e Co-rotinas
 subtitle: Como essa coisa toda funciona?
 image: "https://images.pexels.com/photos/3091200/pexels-photo-3091200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 author: ronaldo
-categories: [Sistemas Operacionais, Programação, Desenvolvimento]
+categories: [Programação]
 ---
 
 Com a popularização de linguagens de alto nível, cada vez menos programadores tem conhecimento sobre como funcionam os sistemas operacionais modernos. Ficar distante do sistema operacional faz com que vários conceitos tornem-se desconhecidos, ou superficialmente conhecidos, levando programadores à criação de código ineficiente ou com premissas incorretas.
