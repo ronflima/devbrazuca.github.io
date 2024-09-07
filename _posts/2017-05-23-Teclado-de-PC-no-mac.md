@@ -4,7 +4,7 @@ title: Teclado de PC no mac
 subtitle: Quando o teclado do mac fica caro demais
 image: https://cdn-images-1.medium.com/max/800/1*nfknbXYIOrUaCqFHAwWBLA.jpeg
 author: ronaldo
-categories: [Mac OS, Sistema Operacional]
+categories: [Tutoriais]
 ---
 Eu uso um Mac Mini para desenvolver minhas coisas. É uma senhora máquina, apesar
 do pouco tamanho. A principal vantagem desta máquina é que você pode usar um
