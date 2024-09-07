@@ -3,7 +3,7 @@ layout: post
 title: Desenhe o código!
 image: https://cdn-images-1.medium.com/max/1200/1*0vVa7MUoGwm6azYZqJgCLA.jpeg
 author: ronaldo
-categories: [Desenvolvimento]
+categories: [Programação]
 ---
 
 O cenário é bem conhecido: você tem um prazo apertado e precisa
