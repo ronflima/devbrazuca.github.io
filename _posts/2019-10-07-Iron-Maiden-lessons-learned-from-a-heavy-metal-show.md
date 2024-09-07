@@ -4,7 +4,7 @@ title: "Iron Maiden: lessons learned from a heavy metal show"
 subtitle: Something to think about
 image: "https://cdn-images-1.medium.com/max/800/1*JCqF9Z_YVEpbljxE5UM3Bg.jpeg"
 author: ronaldo
-categories: [Opinions]
+categories: [Pensamentos]
 ---
 
 Last Sunday I have attended to an Iron Maiden show at Sao Paulo’s Morumbi
