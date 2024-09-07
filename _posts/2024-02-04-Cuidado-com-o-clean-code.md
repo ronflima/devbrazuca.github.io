@@ -4,7 +4,7 @@ title: Cuidado com o Clean Code
 subtitle: Nada é bala de prata
 image: "https://images.pexels.com/photos/911758/pexels-photo-911758.jpeg"
 author: ronaldo
-categories: [clean code, desenvolvimento]
+categories: [Programação]
 ---
 
 Vejo muita gente defendendo com unhas e dentes o livro de Bob Martin, [Clean Code](https://www.amazon.com.br/C%25C3%25B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=sr_1_1?__mk_pt_BR=%25C3%2585M%25C3%2585%25C5%25BD%25C3%2595%25C3%2591&amp;crid=3FUVH5OIDGMBQ&amp;keywords=c%25C3%25B3digo+limpo&amp;qid=1707053266&amp;sprefix=c%25C3%25B3digo+limpo%252Caps%252C254&amp;sr=8-1&_encoding=UTF8&tag=devbrazuca-20&linkCode=ur2&linkId=75eb2e058315d013daa991acb4e8a88d&camp=1789&creative=9325"). Eu já li o livro e estou relendo o mesmo. É um guia interessante, porém não é uma instituição de verdades absolutas. Muita coisa que há ali pode não ser possível aplicar a determinados contextos e aqui está um pouco da minha opinião sobre o assunto.
