@@ -4,7 +4,7 @@ title: "Causos de programador: programando bebum"
 subtitle: Fato verídico
 image: "https://images.pexels.com/photos/209620/pexels-photo-209620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 author: ronaldo
-categories: [Causos de Programador]
+categories: [Causos]
 ---
 
 Este fato aconteceu em 2005. Foi uma das viagens de negócios mais divertidas que já tive. Isso aconteceu no dia 13 de Abril de 2005, uma segunda-feira.

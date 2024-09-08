@@ -4,7 +4,7 @@ title: "Causos: Programando no escuro"
 subtitle: Isso aconteceu de verdade!
 image: https://images.pexels.com/photos/1040499/pexels-photo-1040499.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260
 author: ronaldo
-categories: [Causos de Programador]
+categories: [Causos]
 ---
 
 Depois de trocar algumas mensagens com um amigo pelo Facebook, resolvi
