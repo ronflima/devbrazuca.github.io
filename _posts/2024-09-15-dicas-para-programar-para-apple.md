@@ -2,7 +2,7 @@
 layout: post
 title: "Dicas para programar para a Apple"
 subtitle: "Por onde começar com a maçã"
-IMAGE: "https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+image: "https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 author: ronaldo
 categories: [Programação]
 ---
