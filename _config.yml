@@ -82,7 +82,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 24
 paginate_path: /page:num/
 
 # Jekyll 3 now only supports Kramdown for Markdown
