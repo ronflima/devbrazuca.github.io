@@ -4,6 +4,7 @@ title: Processos, Threads e Co-rotinas
 subtitle: Como essa coisa toda funciona?
 image: "https://images.pexels.com/photos/3091200/pexels-photo-3091200.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 author: ronaldo
+featured: true
 categories: [Programação]
 ---
 
