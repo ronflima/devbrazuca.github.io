@@ -2,7 +2,7 @@
 layout: post
 title: "A importância do processo"
 subtitle: "Desenvolver software não é apenas sobre linguagens ou tecnologia"
-IMAGE: "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+image: "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 author: ronaldo
 categories: [programação]
 ---
