@@ -4,7 +4,7 @@ title: "Restaurando um PC Dell"
 subtitle: "Support Assist nem sempre resolve"
 image: "https://images.pexels.com/photos/811587/pexels-photo-811587.jpeg"
 author: ronaldo
-categories: [tutoriais]
+categories: [Tutoriais]
 ---
 
 A Dell provê uma solução out-of-the-box para solucionar problemas de instalação do Windows: o Support Assist. Na grande maioria dos
