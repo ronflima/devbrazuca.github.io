@@ -2,7 +2,7 @@
 layout: post
 title: "De volta ao bom e velho Emacs"
 subtitle: "Ou como os editores modernos matam a produtividade"
-IMAGE: "https://cdn.terminaltrove.com/m/6821b9d4-58a3-415d-8918-25718e22d606.png"
+image: "https://cdn.terminaltrove.com/m/6821b9d4-58a3-415d-8918-25718e22d606.png"
 author: ronaldo
 categories: [programação]
 ---
