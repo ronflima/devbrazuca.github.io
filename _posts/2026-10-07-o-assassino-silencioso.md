@@ -2,7 +2,7 @@
 layout: post
 title: "Trabalho não-planejado"
 subtitle: "O assassino silencioso"
-IMAGE: "https://images.pexels.com/photos/12461375/pexels-photo-12461375.jpeg"
+image: "https://images.pexels.com/photos/12461375/pexels-photo-12461375.jpeg"
 author: ronaldo
 categories: [empreendedorismo]
 ---
