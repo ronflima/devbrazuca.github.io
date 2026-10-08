@@ -25,15 +25,11 @@ trabalha separadamente, como se fosses empresas separadas. Quem nunca viu a brig
 Quem nunca viveu aquele projeto no qual venderam algo que nem projetado foi? Se o PO não tiver visibilidade de outras ações
 acontecendo na empresa, não será capaz de priorizar corretamente o que precisa ser feito.
 
-Claro, não dá para planejar detalhatamente os próximos 5 anos, mas dá para planejar as próximas duas semanas. Além disso, dá para
-criar um "roadmap" com fases do seu projeto para que isso sirva de guia, o mapa que indica qual caminho tomar para chegar ao final
-dessa estrada.
-
 Enfim, o planejamento permite que toda a equipe da empresa trabalhe em conjunto com o mesmo objetivo evitando-se, com isso,
 atropelos. Assim, vendas não vai vender o que não tem, marketing não vai anunciar o que não existe e todo o projeto flui de forma
 natural e ágil.
 
-Porém, quem está na área sabe que não é assim. 
+Porém, quem está na área sabe que não é bem assim.
 
 ## O tal trabalho não-planejado
 
@@ -68,5 +64,17 @@ O trabalho não-planejado é particularmente danoso em startups. Sim, uma startu
 cenário, é importante que cada iteração seja devidamente planejada. Ao atropelar o processo, o resultado pode ser fatal. Uma startup
 não tem recursos suficientes para aguentar o aumento do custo de manutenção. E isso pode inviabilizar o negócio completamente. Não é
 incomum ver startups fechando as portas por falta de planejamento adequado.
+
+## Disciplina
+
+Desenvolver um produto é um trabalho de engenharia. É necessária disciplina para que o trabalho seja executado de forma adequada. Os
+japoneses entenderam isso no pós-guerra. O "Toyotismo" é fruto desse aprendizado. 5S, Six Sigma e PDCA só são possíveis se forem
+usados com disciplina. O mesmo pode ser dito de SCRUM. Se o processo de desenvolvimento é sempre atropelado, não existe disciplina e
+não é possível entregar nada com qualidade. Qualidade passa a ser fruto da sorte.
+
+É importante observar que ser disciplinado não quer dizer ser inflexível. Todo processo precisa ser otimizado e mudado ao longo do
+tempo. Afinal, o mundo está em constante mutação, e os processos precisam se adaptar à medida em que a vida acontece. Mas, uma vez
+estabelecido o processo, o mesmo precisa ser seguido com disciplina tendo em vista que tudo precisa estar em seu devido lugar. Tudo
+aquilo que é "passado na frente" sem planejamento, termina mal.
 
 
