@@ -21,7 +21,7 @@ fazer o produto faz parte da operação e não é o todo. Você precisa vender o
 fazer pré e pós-venda, acompanhar a performance dos seus clientes e do seu produto junto aos mesmos, etc.
 
 Durante o sprint planning, o PO precisa alinhar-se com outras coisas acontecendo na empresa. Na prática, cada setor da empresa
-trabalha separadamente, como se fosses empresas separadas. Quem nunca viu a briga do desenvolvimento com o marketing ou com vendas?
+trabalha separadamente, como se fossem empresas separadas. Quem nunca viu a briga do desenvolvimento com o marketing ou com vendas?
 Quem nunca viveu aquele projeto no qual venderam algo que nem projetado foi? Se o PO não tiver visibilidade de outras ações
 acontecendo na empresa, não será capaz de priorizar corretamente o que precisa ser feito.
 
@@ -76,5 +76,9 @@ não é possível entregar nada com qualidade. Qualidade passa a ser fruto da so
 tempo. Afinal, o mundo está em constante mutação, e os processos precisam se adaptar à medida em que a vida acontece. Mas, uma vez
 estabelecido o processo, o mesmo precisa ser seguido com disciplina tendo em vista que tudo precisa estar em seu devido lugar. Tudo
 aquilo que é "passado na frente" sem planejamento, termina mal.
+
+Se o processo está emperrando o seu negócio, então é hora de mudar. Mas para saber disso, é preciso medir o seu processo. Como você
+sabe que está emperrando o negócio? Sem medição, você tem apenas um _chute_ e não um fato. Todos os processos precisam ser
+elaborados com base em fatos e não achismo.
 
 
